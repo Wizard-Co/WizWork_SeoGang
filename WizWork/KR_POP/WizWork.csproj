@@ -1,0 +1,1022 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9EF4A661-4BBA-47D8-BAED-3245AFF4505E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WizWork</RootNamespace>
+    <AssemblyName>WizMes_Work</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>D32FEC144037FB3D17C6FB3D197A4847E07F32F1</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <ApplicationIcon>WizWork.ico</ApplicationIcon>
+    <TargetZone>LocalIntranet</TargetZone>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DelaySign>false</DelaySign>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>\\192.168.0.240/Upgrade/WizWork/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://192.168.0.240:26003/</UpdateUrl>
+    <SupportUrl>http://wizis.co.kr</SupportUrl>
+    <ProductName>WizWork</ProductName>
+    <PublisherName>Wizard</PublisherName>
+    <SuiteName>생산관리프로그램</SuiteName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>72</ApplicationRevision>
+    <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsUrl>ftp://192.168.46.20/install</BootstrapperComponentsUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;UseTxnLog; ItemLevelCondition; TransationCheck; LABEL_TEST;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;UseTxnLog; ItemLevelCondition; TransationCheck;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxMSACAL">
+      <HintPath>..\..\WizControl\bin\Debug\AxMSACAL.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.2.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Portable.BouncyCastle.1.8.2\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="Csv, Version=1.0.31.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Csv.1.0.31\lib\net40\Csv.dll</HintPath>
+    </Reference>
+    <Reference Include="FluentFTP, Version=19.2.2.0, Culture=neutral, PublicKeyToken=f4af092b1d8df44f, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\FluentFTP.19.2.2\lib\net45\FluentFTP.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.DotNet.PlatformAbstractions, Version=2.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.DotNet.PlatformAbstractions.2.1.0\lib\net45\Microsoft.DotNet.PlatformAbstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyModel, Version=2.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Extensions.DependencyModel.2.1.0\lib\net451\Microsoft.Extensions.DependencyModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <HintPath>..\..\packages\Office.12.0.0\lib\net40\Office.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SdkApi.Core, Version=2.15.2634.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Zebra.Printer.SDK.2.15.2634\lib\net471\SdkApi.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SdkApi.Desktop, Version=2.15.2634.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Zebra.Printer.SDK.2.15.2634\lib\net471\SdkApi.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="SdkApi.Desktop.Usb, Version=2.15.2634.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Zebra.Printer.SDK.2.15.2634\lib\net471\SdkApi.Desktop.Usb.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpSnmpLib, Version=10.0.9.0, Culture=neutral, PublicKeyToken=4c00852d3788e005, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Lextm.SharpSnmpLib.10.0.9\lib\net452\SharpSnmpLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Specialized, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Collections.Specialized.4.3.0\lib\net46\System.Collections.Specialized.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.NameResolution, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Net.NameResolution.4.3.0\lib\net46\System.Net.NameResolution.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Printing">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.XmlDocument, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\System.Xml.XmlDocument.4.3.0\lib\net46\System.Xml.XmlDocument.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tkb\Com\frm_tprc_TransCracData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\Com\frm_tprc_TransCracData.designer.cs">
+      <DependentUpon>frm_tprc_TransCracData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tins_InspectAuto_U_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tins_InspectAuto_U_New.Designer.cs">
+      <DependentUpon>frm_tins_InspectAuto_U_New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_CardRePrint_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_CardRePrint_U.designer.cs">
+      <DependentUpon>frm_tprc_CardRePrint_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_DailMoldCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_DailMoldCheck.designer.cs">
+      <DependentUpon>frm_tprc_DailMoldCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_DailMoldCheck_Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_DailMoldCheck_Q.designer.cs">
+      <DependentUpon>frm_tprc_DailMoldCheck_Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\Frm_tprc_PlanInputMolded_Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\Frm_tprc_PlanInputMolded_Q.designer.cs">
+      <DependentUpon>Frm_tprc_PlanInputMolded_Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_SearchMenuCollection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_SearchMenuCollection.designer.cs">
+      <DependentUpon>frm_tprc_SearchMenuCollection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_setProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_setProcess.designer.cs">
+      <DependentUpon>frm_tprc_setProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_TransCracData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_TransCracData.Designer.cs">
+      <DependentUpon>frm_tprc_TransCracData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_UseTool_Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_UseTool_Q.designer.cs">
+      <DependentUpon>frm_tprc_UseTool_Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\Control\DefectButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tkb\Control\DefectButton.designer.cs">
+      <DependentUpon>DefectButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_mtr_RemainQtyMoveByLotID_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_mtr_RemainQtyMoveByLotID_U.Designer.cs">
+      <DependentUpon>frm_mtr_RemainQtyMoveByLotID_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_mtr_InputMove_U2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_mtr_InputMove_U2.Designer.cs">
+      <DependentUpon>frm_mtr_InputMove_U2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sMoldByArticleID.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sMoldByArticleID.Designer.cs">
+      <DependentUpon>Frm_PopUpSel_sMoldByArticleID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_BringSplitData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_BringSplitData.Designer.cs">
+      <DependentUpon>frm_PopUp_BringSplitData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_ChoiceLabelPrintType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_ChoiceLabelPrintType.Designer.cs">
+      <DependentUpon>frm_PopUp_ChoiceLabelPrintType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgIns2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgIns2.Designer.cs">
+      <DependentUpon>Frm_PopUp_ImgIns2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgIns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgIns.Designer.cs">
+      <DependentUpon>Frm_PopUp_ImgIns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sArticle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sArticle.Designer.cs">
+      <DependentUpon>Frm_PopUpSel_sArticle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sArticle_O.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sArticle_O.Designer.cs">
+      <DependentUpon>Frm_PopUpSel_sArticle_O.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_AddSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_AddSave.Designer.cs">
+      <DependentUpon>Frm_PopUpSel_AddSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sProcess.Designer.cs">
+      <DependentUpon>Frm_PopUpSel_sProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgArticleInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgArticleInfo.designer.cs">
+      <DependentUpon>Frm_PopUp_ImgArticleInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgWorkOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgWorkOrder.designer.cs">
+      <DependentUpon>Frm_PopUp_ImgWorkOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_LabelPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_LabelPrint.Designer.cs">
+      <DependentUpon>frm_PopUp_LabelPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_Popup_NoWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_Popup_NoWork.Designer.cs">
+      <DependentUpon>frm_Popup_NoWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_PreScanWork4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_PreScanWork4.designer.cs">
+      <DependentUpon>frm_PopUp_PreScanWork4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_SaveSelection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_SaveSelection.designer.cs">
+      <DependentUpon>frm_PopUp_SaveSelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_PreScanWork3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_PreScanWork3.designer.cs">
+      <DependentUpon>frm_PopUp_PreScanWork3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_PreScanWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_PreScanWork.designer.cs">
+      <DependentUpon>frm_PopUp_PreScanWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUp_setPerson_Work.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUp_setPerson_Work.Designer.cs">
+      <DependentUpon>Frm_PopUp_setPerson_Work.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUp_sJobIDBy0405.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUp_sJobIDBy0405.Designer.cs">
+      <DependentUpon>Frm_PopUp_sJobIDBy0405.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_tins_Calendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_tins_Calendar.Designer.cs">
+      <DependentUpon>Frm_tins_Calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_mtr_RemainMove_Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_mtr_RemainMove_Q.Designer.cs">
+      <DependentUpon>frm_mtr_RemainMove_Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_tprc_UseTool_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_tprc_UseTool_U.designer.cs">
+      <DependentUpon>frm_tprc_UseTool_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_trpc_MtrLossAlarm_Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_trpc_MtrLossAlarm_Q.Designer.cs">
+      <DependentUpon>frm_trpc_MtrLossAlarm_Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_trpc_MtrLossAlarm_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_trpc_MtrLossAlarm_U.Designer.cs">
+      <DependentUpon>frm_trpc_MtrLossAlarm_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_mtr_RemainQtyMoveByLotID2_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_mtr_RemainQtyMoveByLotID2_U.designer.cs">
+      <DependentUpon>frm_mtr_RemainQtyMoveByLotID2_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sArticle_ByScan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sArticle_ByScan.designer.cs">
+      <DependentUpon>Frm_PopUpSel_sArticle_ByScan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_ImgInspectAuto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_PopUp_ImgInspectAuto.Designer.cs">
+      <DependentUpon>frm_PopUp_ImgInspectAuto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Com_MessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Com_MessageBox.Designer.cs">
+      <DependentUpon>Com_MessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\Tools\NativeMethods.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\Frm_Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\Frm_Info.Designer.cs">
+      <DependentUpon>Frm_Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FTP.cs" />
+    <Compile Include="FTP_EX.cs" />
+    <Compile Include="ConnectionInfo.cs" />
+    <Compile Include="LocalIPAddress.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableData\com_Code.cs" />
+    <Compile Include="TableData\Ins_InspectAuto.cs" />
+    <Compile Include="TableData\Ins_InspectAutoSub.cs" />
+    <Compile Include="TableData\wk_Code_sCmCode.cs" />
+    <Compile Include="TableData\wk_Code_sMtMc.cs" />
+    <Compile Include="TableData\wk_Code_sTeam.cs" />
+    <Compile Include="TableData\wk_Person_sPersonByProcess.cs" />
+    <Compile Include="TableData\wk_WizIns_sDefectSub.cs" />
+    <Compile Include="TableData\wk_WizWork_sMtrSubul_Lot.cs" />
+    <Compile Include="TableData\wk_WizWork_sNoWorkCodeReason.cs" />
+    <Compile Include="TableData\wk_Work_iMcRegularInspectSub.cs" />
+    <Compile Include="TableData\wk_Work_sInspectBasisByMCID.cs" />
+    <Compile Include="TableData\wk_Work_sInspectBasisSub.cs" />
+    <Compile Include="TableData\wk_Work_sMachineByProcess.cs" />
+    <Compile Include="TableData\wk_Work_sMcRegularInspect.cs" />
+    <Compile Include="TableData\wk_Work_sMcRegularInspectSub.cs" />
+    <Compile Include="TableData\wk_Work_sMoldbyLotID.cs" />
+    <Compile Include="TableData\wk_Work_sProcess.cs" />
+    <Compile Include="TableData\wk_Work_sResultMissingWorkQty.cs" />
+    <Compile Include="TableData\wk_Work_sResultWithMachineComProcess.cs" />
+    <Compile Include="TableData\wk_Work_sWorkDefect.cs" />
+    <EmbeddedResource Include="Tkb\Com\frm_tprc_TransCracData.resx">
+      <DependentUpon>frm_tprc_TransCracData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\Frm_Info.resx">
+      <DependentUpon>Frm_Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tins_InspectAuto_U_New.resx">
+      <DependentUpon>frm_tins_InspectAuto_U_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_CardRePrint_U.resx">
+      <DependentUpon>frm_tprc_CardRePrint_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_DailMoldCheck.resx">
+      <DependentUpon>frm_tprc_DailMoldCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_DailMoldCheck_Q.resx">
+      <DependentUpon>frm_tprc_DailMoldCheck_Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\Frm_tprc_PlanInputMolded_Q.resx">
+      <DependentUpon>Frm_tprc_PlanInputMolded_Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_SearchMenuCollection.resx">
+      <DependentUpon>frm_tprc_SearchMenuCollection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_setProcess.resx">
+      <DependentUpon>frm_tprc_setProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_TransCracData.resx">
+      <DependentUpon>frm_tprc_TransCracData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_UseTool_Q.resx">
+      <DependentUpon>frm_tprc_UseTool_Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\Control\DefectButton.resx">
+      <DependentUpon>DefectButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_mtr_RemainQtyMoveByLotID_U.resx">
+      <DependentUpon>frm_mtr_RemainQtyMoveByLotID_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_mtr_InputMove_U2.resx">
+      <DependentUpon>frm_mtr_InputMove_U2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sMoldByArticleID.resx">
+      <DependentUpon>Frm_PopUpSel_sMoldByArticleID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sPerson.resx">
+      <DependentUpon>Frm_PopUpSel_sPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sProcess.resx">
+      <DependentUpon>Frm_PopUpSel_sProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_BringSplitData.resx">
+      <DependentUpon>frm_PopUp_BringSplitData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_ChoiceLabelPrintType.resx">
+      <DependentUpon>frm_PopUp_ChoiceLabelPrintType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUp_ImgIns2.resx">
+      <DependentUpon>Frm_PopUp_ImgIns2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUp_ImgIns.resx">
+      <DependentUpon>Frm_PopUp_ImgIns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_AddSave.resx">
+      <DependentUpon>Frm_PopUpSel_AddSave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sArticle.resx">
+      <DependentUpon>Frm_PopUpSel_sArticle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sArticle_O.resx">
+      <DependentUpon>Frm_PopUpSel_sArticle_O.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sMachine.resx">
+      <DependentUpon>Frm_PopUpSel_sMachine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUp_ImgArticleInfo.resx">
+      <DependentUpon>Frm_PopUp_ImgArticleInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUp_ImgWorkOrder.resx">
+      <DependentUpon>Frm_PopUp_ImgWorkOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_LabelPrint.resx">
+      <DependentUpon>frm_PopUp_LabelPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_Popup_NoWork.resx">
+      <DependentUpon>frm_Popup_NoWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_PreScanWork4.resx">
+      <DependentUpon>frm_PopUp_PreScanWork4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_SaveSelection.resx">
+      <DependentUpon>frm_PopUp_SaveSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_PreScanWork3.resx">
+      <DependentUpon>frm_PopUp_PreScanWork3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_PreScanWork.resx">
+      <DependentUpon>frm_PopUp_PreScanWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUp_setPerson_Work.resx">
+      <DependentUpon>Frm_PopUp_setPerson_Work.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUp_sJobIDBy0405.resx">
+      <DependentUpon>Frm_PopUp_sJobIDBy0405.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_tins_Calendar.resx">
+      <DependentUpon>Frm_tins_Calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_mtr_RemainMove_Q.resx">
+      <DependentUpon>frm_mtr_RemainMove_Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_tprc_UseTool_U.resx">
+      <DependentUpon>frm_tprc_UseTool_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_trpc_MtrLossAlarm_Q.resx">
+      <DependentUpon>frm_trpc_MtrLossAlarm_Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_trpc_MtrLossAlarm_U.resx">
+      <DependentUpon>frm_trpc_MtrLossAlarm_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Tkb\frmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frmSetting.designer.cs">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_setProcess_NoWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_setProcess_NoWork.designer.cs">
+      <DependentUpon>frm_tprc_setProcess_NoWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_Work_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_Work_U.Designer.cs">
+      <DependentUpon>frm_tprc_Work_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\Lib\MES_WTS_Lib.cs" />
+    <Compile Include="Tkb\PopUp\Frm_CMKeypad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_CMKeypad.designer.cs">
+      <DependentUpon>Frm_CMKeypad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_CMNumericKeypad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_CMNumericKeypad.designer.cs">
+      <DependentUpon>Frm_CMNumericKeypad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_DefectYN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_DefectYN.designer.cs">
+      <DependentUpon>frm_DefectYN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\Frm_InspectionLegend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\Frm_InspectionLegend.designer.cs">
+      <DependentUpon>Frm_InspectionLegend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\Frm_SelectReason.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\Frm_SelectReason.designer.cs">
+      <DependentUpon>Frm_SelectReason.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tins_InspectAutoResult_Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tins_InspectAutoResult_Q.Designer.cs">
+      <DependentUpon>frm_tins_InspectAutoResult_Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tins_InspectAuto_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tins_InspectAuto_U.Designer.cs">
+      <DependentUpon>frm_tins_InspectAuto_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tins_InspectText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tins_InspectText.Designer.cs">
+      <DependentUpon>frm_tins_InspectText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_DailMachineCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_DailMachineCheck.designer.cs">
+      <DependentUpon>frm_tprc_DailMachineCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_DailMachineCheck_Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_DailMachineCheck_Q.designer.cs">
+      <DependentUpon>frm_tprc_DailMachineCheck_Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\Frm_tprc_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\Frm_tprc_Main.designer.cs">
+      <DependentUpon>Frm_tprc_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_NoWork_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_NoWork_U.designer.cs">
+      <DependentUpon>frm_tprc_NoWork_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_Result_Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_Result_Q.designer.cs">
+      <DependentUpon>frm_tprc_Result_Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_Work_Defect_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\frm_tprc_Work_Defect_U.designer.cs">
+      <DependentUpon>frm_tprc_Work_Defect_U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp.designer.cs">
+      <DependentUpon>PopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel.Designer.cs">
+      <DependentUpon>Frm_PopUpSel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sPerson.Designer.cs">
+      <DependentUpon>Frm_PopUpSel_sPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sMachine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sMachine.Designer.cs">
+      <DependentUpon>Frm_PopUpSel_sMachine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_tins_Find.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tkb\PopUp\frm_tins_Find.Designer.cs">
+      <DependentUpon>frm_tins_Find.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\Tools\AutoClosingMessageBox.cs" />
+    <Compile Include="Tkb\Tools\CurrentData.cs" />
+    <Compile Include="Tkb\Tools\DataDeliver.cs" />
+    <Compile Include="Tkb\Tools\FTPAcess.cs" />
+    <Compile Include="Tkb\Tools\INI_GS.cs" />
+    <Compile Include="Tkb\Tools\TextEvent.cs" />
+    <Compile Include="Tkb\UC_ReasonMenuCell.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tkb\UC_ReasonMenuCell.designer.cs">
+      <DependentUpon>UC_ReasonMenuCell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tkb\WizWorkLib.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <EmbeddedResource Include="Tkb\frmSetting.resx">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_setProcess_NoWork.resx">
+      <DependentUpon>frm_tprc_setProcess_NoWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_Work_U.resx">
+      <DependentUpon>frm_tprc_Work_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_CMKeypad.resx">
+      <DependentUpon>Frm_CMKeypad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_CMNumericKeypad.resx">
+      <DependentUpon>Frm_CMNumericKeypad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_DefectYN.resx">
+      <DependentUpon>frm_DefectYN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\Frm_InspectionLegend.resx">
+      <DependentUpon>Frm_InspectionLegend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\Frm_SelectReason.resx">
+      <DependentUpon>Frm_SelectReason.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tins_InspectAutoResult_Q.resx">
+      <DependentUpon>frm_tins_InspectAutoResult_Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tins_InspectAuto_U.resx">
+      <DependentUpon>frm_tins_InspectAuto_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tins_InspectText.resx">
+      <DependentUpon>frm_tins_InspectText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_DailMachineCheck.resx">
+      <DependentUpon>frm_tprc_DailMachineCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_DailMachineCheck_Q.resx">
+      <DependentUpon>frm_tprc_DailMachineCheck_Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\Frm_tprc_Main.resx">
+      <DependentUpon>Frm_tprc_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_NoWork_U.resx">
+      <DependentUpon>frm_tprc_NoWork_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_Result_Q.resx">
+      <DependentUpon>frm_tprc_Result_Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\frm_tprc_Work_Defect_U.resx">
+      <DependentUpon>frm_tprc_Work_Defect_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp.resx">
+      <DependentUpon>PopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel.resx">
+      <DependentUpon>Frm_PopUpSel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_tins_Find.resx">
+      <DependentUpon>frm_tins_Find.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_mtr_RemainQtyMoveByLotID2_U.resx">
+      <DependentUpon>frm_mtr_RemainQtyMoveByLotID2_U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sArticle_ByScan.resx">
+      <DependentUpon>Frm_PopUpSel_sArticle_ByScan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_ImgInspectAuto.resx">
+      <DependentUpon>frm_PopUp_ImgInspectAuto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\PopUp\Com_MessageBox.resx">
+      <DependentUpon>Com_MessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tkb\UC_ReasonMenuCell.resx">
+      <DependentUpon>UC_ReasonMenuCell.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Resources\bell.png" />
+    <None Include="Resources\cog.png" />
+    <None Include="Resources\glasses.png" />
+    <None Include="Resources\inbox.png" />
+    <None Include="Resources\inbox_in.png" />
+    <None Include="Resources\instagram.png" />
+    <None Include="Resources\magnifying_glass.png" />
+    <None Include="Resources\notepad.png" />
+    <None Include="Resources\pen_3.png" />
+    <None Include="Resources\power1.png" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\save-file-option.png" />
+    <None Include="Resources\screwdriver-and-wrench-crossed.png" />
+    <None Include="Resources\square_delete.png" />
+    <None Include="Resources\warning.png" />
+    <None Include="Resources\warning1.png" />
+    <None Include="Resources\arrow_down.png" />
+    <None Include="Resources\arrow_left.gif" />
+    <None Include="Resources\arrow_right.gif" />
+    <None Include="Resources\arrow_up.png" />
+    <None Include="Resources\icons8-search-48.png" />
+    <None Include="Resources\calendar %282%29.png" />
+    <None Include="Resources\play-button.png" />
+    <None Include="Resources\delete-button.png" />
+    <None Include="Resources\completed-tasks.png" />
+    <None Include="Resources\scale.png" />
+    <None Include="Resources\icons8-create-2.png" />
+    <None Include="Resources\shopping-cart-moving-symbol.png" />
+    <None Include="Resources\shopping-cart-moving-symbol %281%29.png" />
+    <None Include="Resources\shopping-cart.png" />
+    <None Include="Resources\shopping-cart %281%29.png" />
+    <None Include="Resources\delivery-packages-on-a-trolley.png" />
+    <None Include="Resources\enter.png" />
+    <None Include="Resources\up-arrow.png" />
+    <None Include="Resources\down-arrow.png" />
+    <None Include="Resources\down-arrow %281%29.png" />
+    <None Include="Resources\up-arrow %281%29.png" />
+    <EmbeddedResource Include="WizWork.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0%28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0%28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\WizCommon\WizCommon.csproj">
+      <Project>{04869e1c-a146-4445-b80c-95e1e6eb9a35}</Project>
+      <Name>WizCommon</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MSCAL.OCX" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AxInterop.MSACAL.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MSCAL.OCX">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\round-remove-button %281%29.png" />
+    <None Include="Resources\left.png" />
+    <None Include="Resources\left %281%29.png" />
+    <None Include="Resources\left %282%29.png" />
+    <None Include="Resources\left %283%29.png" />
+    <None Include="Resources\right.png" />
+    <None Include="Resources\save-file-option1.png" />
+    <None Include="Resources\btnKeyBackSpace.BackgroundImage.png" />
+    <None Include="Resources\COMM.ICO" />
+    <None Include="Resources\COMM32.png" />
+    <None Include="Resources\comm3232.png" />
+    <None Include="Resources\baseline_keyboard_arrow_up_black_24dp.png" />
+    <None Include="Resources\baseline_keyboard_arrow_down_black_24dp.png" />
+    <None Include="Resources\baseline_pause.png" />
+    <None Include="Resources\baseline_play.png" />
+    <None Include="Resources\baseline_skip_nextp.png" />
+    <None Include="Resources\baseline_skip_previous.png" />
+    <None Include="Resources\baseline_description.png" />
+    <None Include="Resources\baseline_description_black_18dp.png" />
+    <Content Include="Resources\BlackArrow_Right.png" />
+    <Content Include="Resources\BlackArrow_Left.png" />
+    <None Include="Resources\checkBox_UnChecked.png" />
+    <None Include="Resources\checkBox_Checked.png" />
+    <Content Include="Resources\Check_32pix.png" />
+    <None Include="Resources\NoImage.bmp" />
+    <None Include="Resources\NoImage.png" />
+    <None Include="Resources\NoImageByConnect.png" />
+    <None Include="Resources\check_circle_Check.png" />
+    <None Include="Resources\check_circle_UnCheck.png" />
+    <None Include="Resources\excel_icon.png" />
+    <Content Include="Resources\QuantityChange.png" />
+    <None Include="Resources\rotateLeft.png" />
+    <None Include="Resources\rotateRight.png" />
+    <Content Include="Resources\transfer_32pix.png" />
+    <None Include="Resources\WizMes.gif" />
+    <Content Include="Resources\worker.png" />
+    <Content Include="Resources\Work_Order_32pix.png" />
+    <Content Include="TSCLIB.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WizardLogo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

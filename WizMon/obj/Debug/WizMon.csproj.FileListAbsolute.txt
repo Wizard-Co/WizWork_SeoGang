@@ -1,0 +1,164 @@
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\obj\Debug\WizMon.csprojAssemblyReference.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\obj\Debug\WizMon.Frm_mon_Inst_Q.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\obj\Debug\WizMon.Frm_mon_Main.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\obj\Debug\WizMon.Frm_mon_Realtime_Q.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\obj\Debug\WizMon.Frm_mon_Stock_Q.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\obj\Debug\WizMon.csproj.GenerateResource.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\obj\Debug\WizMon.csproj.CoreCompileInputs.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\bin\Debug\WizMon.exe.config
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\bin\Debug\WizMon.exe
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\bin\Debug\WizMon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\bin\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\bin\Debug\AxInterop.MSACAL.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\bin\Debug\AxMSACAL.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\bin\Debug\stdole.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\bin\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\bin\Debug\WizMes_Work.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\obj\Debug\WizMon.LabelEx.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\obj\Debug\WizMon.csproj.CopyComplete
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\obj\Debug\WizMon.exe
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\obj\Debug\WizMon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizMon\bin\Debug\WizMes_Work.dll.config
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\bin\Debug\WizMon.exe.config
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\bin\Debug\WizMon.exe
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\bin\Debug\WizMon.pdb
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\bin\Debug\WizCommon.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\bin\Debug\AxInterop.MSACAL.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\bin\Debug\AxMSACAL.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\bin\Debug\stdole.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\bin\Debug\WizCommon.pdb
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\bin\Debug\WizMes_Work.pdb
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\bin\Debug\WizMes_Work.dll.config
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\obj\Debug\WizMon.csprojAssemblyReference.cache
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\obj\Debug\WizMon.Frm_mon_Info.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\obj\Debug\WizMon.Frm_mon_Inst_Q.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\obj\Debug\WizMon.Frm_mon_Main.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\obj\Debug\WizMon.Frm_mon_Realtime_Q.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\obj\Debug\WizMon.Frm_mon_Stock_Q.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\obj\Debug\WizMon.LabelEx.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\obj\Debug\WizMon.csproj.GenerateResource.cache
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\obj\Debug\WizMon.csproj.CoreCompileInputs.cache
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\obj\Debug\WizMon.csproj.CopyComplete
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\obj\Debug\WizMon.exe
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizMon\obj\Debug\WizMon.pdb
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\bin\Debug\WizMon.exe.config
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\bin\Debug\WizMon.exe
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\bin\Debug\WizMon.pdb
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\bin\Debug\WizCommon.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\bin\Debug\AxInterop.MSACAL.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\bin\Debug\AxMSACAL.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\bin\Debug\stdole.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\bin\Debug\WizCommon.pdb
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\bin\Debug\WizMes_Work.pdb
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\bin\Debug\WizMes_Work.dll.config
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\obj\Debug\WizMon.csprojAssemblyReference.cache
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\obj\Debug\WizMon.Frm_mon_Info.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\obj\Debug\WizMon.Frm_mon_Inst_Q.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\obj\Debug\WizMon.Frm_mon_Main.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\obj\Debug\WizMon.Frm_mon_Realtime_Q.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\obj\Debug\WizMon.Frm_mon_Stock_Q.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\obj\Debug\WizMon.LabelEx.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\obj\Debug\WizMon.csproj.GenerateResource.cache
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\obj\Debug\WizMon.csproj.CoreCompileInputs.cache
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\obj\Debug\WizMon.csproj.CopyComplete
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\obj\Debug\WizMon.exe
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201022\WizMon\obj\Debug\WizMon.pdb
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizMon\obj\Debug\WizMon.csprojAssemblyReference.cache
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizMon\obj\Debug\WizMon.Frm_mon_Info.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizMon\obj\Debug\WizMon.Frm_mon_Inst_Q.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizMon\obj\Debug\WizMon.Frm_mon_Main.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizMon\obj\Debug\WizMon.Frm_mon_Realtime_Q.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizMon\obj\Debug\WizMon.Frm_mon_Stock_Q.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizMon\obj\Debug\WizMon.LabelEx.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizMon\obj\Debug\WizMon.csproj.GenerateResource.cache
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizMon\obj\Debug\WizMon.csproj.CoreCompileInputs.cache
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizMon\obj\Debug\WizMon.exe
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizMon\obj\Debug\WizMon.pdb
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\bin\Debug\WizMon.exe.config
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\bin\Debug\WizMon.exe
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\bin\Debug\WizMon.pdb
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\bin\Debug\WizCommon.dll
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\bin\Debug\AxInterop.MSACAL.dll
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\bin\Debug\AxMSACAL.dll
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\bin\Debug\stdole.dll
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\bin\Debug\WizCommon.pdb
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\bin\Debug\WizMes_Work.pdb
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\bin\Debug\WizMes_Work.dll.config
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\obj\Debug\WizMon.csprojAssemblyReference.cache
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\obj\Debug\WizMon.Frm_mon_Info.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\obj\Debug\WizMon.Frm_mon_Inst_Q.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\obj\Debug\WizMon.Frm_mon_Main.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\obj\Debug\WizMon.Frm_mon_Realtime_Q.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\obj\Debug\WizMon.Frm_mon_Stock_Q.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\obj\Debug\WizMon.LabelEx.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\obj\Debug\WizMon.csproj.GenerateResource.cache
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\obj\Debug\WizMon.csproj.CoreCompileInputs.cache
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\obj\Debug\WizMon.csproj.CopyComplete
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\obj\Debug\WizMon.exe
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizMon\obj\Debug\WizMon.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\bin\Debug\WizMon.exe.config
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\bin\Debug\WizMon.exe
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\bin\Debug\WizMon.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\bin\Debug\WizCommon.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\bin\Debug\AxInterop.MSACAL.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\bin\Debug\AxMSACAL.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\bin\Debug\stdole.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\bin\Debug\WizCommon.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\bin\Debug\WizMes_Work.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\bin\Debug\WizMes_Work.dll.config
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\obj\Debug\WizMon.csprojAssemblyReference.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\obj\Debug\WizMon.Frm_mon_Info.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\obj\Debug\WizMon.Frm_mon_Inst_Q.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\obj\Debug\WizMon.Frm_mon_Main.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\obj\Debug\WizMon.Frm_mon_Realtime_Q.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\obj\Debug\WizMon.Frm_mon_Stock_Q.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\obj\Debug\WizMon.LabelEx.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\obj\Debug\WizMon.csproj.GenerateResource.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\obj\Debug\WizMon.csproj.CoreCompileInputs.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\obj\Debug\WizMon.csproj.CopyComplete
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\obj\Debug\WizMon.exe
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizMon\obj\Debug\WizMon.pdb
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\bin\Debug\WizMon.exe.config
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\bin\Debug\WizMon.exe
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\bin\Debug\WizMon.pdb
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\bin\Debug\WizCommon.dll
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\bin\Debug\AxInterop.MSACAL.dll
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\bin\Debug\AxMSACAL.dll
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\bin\Debug\stdole.dll
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\bin\Debug\WizCommon.pdb
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\bin\Debug\WizMes_Work.pdb
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\bin\Debug\WizMes_Work.dll.config
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\obj\Debug\WizMon.csprojAssemblyReference.cache
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\obj\Debug\WizMon.Frm_mon_Info.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\obj\Debug\WizMon.Frm_mon_Inst_Q.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\obj\Debug\WizMon.Frm_mon_Main.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\obj\Debug\WizMon.Frm_mon_Realtime_Q.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\obj\Debug\WizMon.Frm_mon_Stock_Q.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\obj\Debug\WizMon.LabelEx.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\obj\Debug\WizMon.csproj.GenerateResource.cache
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\obj\Debug\WizMon.csproj.CoreCompileInputs.cache
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\obj\Debug\WizMon.csproj.CopyComplete
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\obj\Debug\WizMon.exe
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizMon\obj\Debug\WizMon.pdb
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\bin\Debug\WizMon.exe.config
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\bin\Debug\WizMon.exe
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\bin\Debug\WizMon.pdb
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\bin\Debug\WizCommon.dll
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\bin\Debug\AxInterop.MSACAL.dll
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\bin\Debug\AxMSACAL.dll
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\bin\Debug\stdole.dll
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\bin\Debug\WizCommon.pdb
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\bin\Debug\WizMes_Work.pdb
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\bin\Debug\WizMes_Work.dll.config
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.csprojAssemblyReference.cache
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.Frm_mon_Info.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.Frm_mon_Inst_Q.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.Frm_mon_Main.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.Frm_mon_Realtime_Q.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.Frm_mon_Stock_Q.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.LabelEx.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.csproj.GenerateResource.cache
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.csproj.CoreCompileInputs.cache
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.csproj.CopyComplete
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.exe
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.pdb

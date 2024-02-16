@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B9275B2-0F04-46FA-9412-672DAE329EC3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KR_POP.Common</RootNamespace>
+    <AssemblyName>Common</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Gma.QrCodeNet.Encoding, Version=0.0.1.42489, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Gma.QrCodeNet.Encoder\bin\Debug\Gma.QrCodeNet.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlEX\CustomBorderForm\CustomBorderForm.cs" />
+    <Compile Include="ControlEX\CustomBorderForm\DrawUtil.cs" />
+    <Compile Include="ControlEX\CustomBorderForm\FormStyle.cs" />
+    <Compile Include="ControlEX\CustomBorderForm\FormStyleEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlEX\CustomBorderForm\FormStyleEditor.designer.cs">
+      <DependentUpon>FormStyleEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlEX\CustomBorderForm\FormStyleEditorControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlEX\CustomBorderForm\FormStyleEditorControl.designer.cs">
+      <DependentUpon>FormStyleEditorControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlEX\CustomBorderForm\FormWithNonClientArea.cs" />
+    <Compile Include="ControlEX\CustomBorderForm\LonghornForm.cs" />
+    <Compile Include="ControlEX\CustomBorderForm\NativeMethods.cs" />
+    <Compile Include="ControlEX\DataGridViewCalendarColumn\CalendarEditingControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlEX\DataGridViewCalendarColumn\DataGridViewCalendarCell.cs" />
+    <Compile Include="ControlEX\DataGridViewCalendarColumn\DataGridViewCalendarColumn.cs" />
+    <Compile Include="ControlEX\DataGridViewDisabelButtonColumn\DataGridVewDisableButtonColumn.cs" />
+    <Compile Include="ControlEX\DataGridViewDisableCheckBoxColumn\DataGridViewDisableCheckBoxColumn.cs" />
+    <Compile Include="ControlEX\DataGridViewEx\DataGridViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlEX\DataGridViewEx\DataGridViewEx.Designer.cs">
+      <DependentUpon>DataGridViewEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlEX\DataGridViewEx\GridRowComparer.cs" />
+    <Compile Include="ControlEX\DataGridViewTextBoxButtonColumn\DataGridViewTextBoxButtonCell.cs" />
+    <Compile Include="ControlEX\DataGridViewTextBoxButtonColumn\DataGridViewTextBoxButtonColumn.cs" />
+    <Compile Include="ControlEX\ProgressBarEx\ProgressBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlEX\ProgressBarEx\ProgressBarEx.Designer.cs">
+      <DependentUpon>ProgressBarEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlEX\SpannedDataGridView\DataGridViewComboBoxCellEx.cs" />
+    <Compile Include="ControlEX\SpannedDataGridView\DataGridViewCheckBoxCellEx.cs" />
+    <Compile Include="ControlEX\StatusBox\StatusBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlEX\StatusBox\StatusBox.Designer.cs">
+      <DependentUpon>StatusBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlEX\TextAndButtonControl\TextAndButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlEX\TextAndButtonControl\TextAndButton.Designer.cs">
+      <DependentUpon>TextAndButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlEX\TextBoxButton\TextBoxButtonOld.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlEX\TextBoxButton\TextBoxButtonOld.designer.cs">
+      <DependentUpon>TextBoxButtonOld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlEX\SpannedDataGridView\CellPresenter.cs" />
+    <Compile Include="ControlEX\SpannedDataGridView\DataGridViewCellExHelper.cs" />
+    <Compile Include="ControlEX\SpannedDataGridView\DataGridViewHelper.cs" />
+    <Compile Include="ControlEX\SpannedDataGridView\DataGridViewImageCellEx.cs" />
+    <Compile Include="ControlEX\SpannedDataGridView\DataGridViewTextBoxCellEx.cs" />
+    <Compile Include="ControlEX\SpannedDataGridView\ISpannedCell.cs" />
+    <Compile Include="ControlEX\SpannedDataGridView\RowPresenter.cs" />
+    <Compile Include="FontInstall.cs" />
+    <Compile Include="Frm_Base.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Base.designer.cs">
+      <DependentUpon>Frm_Base.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FTP.cs" />
+    <Compile Include="IProcedure.cs" />
+    <Compile Include="MenuInfo.cs" />
+    <Compile Include="Methods.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ControlEX\TreeGridView\TreeGridCell.cs" />
+    <Compile Include="ControlEX\TreeGridView\TreeGridEvents.cs" />
+    <Compile Include="ControlEX\TreeGridView\TreeGridNode.cs" />
+    <Compile Include="ControlEX\TreeGridView\TreeGridNodeCollection.cs" />
+    <Compile Include="ControlEX\TreeGridView\TreeGridView.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Renderer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ControlEX\CustomBorderForm\FormStyleEditorControl.resx">
+      <DependentUpon>FormStyleEditorControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlEX\DataGridViewEx\DataGridViewEx.resx">
+      <DependentUpon>DataGridViewEx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlEX\ProgressBarEx\ProgressBarEx.resx">
+      <DependentUpon>ProgressBarEx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlEX\StatusBox\StatusBox.resx">
+      <DependentUpon>StatusBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlEX\TextAndButtonControl\TextAndButton.resx">
+      <DependentUpon>TextAndButton.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlEX\TextBoxButton\TextBoxButtonOld.resx">
+      <DependentUpon>TextBoxButtonOld.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Base.resx">
+      <DependentUpon>Frm_Base.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bad.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\se_alert.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Border_Blue.png" />
+    <Content Include="Resources\Border_White.png" />
+    <Content Include="Resources\Close_Blue_Normal.png" />
+    <Content Include="Resources\Close_Blue_Pressed.png" />
+    <Content Include="Resources\Close_White_Normal.png" />
+    <Content Include="Resources\Close_White_Pressed.png" />
+    <None Include="Resources\CountError41.wav" />
+    <None Include="Resources\Error31.wav" />
+    <None Include="Resources\Error41.wav" />
+    <Content Include="Resources\Maximize_Blue_Normal.png" />
+    <Content Include="Resources\Maximize_Blue_Pressed.png" />
+    <Content Include="Resources\Maximize_White_Normal.png" />
+    <Content Include="Resources\Maximize_White_Pressed.png" />
+    <Content Include="Resources\Minimize_Blue_Normal.png" />
+    <Content Include="Resources\Minimize_Blue_Pressed.png" />
+    <Content Include="Resources\Minimize_White_Normal.png" />
+    <Content Include="Resources\Minimize_White_Pressed.png" />
+    <None Include="Resources\Scan31.wav" />
+    <None Include="Resources\OK41.wav" />
+    <None Include="Resources\Scan41.wav" />
+    <None Include="Resources\OK31.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

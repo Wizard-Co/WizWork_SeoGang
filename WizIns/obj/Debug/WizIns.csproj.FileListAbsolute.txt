@@ -1,0 +1,287 @@
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.csprojAssemblyReference.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\bin\Debug\WizIns.exe.config
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\bin\Debug\WizIns.exe
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\bin\Debug\WizIns.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\bin\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\bin\Debug\AxMSACAL.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\bin\Debug\stdole.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\bin\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\bin\Debug\WizMes_Work.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.exe
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\obj\Debug\WizIns.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\bin\Debug\WizIns.exe.config
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\bin\Debug\WizIns.exe
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\bin\Debug\WizIns.pdb
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\bin\Debug\WizCommon.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\bin\Debug\WizMes_Work.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\bin\Debug\AxMSACAL.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\bin\Debug\stdole.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\bin\Debug\WizCommon.pdb
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\bin\Debug\WizMes_Work.pdb
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.csprojAssemblyReference.cache
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.exe
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201016\WizIns\obj\Debug\WizIns.pdb
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\bin\Debug\WizIns.exe.config
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\bin\Debug\WizIns.exe
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\bin\Debug\WizIns.pdb
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\bin\Debug\WizCommon.dll
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\bin\Debug\WizMes_Work.dll
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\bin\Debug\AxMSACAL.dll
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\bin\Debug\stdole.dll
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\bin\Debug\WizCommon.pdb
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\bin\Debug\WizMes_Work.pdb
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.csprojAssemblyReference.cache
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.exe
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizIns\obj\Debug\WizIns.pdb
+D:\업체\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizIns.exe.config
+D:\업체\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizIns.exe
+D:\업체\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizIns.pdb
+D:\업체\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizCommon.dll
+D:\업체\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizMes_Work.dll
+D:\업체\WizWork_Basic_C#_20201103\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\업체\WizWork_Basic_C#_20201103\WizIns\bin\Debug\AxMSACAL.dll
+D:\업체\WizWork_Basic_C#_20201103\WizIns\bin\Debug\stdole.dll
+D:\업체\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizCommon.pdb
+D:\업체\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizMes_Work.pdb
+D:\업체\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.csprojAssemblyReference.cache
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.exe
+D:\업체\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.pdb
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizIns.exe.config
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizIns.exe
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizIns.pdb
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizCommon.dll
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizMes_Work.dll
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\bin\Debug\AxMSACAL.dll
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\bin\Debug\stdole.dll
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizCommon.pdb
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizMes_Work.pdb
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.csprojAssemblyReference.cache
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.exe
+D:\업체\1_기본\WizWork_Basic_C#_20201103\WizIns\obj\Debug\WizIns.pdb
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\bin\Debug\WizIns.exe.config
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\bin\Debug\WizIns.exe
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\bin\Debug\WizIns.pdb
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\bin\Debug\WizCommon.dll
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\bin\Debug\WizMes_Work.dll
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\bin\Debug\AxMSACAL.dll
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\bin\Debug\stdole.dll
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\bin\Debug\WizCommon.pdb
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\bin\Debug\WizMes_Work.pdb
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.csprojAssemblyReference.cache
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.exe
+D:\업체\0_기본\WizWork_Basic_C#_20201110\WizIns\obj\Debug\WizIns.pdb
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\bin\Debug\WizIns.exe.config
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\bin\Debug\WizIns.exe
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\bin\Debug\WizIns.pdb
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\bin\Debug\WizCommon.dll
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\bin\Debug\WizMes_Work.dll
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\bin\Debug\AxMSACAL.dll
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\bin\Debug\stdole.dll
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\bin\Debug\WizCommon.pdb
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\bin\Debug\WizMes_Work.pdb
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.csprojAssemblyReference.cache
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.exe
+D:\KGH\업체\0_기본\WizWork_Basic_C#_20201111\WizIns\obj\Debug\WizIns.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\bin\Debug\WizIns.exe.config
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\bin\Debug\WizIns.exe
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\bin\Debug\WizIns.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\bin\Debug\WizCommon.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\bin\Debug\WizMes_Work.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\bin\Debug\AxMSACAL.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\bin\Debug\stdole.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\bin\Debug\WizCommon.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\bin\Debug\WizMes_Work.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.csprojAssemblyReference.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.exe
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizIns\obj\Debug\WizIns.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\bin\Debug\WizIns.exe.config
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\bin\Debug\WizIns.exe
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\bin\Debug\WizIns.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\bin\Debug\WizCommon.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\bin\Debug\WizMes_Work.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\bin\Debug\AxMSACAL.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\bin\Debug\stdole.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\bin\Debug\WizCommon.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\bin\Debug\WizMes_Work.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.csprojAssemblyReference.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.exe
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizIns\obj\Debug\WizIns.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\bin\Debug\WizIns.exe.config
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\bin\Debug\WizIns.exe
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\bin\Debug\WizIns.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\bin\Debug\WizCommon.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\bin\Debug\WizMes_Work.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\bin\Debug\AxMSACAL.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\bin\Debug\stdole.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\bin\Debug\WizCommon.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\bin\Debug\WizMes_Work.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.csprojAssemblyReference.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.exe
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizIns\obj\Debug\WizIns.pdb
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\bin\Debug\WizIns.exe.config
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\bin\Debug\WizIns.exe
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\bin\Debug\WizIns.pdb
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\bin\Debug\WizCommon.dll
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\bin\Debug\WizMes_Work.dll
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\bin\Debug\AxMSACAL.dll
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\bin\Debug\stdole.dll
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\bin\Debug\WizCommon.pdb
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\bin\Debug\WizMes_Work.pdb
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.csprojAssemblyReference.cache
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.exe
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizIns\obj\Debug\WizIns.pdb
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\WizCommon.dll
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\WizMes_Work.dll
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\AxMSACAL.dll
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\stdole.dll
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\WizCommon.pdb
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\WizMes_Work.pdb
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.csprojAssemblyReference.cache
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.exe
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.pdb
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\WizIns.exe.config
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\WizIns.exe
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\WizIns.pdb
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.csproj.CopyComplete

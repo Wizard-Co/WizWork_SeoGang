@@ -1,0 +1,56 @@
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\Common.csproj.ResolveComReference.cache
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\KR_POP.Frm_Base.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\KR_POP.Common.Properties.Resources.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\Common.csproj.GenerateResource.Cache
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\x86\Release\Common.dll
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\x86\Release\Common.pdb
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\x86\Release\Gma.QrCodeNet.Encoding.dll
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\x86\Release\Microsoft.Office.Interop.Excel.dll
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\x86\Release\office.dll
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\x86\Release\Microsoft.Vbe.Interop.dll
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\x86\Release\Gma.QrCodeNet.Encoding.pdb
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\Common.dll
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\x86\Release\Common.pdb
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\bin\x86\Release\Common.dll
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\bin\x86\Release\Common.pdb
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\bin\x86\Release\Gma.QrCodeNet.Encoding.dll
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\bin\x86\Release\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\Common.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\KR_POP.Frm_Base.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\KR_POP.Common.Properties.Resources.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\Common.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\Common.dll
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\x86\Release\Common.pdb
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\x86\Release\Common.dll
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\x86\Release\Common.pdb
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\x86\Release\adodb.dll
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\x86\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\x86\Release\Gma.QrCodeNet.Encoding.pdb
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\x86\Release\ko\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\Common.csprojResolveAssemblyReference.cache
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\Common.csproj.ResolveComReference.cache
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\KR_POP.Common.ControlEX.DataGridViewEx.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\KR_POP.Common.ControlEX.ProgressBarEx.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\KR_POP.Common.ControlEX.TextBoxButton.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\KR_POP.Frm_Base.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\KR_POP.Common.Properties.Resources.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\Common.csproj.GenerateResource.Cache
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\Common.dll
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\x86\Release\Common.pdb

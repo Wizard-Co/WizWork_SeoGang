@@ -1,0 +1,92 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using WizCommon;
+
+namespace WizWork.Tkb.Ins.PopUp
+{
+    public partial class Frm_PopUp_setPerson : Form
+    {
+        public Frm_PopUp_setPerson()
+        {
+            InitializeComponent();
+        }
+
+        private void SetDayOrNightRBtn()
+        {
+            try
+            {
+                Dictionary<string, object> sqlParameter = new Dictionary<string, object>();
+                sqlParameter.Add("CodeGbn", "DayOrNight");
+                sqlParameter.Add("sRelation", "");
+
+                DataSet ds = DataStore.Instance.ProcedureToDataSet("xp_Code_sCmCode", sqlParameter, false);
+                int Cnt = ds.Tables[0].Rows.Count;
+
+
+            }
+            catch (Exception ex)
+            {
+                WizCommon.Popup.MyMessageBox.ShowBox(string.Format("오류! 관리자에게 문의\r\n{0}", ex.Message), "[오류]", 0, 1);
+            }
+        }
+    }
+
+  
+
+    private void LoadDataDayOrNight(int Horizontal, int Vertical)
+    {
+        try
+        {
+            if (ds2.Tables[0].Rows.Count > 0)
+            {
+                this.newRadioButton = new RadioButton[ds2.Tables[0].Rows.Count];
+                rBtnDayOrNight = new RadioButton[ds2.Tables[0].Rows.Count];
+                for (int i = 0; i < ds2.Tables[0].Rows.Count; i++)
+                {
+                    RadioButton newRadioButton = new RadioButton();
+                    tlpDayOrNight.Controls.Add(newRadioButton, (i % Horizontal), (i / Horizontal));
+                    DataRow dr = ds2.Tables[0].Rows[i];
+
+                    newRadioButton.Text = dr["Code_name"].ToString().Trim();
+                    newRadioButton.Tag = dr["Code_ID"].ToString().Trim();
+                    newRadioButton.Dock = DockStyle.Fill;
+                    newRadioButton.Font = new Font("맑은 고딕", 20, FontStyle.Bold);
+
+                    newRadioButton.Checked = false;
+                    newRadioButton.Appearance = System.Windows.Forms.Appearance.Button;
+                    newRadioButton.BackColor = System.Drawing.Color.LightSkyBlue;
+                    newRadioButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+                    newRadioButton.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
+                    newRadioButton.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+                    newRadioButton.ForeColor = System.Drawing.Color.White;
+                    newRadioButton.UseVisualStyleBackColor = false;
+                    newRadioButton.TextAlign = ContentAlignment.MiddleCenter;
+                    newRadioButton.Click += new System.EventHandler(this.rBtnDayOrNight_CheckedChanged);
+
+                    this.newRadioButton[i] = newRadioButton;
+                    this.rBtnDayOrNight[i] = newRadioButton;
+                }
+                rBtnDayOrNightRowCnt = ds2.Tables[0].Rows.Count;
+                foreach (RadioButton rb in newRadioButton)
+                {
+                    if (rb.Checked)
+                    {
+                        Frm_tprc_Main.g_tBase.DayOrNightID = rb.Tag.ToString();
+                        Frm_tprc_Main.g_tBase.DayOrNight = rb.Text.ToString();
+                    }
+                }
+            }
+        }
+        catch (Exception excpt)
+        {
+            WizCommon.Popup.MyMessageBox.ShowBox(string.Format("오류! 관리자에게 문의\r\n{0}", excpt.Message), "[오류]", 0, 1);
+        }
+
+    }
+}

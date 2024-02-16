@@ -1,0 +1,853 @@
+C:\Users\김동환\신POP소스(20130911)\Common\bin\Debug\Common.dll
+C:\Users\김동환\신POP소스(20130911)\Common\bin\Debug\Common.pdb
+C:\Users\김동환\신POP소스(20130911)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\김동환\신POP소스(20130911)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\김동환\신POP소스(20130911)\Common\bin\Debug\office.dll
+C:\Users\김동환\신POP소스(20130911)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\김동환\신POP소스(20130911)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\김동환\신POP소스(20130911)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\Common.dll
+C:\Users\김동환\신POP소스(20130911)\Common\obj\Debug\Common.pdb
+D:\KR_POP\KR_POP(작업용)\Common\bin\Debug\Common.dll
+D:\KR_POP\KR_POP(작업용)\Common\bin\Debug\Common.pdb
+D:\KR_POP\KR_POP(작업용)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\KR_POP\KR_POP(작업용)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\KR_POP\KR_POP(작업용)\Common\bin\Debug\office.dll
+D:\KR_POP\KR_POP(작업용)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\KR_POP\KR_POP(작업용)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\KR_POP\KR_POP(작업용)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\KR_POP.Frm_Base.resources
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\Common.dll
+D:\KR_POP\KR_POP(작업용)\Common\obj\Debug\Common.pdb
+D:\KR_POP\KR_POP(20130916.305버전)\Common\bin\Debug\Common.dll
+D:\KR_POP\KR_POP(20130916.305버전)\Common\bin\Debug\Common.pdb
+D:\KR_POP\KR_POP(20130916.305버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\KR_POP\KR_POP(20130916.305버전)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\KR_POP\KR_POP(20130916.305버전)\Common\bin\Debug\office.dll
+D:\KR_POP\KR_POP(20130916.305버전)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\KR_POP\KR_POP(20130916.305버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\KR_POP\KR_POP(20130916.305버전)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\KR_POP.Frm_Base.resources
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\Common.dll
+D:\KR_POP\KR_POP(20130916.305버전)\Common\obj\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\bin\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\bin\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\bin\Debug\office.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20130924.306버전)\Common\obj\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\bin\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\bin\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\bin\Debug\office.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131001.307버전)\Common\obj\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\bin\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\bin\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\bin\Debug\office.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131009.309버전) - 복사본\Common\obj\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\bin\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\bin\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\bin\Debug\office.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131016.311버전)\Common\obj\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\bin\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\bin\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\bin\Debug\office.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131030.315버전) - 복사본\Common\obj\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\bin\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\bin\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\bin\Debug\office.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131106.316버전)\Common\obj\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\bin\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\bin\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\bin\Debug\office.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131112.320버전) - 복사본\Common\obj\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Common.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\office.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\Common.dll
+C:\Users\김동환\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\Common.pdb
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\bin\Debug\Common.dll
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\bin\Debug\Common.pdb
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\bin\Debug\office.dll
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\Common.dll
+C:\Users\user\Desktop\KR_POP(20131216.325버전)\Common\obj\Debug\Common.pdb
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Common.dll
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Common.pdb
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\office.dll
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\Common.dll
+C:\Users\user\Desktop\업무폴더\002 - 보일러 POP\KR_POP(20131216.325버전)\Common\obj\Debug\Common.pdb
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\bin\Debug\Common.dll
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\bin\Debug\Common.pdb
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\Common.dll
+C:\Documents and Settings\sgh\바탕 화면\KR_POP(20140123.327버전)\Common\obj\Debug\Common.pdb
+C:\KR_POP(20140123.327버전)(2)\Common\bin\Debug\Common.dll
+C:\KR_POP(20140123.327버전)(2)\Common\bin\Debug\Common.pdb
+C:\KR_POP(20140123.327버전)(2)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\KR_POP(20140123.327버전)(2)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\KR_POP(20140123.327버전)(2)\Common\bin\Debug\office.dll
+C:\KR_POP(20140123.327버전)(2)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\KR_POP(20140123.327버전)(2)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\KR_POP(20140123.327버전)(2)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\Common.dll
+C:\KR_POP(20140123.327버전)(2)\Common\obj\Debug\Common.pdb
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\bin\Debug\Common.dll
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\bin\Debug\Common.pdb
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\Common.dll
+C:\Users\sgh\Desktop\KR_POP(20140207.329버전)) - 복사본\Common\obj\Debug\Common.pdb
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\bin\Debug\Common.dll
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\bin\Debug\Common.pdb
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\Common.dll
+C:\Users\sgh\Desktop\KR_POP(20140220.329버전)\Common\obj\Debug\Common.pdb
+C:\KR_POP(20140220.329버전)\Common\bin\Debug\Common.dll
+C:\KR_POP(20140220.329버전)\Common\bin\Debug\Common.pdb
+C:\KR_POP(20140220.329버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\KR_POP(20140220.329버전)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\KR_POP(20140220.329버전)\Common\bin\Debug\office.dll
+C:\KR_POP(20140220.329버전)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\KR_POP(20140220.329버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\KR_POP(20140220.329버전)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\Common.dll
+C:\KR_POP(20140220.329버전)\Common\obj\Debug\Common.pdb
+C:\KR_POP(20140306.330버전)\Common\bin\Debug\Common.dll
+C:\KR_POP(20140306.330버전)\Common\bin\Debug\Common.pdb
+C:\KR_POP(20140306.330버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\KR_POP(20140306.330버전)\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\KR_POP(20140306.330버전)\Common\bin\Debug\office.dll
+C:\KR_POP(20140306.330버전)\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\KR_POP(20140306.330버전)\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\KR_POP(20140306.330버전)\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\Common.dll
+C:\KR_POP(20140306.330버전)\Common\obj\Debug\Common.pdb
+C:\KR_POP(20140306.330버전)_HTP최종\Common\bin\Debug\Common.dll
+C:\KR_POP(20140306.330버전)_HTP최종\Common\bin\Debug\Common.pdb
+C:\KR_POP(20140306.330버전)_HTP최종\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\KR_POP(20140306.330버전)_HTP최종\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\KR_POP(20140306.330버전)_HTP최종\Common\bin\Debug\office.dll
+C:\KR_POP(20140306.330버전)_HTP최종\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\KR_POP(20140306.330버전)_HTP최종\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\KR_POP(20140306.330버전)_HTP최종\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\Common.dll
+C:\KR_POP(20140306.330버전)_HTP최종\Common\obj\Debug\Common.pdb
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\bin\Debug\Common.dll
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\bin\Debug\Common.pdb
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\bin\Debug\office.dll
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\Common.dll
+C:\KR_POP(20140326.337버전)_HTP최종 - 복사본\Common\obj\Debug\Common.pdb
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\bin\Debug\Common.dll
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\bin\Debug\Common.pdb
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\Common.dll
+C:\Users\sgh\Desktop\KR_POP(20140414.340버전)_HTP최종\Common\obj\Debug\Common.pdb
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\bin\Debug\Common.dll
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\bin\Debug\Common.pdb
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\Common.dll
+C:\Users\sgh\Desktop\KR_POP(20140808.341버전)_노리츠_최종\Common\obj\Debug\Common.pdb
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\Common.dll
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\Common.pdb
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\office.dll
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Frm_Base.resources
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\Common.dll
+D:\03.POP\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\Common.pdb
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\Common.dll
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\Common.pdb
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\Common.dll
+C:\Users\sgh\Desktop\KR_POP(20140821.342버전)_노리츠_최종\Common\obj\Debug\Common.pdb
+C:\Users\sgh\Desktop\KR_POP_최종\Common\bin\Debug\Common.dll
+C:\Users\sgh\Desktop\KR_POP_최종\Common\bin\Debug\Common.pdb
+C:\Users\sgh\Desktop\KR_POP_최종\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\sgh\Desktop\KR_POP_최종\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\sgh\Desktop\KR_POP_최종\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\Common.dll
+C:\Users\sgh\Desktop\KR_POP_최종\Common\obj\Debug\Common.pdb
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\bin\Debug\Common.dll
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\bin\Debug\Common.pdb
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\bin\Debug\office.dll
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\KR_POP.Frm_Base.resources
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\Common.dll
+D:\03.POP\00.소스\00.난방POP\KR_POP\Common\obj\Debug\Common.pdb
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\bin\Debug\Common.dll
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\bin\Debug\Common.pdb
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\bin\Debug\office.dll
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\KR_POP.Frm_Base.resources
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\Common.dll
+D:\03.POP\00.소스\00.난방POP\01.KR_POP\Common\obj\Debug\Common.pdb
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\bin\Debug\Common.dll
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\bin\Debug\Common.pdb
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\bin\Debug\office.dll
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\bin\Debug\Interop.Microsoft.Office.Core.dll
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\Interop.Microsoft.Office.Core.dll
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Frm_Base.resources
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\Common.dll
+D:\1.Work\01.귀뚜라미보일러_2016\POP_backup\01.KR_POP\01.KR_POP\Common\obj\Debug\Common.pdb
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\bin\Debug\Common.dll
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\bin\Debug\Common.pdb
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\bin\Debug\office.dll
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Frm_Base.resources
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\Common.dll
+D:\1.Work\01.귀뚜라미보일러_2016\02.POP\01.KR_POP\01.KR_POP\Common\obj\Debug\Common.pdb
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\Debug\Common.dll
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\Debug\Common.pdb
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\Debug\office.dll
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\Common.dll
+C:\Users\wiz203.Wiz203-PC\Desktop\DLL 다시 넣어보기 TEST\Common\obj\Debug\Common.pdb
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\0406에러요청수정\Common\obj\Debug\Common.pdb
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\bin\Debug\Common.dll
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\bin\Debug\Common.pdb
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\KR_POP.Frm_Base.resources
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\Common.dll
+C:\Users\Administrator\Desktop\0410 KR-POP 수정요청 사항 포함 허윤구 전달\Common\obj\Debug\Common.pdb
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\bin\Debug\Common.dll
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\bin\Debug\Common.pdb
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\ResolveAssemblyReference.cache
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\KR_POP.Frm_Base.resources
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\Common.dll
+E:\1.Source\KRBPOP_0414_00000000\0414 KR-POP 본\0414_KR-POP\Common\obj\Debug\Common.pdb
+E:\1.김종영\1. 소스\ALPHA\Common\bin\Debug\Common.dll
+E:\1.김종영\1. 소스\ALPHA\Common\bin\Debug\Common.pdb
+E:\1.김종영\1. 소스\ALPHA\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+E:\1.김종영\1. 소스\ALPHA\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\ResolveAssemblyReference.cache
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\KR_POP.Frm_Base.resources
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\Common.dll
+E:\1.김종영\1. 소스\ALPHA\Common\obj\Debug\Common.pdb
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\bin\Debug\Common.dll
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\bin\Debug\Common.pdb
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\ResolveAssemblyReference.cache
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\KR_POP.Frm_Base.resources
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\Common.dll
+E:\1.김종영\1. 소스\WizWork_20170523_kjy\Common\obj\Debug\Common.pdb
+D:\WizWork_20170523_kjy_VS2008\Common\bin\Debug\Common.dll
+D:\WizWork_20170523_kjy_VS2008\Common\bin\Debug\Common.pdb
+D:\WizWork_20170523_kjy_VS2008\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\WizWork_20170523_kjy_VS2008\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\KR_POP.Frm_Base.resources
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\Common.dll
+D:\WizWork_20170523_kjy_VS2008\Common\obj\Debug\Common.pdb
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\bin\Debug\Common.dll
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\bin\Debug\Common.pdb
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\ResolveAssemblyReference.cache
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\KR_POP.Frm_Base.resources
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\Common.dll
+D:\월드트랜드_Project\WizWork_20170703_WTS_VS2008\Common\obj\Debug\Common.pdb
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\bin\Debug\Common.dll
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\bin\Debug\Common.pdb
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\ResolveAssemblyReference.cache
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\KR_POP.Frm_Base.resources
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\Common.dll
+E:\월드트렌드\Source_Backup\WizWork_20170703_WTS_VS2008_20170830_Final_kjy_ing\Common\obj\Debug\Common.pdb
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\Common.dll
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\Common.pdb
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\adodb.dll
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\Gma.QrCodeNet.Encoding.dll
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\ko\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Frm_Base.resources
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.dll
+E:\월드트렌드\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.pdb
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\Common.dll
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\Common.pdb
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\adodb.dll
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\ko\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Frm_Base.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.dll
+E:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.pdb
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\Common.dll
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\Common.pdb
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\adodb.dll
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\bin\Debug\ko\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.csproj.ResolveComReference.cache
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.FormStyleEditorControl.resources
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.DataGridViewEx.resources
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.ProgressBarEx.resources
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.StatusBox.StatusBox.resources
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButton.resources
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.ControlEX.TextBoxButtonOld.resources
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Frm_Base.resources
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\KR_POP.Common.Properties.Resources.resources
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.csproj.GenerateResource.Cache
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.dll
+D:\WizWork_20170918_WT_VS2017_20170918_Final_kjy_ing\Common\obj\Debug\Common.pdb
+D:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_\WizWork_20180205_WT_VS2017_20180205_Final_cjh_ing\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_\WizWork_20180205_WT_VS2017_20180205_Final_cjh_ing\Common\obj\Debug\Common.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_WT\WizWork_\WizWork_20180205_WT_VS2017_20180205_Final_cjh_ing\Common\obj\Debug\Common.pdb

@@ -1,0 +1,19 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="15.0">
+  <PropertyGroup>
+    <PublishUrlHistory>\\192.168.0.240/Upgrade/WizWork/|ftp://192.168.0.240:210/Upgrade/WizWork/|ftp://hkserver:210/Upgrade/WizWork/|ftp://39.121.108.86:25000/Upgrade/WizWork/|ftp://wtserver/Upgrade/WizWork/</PublishUrlHistory>
+    <InstallUrlHistory>http://192.168.0.240:26003/|http://hkserver:26003/|http://192.168.0.240/wizwork/|http://192.168.0.240:26003/|http://192.168.0.240:26003/</InstallUrlHistory>
+    <SupportUrlHistory>
+    </SupportUrlHistory>
+    <UpdateUrlHistory>http://192.168.0.240:26003/|http://192.168.0.240:26003/|http://192.168.0.240:26003/Upgrade/WizWork/|http://localhost/WizWork/</UpdateUrlHistory>
+    <BootstrapperUrlHistory>ftp://192.168.46.20/install|ftp://192.168.0.240/install</BootstrapperUrlHistory>
+    <ErrorReportUrlHistory>
+    </ErrorReportUrlHistory>
+    <FallbackCulture>ko-KR</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>
+    </ReferencePath>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,830 @@
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\bin\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\bin\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\bin\Debug\Interop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\bin\Debug\AxInterop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\bin\Debug\stdole.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180620_1000_kjy\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\bin\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\bin\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\bin\Debug\AxInterop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\bin\Debug\Interop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\bin\Debug\stdole.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180710_kjy\WizCommon\obj\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\bin\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\bin\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\bin\Debug\AxInterop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\bin\Debug\Interop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\bin\Debug\stdole.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180718_kjy\WizCommon\obj\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\bin\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\bin\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\bin\Debug\AxInterop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\bin\Debug\Interop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\bin\Debug\stdole.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20180927ing_kjy\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\bin\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\bin\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\bin\Debug\AxInterop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\bin\Debug\Interop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\bin\Debug\stdole.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20181206_kjy_ing\WizCommon\obj\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\bin\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\bin\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\bin\Debug\AxInterop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\bin\Debug\Interop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\bin\Debug\stdole.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017_Source_HIT_2018\WizWork_HIT_20190102_kjy_ing\WizCommon\obj\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\bin\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\bin\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\bin\Debug\AxInterop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\bin\Debug\Interop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\bin\Debug\stdole.dll
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190109_kjy_ing\WizCommon\obj\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\bin\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\bin\Debug\WizCommon.pdb
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\bin\Debug\AxInterop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\bin\Debug\Interop.MSACAL.dll
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\bin\Debug\stdole.dll
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.dll
+D:\0.Source\0.SourceByCompany\VS2017CSharp_AFT_201811\WizWork_nAFT_20190128_kjy_ing\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\bin\Debug\WizCommon.dll
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\bin\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\bin\Debug\stdole.dll
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.dll
+C:\Users\Administrator\Desktop\최신_WizWork_nAFT_에이에프티_허윤구_ing\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\bin\Debug\WizCommon.dll
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\bin\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\bin\Debug\stdole.dll
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.dll
+C:\Users\Administrator\Desktop\WizWork_nAFT_2019.08.07_BackUp\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\bin\Debug\WizCommon.dll
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\bin\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\bin\Debug\stdole.dll
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.dll
+C:\Users\Administrator\Desktop\WizWork_SamJoo_2019.09.11_HYG\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\bin\Debug\WizCommon.dll
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\bin\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\bin\Debug\stdole.dll
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.dll
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\최신_WizWork_SamJoo_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\bin\Debug\stdole.dll
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\GLS\프로그램\통합본\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\bin\Debug\stdole.dll
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_0221_수정본\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\bin\Debug\WizCommon.dll
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\bin\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\bin\Debug\stdole.dll
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.dll
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\bin\Debug\WizCommon.dll
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\bin\Debug\WizCommon.pdb
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\bin\Debug\stdole.dll
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.dll
+C:\Users\Administrator\Desktop\최신_WizWork_GLS_HYG_V2Upgrading\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\bin\Debug\stdole.dll
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0413\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\bin\Debug\stdole.dll
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\GLS\GLS 프로그램\WizWork_GLS_HYG_20_0416_2차\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\bin\Debug\stdole.dll
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\HY테크\프로그램\WizWork_HYTech_C#_20200504\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\bin\Debug\stdole.dll
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\대구산업\현장\WizWork_DaeguS_C#_20200526\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\bin\Debug\stdole.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200625\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\bin\Debug\stdole.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200626\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\bin\Debug\WizCommon.dll
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\bin\Debug\WizCommon.pdb
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\bin\Debug\stdole.dll
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.dll
+C:\Users\Cloudy\Desktop\회사\WizWork_Hanmin_C#_20200630\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\bin\Debug\stdole.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200701\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\bin\Debug\stdole.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200710\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\bin\Debug\stdole.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\한민\프로그램\현장\WizWork_Hanmin_C#_20200721\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\bin\Debug\stdole.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200811\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\bin\Debug\stdole.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200903\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\bin\Debug\stdole.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200907\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\bin\Debug\stdole.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\bin\Debug\WizCommon.dll
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\bin\Debug\WizCommon.pdb
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\bin\Debug\stdole.dll
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.dll
+C:\Users\Cloudy\Desktop\회사\20200916\WizWork_Tkb_C#_20200916\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\bin\Debug\stdole.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200917\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\bin\Debug\WizCommon.dll
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\bin\Debug\WizCommon.pdb
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\bin\Debug\stdole.dll
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.dll
+C:\Users\Cloudy\Desktop\회사\20200920\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\bin\Debug\stdole.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200920\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\bin\Debug\WizCommon.dll
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\bin\Debug\WizCommon.pdb
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\bin\Debug\stdole.dll
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.dll
+C:\Users\Cloudy\Desktop\회사\WizWork_Tkb_C#_20200923_2\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\bin\Debug\stdole.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20200924\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\bin\Debug\WizCommon.dll
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\bin\Debug\WizCommon.pdb
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\bin\Debug\stdole.dll
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.dll
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.pdb
+C:\Users\Cloudy\Desktop\회사\현장\WizWork_Tkb_C#_20201008\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\bin\Debug\stdole.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\TKB\프로그램\현장\WizWork_Tkb_C#_20201015\WizCommon\obj\Debug\WizCommon.pdb
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\bin\Debug\WizCommon.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\bin\Debug\WizCommon.pdb
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\bin\Debug\stdole.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.dll
+D:\작업중\현장\가장 최신본\WizWork_Tkb_C#_20201020\WizCommon\obj\Debug\WizCommon.pdb
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\bin\Debug\WizCommon.dll
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\bin\Debug\WizCommon.pdb
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\bin\Debug\stdole.dll
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.dll
+D:\업체\서강정밀\WizWork_SeoGang_C#_20201030\WizCommon\obj\Debug\WizCommon.pdb
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\bin\Debug\WizCommon.dll
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\bin\Debug\WizCommon.pdb
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\bin\Debug\stdole.dll
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.dll
+D:\업체\WizWork_Basic_C#_20201103\WizCommon\obj\Debug\WizCommon.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\bin\Debug\WizCommon.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\bin\Debug\WizCommon.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\bin\Debug\stdole.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201111\WizCommon\obj\Debug\WizCommon.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\bin\Debug\WizCommon.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\bin\Debug\WizCommon.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\bin\Debug\stdole.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201114\WizCommon\obj\Debug\WizCommon.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\bin\Debug\WizCommon.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\bin\Debug\WizCommon.pdb
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\bin\Debug\stdole.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.dll
+D:\KGH\업체\2_삼우ENG\WizWork_SamENG_C#_20201116\WizCommon\obj\Debug\WizCommon.pdb
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\bin\Debug\WizCommon.dll
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\bin\Debug\WizCommon.pdb
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\bin\Debug\stdole.dll
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.dll
+D:\KGH\업체\서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117\WizCommon\obj\Debug\WizCommon.pdb
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\bin\Debug\WizCommon.dll
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\bin\Debug\WizCommon.pdb
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\bin\Debug\stdole.dll
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.csprojAssemblyReference.cache
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.dll
+D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.pdb

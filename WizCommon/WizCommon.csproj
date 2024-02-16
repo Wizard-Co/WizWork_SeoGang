@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04869E1C-A146-4445-B80C-95E1E6EB9A35}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WizCommon</RootNamespace>
+    <AssemblyName>WizCommon</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.MSACAL, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\0.DLL\AxInterop.MSACAL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Com_Class\AutoClosingMessageBox.cs" />
+    <Compile Include="Com_Class\ProBoolValue.cs" />
+    <Compile Include="Com_Class\BoolValue.cs" />
+    <Compile Include="Com_Class\CB_IDNAME.cs" />
+    <Compile Include="Com_Class\ConnectionInfo.cs" />
+    <Compile Include="Com_Class\DataStore.cs" />
+    <Compile Include="Com_Class\FTP_EX.cs" />
+    <Compile Include="Com_Class\INI_GS.cs" />
+    <Compile Include="Com_Class\KeyValue.cs" />
+    <Compile Include="Com_Class\Procedure.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsView.cs" />
+    <Compile Include="Popup\DefectU\EditBoxAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\DefectU\EditBoxAdd.Designer.cs">
+      <DependentUpon>EditBoxAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\DefectU\FrmDefect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\DefectU\FrmDefect.Designer.cs">
+      <DependentUpon>FrmDefect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\Frm_CMKeypad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\Frm_CMKeypad.Designer.cs">
+      <DependentUpon>Frm_CMKeypad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\Frm_CMNumericKeypad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\Frm_CMNumericKeypad.Designer.cs">
+      <DependentUpon>Frm_CMNumericKeypad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\Frm_tins_Calendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\Frm_tins_Calendar.Designer.cs">
+      <DependentUpon>Frm_tins_Calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\Frm_tins_LabelRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\Frm_tins_LabelRegister.Designer.cs">
+      <DependentUpon>Frm_tins_LabelRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\Frm_TLP_Calendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\Frm_TLP_Calendar.designer.cs">
+      <DependentUpon>Frm_TLP_Calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Popup\MyMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Popup\MyMessageBox.Designer.cs">
+      <DependentUpon>MyMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="WizWorkLib.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Popup\DefectU\EditBoxAdd.resx">
+      <DependentUpon>EditBoxAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\DefectU\FrmDefect.resx">
+      <DependentUpon>FrmDefect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\Frm_CMKeypad.resx">
+      <DependentUpon>Frm_CMKeypad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\Frm_CMNumericKeypad.resx">
+      <DependentUpon>Frm_CMNumericKeypad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\Frm_tins_Calendar.resx">
+      <DependentUpon>Frm_tins_Calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\Frm_tins_LabelRegister.resx">
+      <DependentUpon>Frm_tins_LabelRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\Frm_TLP_Calendar.resx">
+      <DependentUpon>Frm_TLP_Calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Popup\MyMessageBox.resx">
+      <DependentUpon>MyMessageBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\arrow_down.png" />
+    <None Include="Resources\WizardLogo2.png" />
+    <None Include="Resources\WizardLogo1.png" />
+    <None Include="Resources\warning11.png" />
+    <None Include="Resources\warning2.png" />
+    <None Include="Resources\title_bar12.png" />
+    <None Include="Resources\title_bar2.png" />
+    <None Include="Resources\title_bar11.png" />
+    <None Include="Resources\times2.png" />
+    <None Include="Resources\times1.png" />
+    <None Include="Resources\square_delete1.png" />
+    <None Include="Resources\search11.png" />
+    <None Include="Resources\screwdriver-and-wrench-crossed1.png" />
+    <None Include="Resources\save-file-option1.png" />
+    <None Include="Resources\refresh1.png" />
+    <None Include="Resources\printer1.png" />
+    <None Include="Resources\power11.png" />
+    <None Include="Resources\pen_31.png" />
+    <None Include="Resources\notepad1.png" />
+    <None Include="Resources\magnifying_glass1.png" />
+    <None Include="Resources\left-arrow1.png" />
+    <None Include="Resources\instagram1.png" />
+    <None Include="Resources\inbox_in1.png" />
+    <None Include="Resources\inbox1.png" />
+    <None Include="Resources\icons8-search-961.png" />
+    <None Include="Resources\icons8-search-481.png" />
+    <None Include="Resources\glasses1.png" />
+    <None Include="Resources\forward-right-arrow-button1.png" />
+    <None Include="Resources\delete_12.png" />
+    <None Include="Resources\delete_11.png" />
+    <None Include="Resources\delete1.png" />
+    <None Include="Resources\cog1.png" />
+    <None Include="Resources\calendar %282%291.png" />
+    <None Include="Resources\calendar %281%291.png" />
+    <None Include="Resources\calendar1.png" />
+    <None Include="Resources\btnKeyBackSpace.BackgroundImage2.png" />
+    <None Include="Resources\btnKeyBackSpace.BackgroundImage1.png" />
+    <None Include="Resources\bell1.png" />
+    <None Include="Resources\arrow_up1.png" />
+    <None Include="Resources\arrow_right1.gif" />
+    <None Include="Resources\arrow_left1.gif" />
+    <None Include="Resources\arrow_down1.png" />
+    <Content Include="Resources\arrow_left.gif" />
+    <Content Include="Resources\arrow_right.gif" />
+    <Content Include="Resources\arrow_up.png" />
+    <Content Include="Resources\btnKeyBackSpace.BackgroundImage.png" />
+    <Content Include="Resources\title_bar.png" />
+    <EmbeddedResource Include="Resources\WizardLogo.png" />
+    <None Include="Resources\warning1.png" />
+    <None Include="Resources\warning.png" />
+    <None Include="Resources\title_bar1.png" />
+    <None Include="Resources\times.png" />
+    <None Include="Resources\square_delete.png" />
+    <None Include="Resources\search1.png" />
+    <None Include="Resources\screwdriver-and-wrench-crossed.png" />
+    <None Include="Resources\save-file-option.png" />
+    <None Include="Resources\refresh.png" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\power1.png" />
+    <None Include="Resources\pen_3.png" />
+    <None Include="Resources\notepad.png" />
+    <None Include="Resources\magnifying_glass.png" />
+    <None Include="Resources\left-arrow.png" />
+    <None Include="Resources\instagram.png" />
+    <None Include="Resources\inbox_in.png" />
+    <None Include="Resources\inbox.png" />
+    <None Include="Resources\icons8-search-96.png" />
+    <None Include="Resources\icons8-search-48.png" />
+    <None Include="Resources\glasses.png" />
+    <None Include="Resources\forward-right-arrow-button.png" />
+    <None Include="Resources\delete_1.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\cog.png" />
+    <None Include="Resources\calendar.png" />
+    <None Include="Resources\calendar %282%29.png" />
+    <None Include="Resources\calendar %281%29.png" />
+    <None Include="Resources\bell.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

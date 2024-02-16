@@ -1,0 +1,21 @@
+{
+  "ExpandedNodes": [
+    "\\WizWork",
+    "\\WizWork\\Common",
+    "\\WizWork\\Common\\obj",
+    "\\WizWork\\Common\\obj\\x86",
+    "\\WizWork\\Common\\obj\\x86\\Debug",
+    "\\WizWork\\KR_POP",
+    "\\WizWork\\KR_POP\\obj",
+    "\\WizWork\\KR_POP\\obj\\Debug",
+    "\\WizWork\\KR_POP\\obj\\Release",
+    "\\WizWork\\KR_POP\\obj\\x64",
+    "\\WizWork\\KR_POP\\obj\\x64\\Debug",
+    "\\WizWork\\KR_POP\\obj\\x64\\Debug\\TempPE",
+    "\\WizWork\\KR_POP\\obj\\x64\\Release",
+    "\\WizWork\\KR_POP\\obj\\x64\\Release\\TempPE",
+    "\\WizWork\\KR_POP\\obj\\x86",
+    "\\WizWork\\KR_POP\\obj\\x86\\Debug"
+  ],
+  "PreviewInSolutionExplorer": false
+}
