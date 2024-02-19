@@ -828,3 +828,21 @@ D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_T
 D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
 D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.dll
 D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizCommon\obj\Debug\WizCommon.pdb
+D:\업무\프로그램\2022\서강정밀\WizCommon\bin\Debug\WizCommon.dll
+D:\업무\프로그램\2022\서강정밀\WizCommon\bin\Debug\WizCommon.pdb
+D:\업무\프로그램\2022\서강정밀\WizCommon\bin\Debug\stdole.dll
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.csproj.AssemblyReference.cache
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.Popup.DefectU.EditBoxAdd.resources
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.Popup.DefectU.FrmDefect.resources
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMKeypad.resources
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.Popup.Frm_CMNumericKeypad.resources
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_Calendar.resources
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.Popup.Frm_tins_LabelRegister.resources
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.Popup.Frm_TLP_Calendar.resources
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.Popup.MyMessageBox.resources
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.Properties.Resources.resources
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.csproj.GenerateResource.cache
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.csproj.CoreCompileInputs.cache
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.csproj.CopyComplete
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.dll
+D:\업무\프로그램\2022\서강정밀\WizCommon\obj\Debug\WizCommon.pdb

@@ -162,3 +162,25 @@ D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_T
 D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.csproj.CopyComplete
 D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.exe
 D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizMon\obj\Debug\WizMon.pdb
+D:\업무\프로그램\2022\서강정밀\WizMon\bin\Debug\WizMon.exe.config
+D:\업무\프로그램\2022\서강정밀\WizMon\bin\Debug\WizMon.exe
+D:\업무\프로그램\2022\서강정밀\WizMon\bin\Debug\WizMon.pdb
+D:\업무\프로그램\2022\서강정밀\WizMon\bin\Debug\WizCommon.dll
+D:\업무\프로그램\2022\서강정밀\WizMon\bin\Debug\AxInterop.MSACAL.dll
+D:\업무\프로그램\2022\서강정밀\WizMon\bin\Debug\AxMSACAL.dll
+D:\업무\프로그램\2022\서강정밀\WizMon\bin\Debug\stdole.dll
+D:\업무\프로그램\2022\서강정밀\WizMon\bin\Debug\WizCommon.pdb
+D:\업무\프로그램\2022\서강정밀\WizMon\bin\Debug\WizMes_Work.pdb
+D:\업무\프로그램\2022\서강정밀\WizMon\bin\Debug\WizMes_Work.dll.config
+D:\업무\프로그램\2022\서강정밀\WizMon\obj\Debug\WizMon.csproj.AssemblyReference.cache
+D:\업무\프로그램\2022\서강정밀\WizMon\obj\Debug\WizMon.Frm_mon_Info.resources
+D:\업무\프로그램\2022\서강정밀\WizMon\obj\Debug\WizMon.Frm_mon_Inst_Q.resources
+D:\업무\프로그램\2022\서강정밀\WizMon\obj\Debug\WizMon.Frm_mon_Main.resources
+D:\업무\프로그램\2022\서강정밀\WizMon\obj\Debug\WizMon.Frm_mon_Realtime_Q.resources
+D:\업무\프로그램\2022\서강정밀\WizMon\obj\Debug\WizMon.Frm_mon_Stock_Q.resources
+D:\업무\프로그램\2022\서강정밀\WizMon\obj\Debug\WizMon.LabelEx.resources
+D:\업무\프로그램\2022\서강정밀\WizMon\obj\Debug\WizMon.csproj.GenerateResource.cache
+D:\업무\프로그램\2022\서강정밀\WizMon\obj\Debug\WizMon.csproj.CoreCompileInputs.cache
+D:\업무\프로그램\2022\서강정밀\WizMon\obj\Debug\WizMon.csproj.CopyComplete
+D:\업무\프로그램\2022\서강정밀\WizMon\obj\Debug\WizMon.exe
+D:\업무\프로그램\2022\서강정밀\WizMon\obj\Debug\WizMon.pdb

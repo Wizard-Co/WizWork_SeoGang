@@ -285,3 +285,27 @@ D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_T
 D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\WizIns.exe
 D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\bin\Debug\WizIns.pdb
 D:\KGH\업체\1_서강정밀\2_현장 프로그램\WizWork_SeoGang_C#_20201117_TSC\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\업무\프로그램\2022\서강정밀\WizIns\bin\Debug\WizIns.exe.config
+D:\업무\프로그램\2022\서강정밀\WizIns\bin\Debug\WizIns.exe
+D:\업무\프로그램\2022\서강정밀\WizIns\bin\Debug\WizIns.pdb
+D:\업무\프로그램\2022\서강정밀\WizIns\bin\Debug\WizCommon.dll
+D:\업무\프로그램\2022\서강정밀\WizIns\bin\Debug\WizMes_Work.dll
+D:\업무\프로그램\2022\서강정밀\WizIns\bin\Debug\AxInterop.MSACAL.dll
+D:\업무\프로그램\2022\서강정밀\WizIns\bin\Debug\AxMSACAL.dll
+D:\업무\프로그램\2022\서강정밀\WizIns\bin\Debug\stdole.dll
+D:\업무\프로그램\2022\서강정밀\WizIns\bin\Debug\WizCommon.pdb
+D:\업무\프로그램\2022\서강정밀\WizIns\bin\Debug\WizMes_Work.pdb
+D:\업무\프로그램\2022\서강정밀\WizIns\bin\Debug\WizMes_Work.dll.config
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.csproj.AssemblyReference.cache
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.Frm_tins_Main.resources
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.Frm_tins_NotInspect.resources
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.Frm_tins_Order_Q.resources
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.Frm_tins_Result_Q.resources
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.Frm_PopUp_Packing.resources
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.Frm_PopUp_PackingAndOutBox.resources
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.Frm_PopUp_setPerson.resources
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.csproj.GenerateResource.cache
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.csproj.CoreCompileInputs.cache
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.csproj.CopyComplete
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.exe
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.pdb

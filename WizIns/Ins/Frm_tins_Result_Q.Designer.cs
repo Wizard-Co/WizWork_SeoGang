@@ -315,6 +315,7 @@
             this.btnRePrint.Text = "라벨\r\n재발행";
             this.btnRePrint.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnRePrint.UseVisualStyleBackColor = true;
+            this.btnRePrint.Visible = false;
             this.btnRePrint.Click += new System.EventHandler(this.btnRePrint_Click);
             // 
             // btnColRight

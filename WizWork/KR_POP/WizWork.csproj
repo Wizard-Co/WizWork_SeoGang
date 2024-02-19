@@ -222,262 +222,274 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Tkb\Com\frm_tprc_TransCracData.cs">
+    <Compile Include="SeoGang\Com\frm_tprc_TransCracData.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\Com\frm_tprc_TransCracData.designer.cs">
+    <Compile Include="SeoGang\Com\frm_tprc_TransCracData.designer.cs">
       <DependentUpon>frm_tprc_TransCracData.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tins_InspectAuto_U_New.cs">
+    <Compile Include="SeoGang\frm_tins_InspectAuto_U_New.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tins_InspectAuto_U_New.Designer.cs">
+    <Compile Include="SeoGang\frm_tins_InspectAuto_U_New.Designer.cs">
       <DependentUpon>frm_tins_InspectAuto_U_New.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_CardRePrint_U.cs">
+    <Compile Include="SeoGang\frm_tprc_CardRePrint_U.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_CardRePrint_U.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_CardRePrint_U.designer.cs">
       <DependentUpon>frm_tprc_CardRePrint_U.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_DailMoldCheck.cs">
+    <Compile Include="SeoGang\frm_tprc_DailMoldCheck.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_DailMoldCheck.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_DailMoldCheck.designer.cs">
       <DependentUpon>frm_tprc_DailMoldCheck.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_DailMoldCheck_Q.cs">
+    <Compile Include="SeoGang\frm_tprc_DailMoldCheck_Q.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_DailMoldCheck_Q.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_DailMoldCheck_Q.designer.cs">
       <DependentUpon>frm_tprc_DailMoldCheck_Q.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\Frm_tprc_PlanInputMolded_Q.cs">
+    <Compile Include="SeoGang\frm_tprc_MoldDetail_Q.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\Frm_tprc_PlanInputMolded_Q.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_MoldDetail_Q.designer.cs">
+      <DependentUpon>frm_tprc_MoldDetail_Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeoGang\frm_tprc_Mold_Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeoGang\frm_tprc_Mold_Q.designer.cs">
+      <DependentUpon>frm_tprc_Mold_Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SeoGang\Frm_tprc_PlanInputMolded_Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeoGang\Frm_tprc_PlanInputMolded_Q.designer.cs">
       <DependentUpon>Frm_tprc_PlanInputMolded_Q.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_SearchMenuCollection.cs">
+    <Compile Include="SeoGang\frm_tprc_SearchMenuCollection.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_SearchMenuCollection.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_SearchMenuCollection.designer.cs">
       <DependentUpon>frm_tprc_SearchMenuCollection.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_setProcess.cs">
+    <Compile Include="SeoGang\frm_tprc_setProcess.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_setProcess.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_setProcess.designer.cs">
       <DependentUpon>frm_tprc_setProcess.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_TransCracData.cs">
+    <Compile Include="SeoGang\frm_tprc_TransCracData.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_TransCracData.Designer.cs">
+    <Compile Include="SeoGang\frm_tprc_TransCracData.Designer.cs">
       <DependentUpon>frm_tprc_TransCracData.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_UseTool_Q.cs">
+    <Compile Include="SeoGang\frm_tprc_UseTool_Q.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_UseTool_Q.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_UseTool_Q.designer.cs">
       <DependentUpon>frm_tprc_UseTool_Q.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\Control\DefectButton.cs">
+    <Compile Include="SeoGang\Control\DefectButton.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Tkb\Control\DefectButton.designer.cs">
+    <Compile Include="SeoGang\Control\DefectButton.designer.cs">
       <DependentUpon>DefectButton.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_mtr_RemainQtyMoveByLotID_U.cs">
+    <Compile Include="SeoGang\PopUp\frm_mtr_RemainQtyMoveByLotID_U.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_mtr_RemainQtyMoveByLotID_U.Designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_mtr_RemainQtyMoveByLotID_U.Designer.cs">
       <DependentUpon>frm_mtr_RemainQtyMoveByLotID_U.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_mtr_InputMove_U2.cs">
+    <Compile Include="SeoGang\PopUp\frm_mtr_InputMove_U2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_mtr_InputMove_U2.Designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_mtr_InputMove_U2.Designer.cs">
       <DependentUpon>frm_mtr_InputMove_U2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sMoldByArticleID.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sMoldByArticleID.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sMoldByArticleID.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sMoldByArticleID.Designer.cs">
       <DependentUpon>Frm_PopUpSel_sMoldByArticleID.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_BringSplitData.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_BringSplitData.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_BringSplitData.Designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_BringSplitData.Designer.cs">
       <DependentUpon>frm_PopUp_BringSplitData.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_ChoiceLabelPrintType.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_ChoiceLabelPrintType.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_ChoiceLabelPrintType.Designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_ChoiceLabelPrintType.Designer.cs">
       <DependentUpon>frm_PopUp_ChoiceLabelPrintType.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgIns2.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUp_ImgIns2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgIns2.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUp_ImgIns2.Designer.cs">
       <DependentUpon>Frm_PopUp_ImgIns2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgIns.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUp_ImgIns.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgIns.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUp_ImgIns.Designer.cs">
       <DependentUpon>Frm_PopUp_ImgIns.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sArticle.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sArticle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sArticle.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sArticle.Designer.cs">
       <DependentUpon>Frm_PopUpSel_sArticle.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sArticle_O.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sArticle_O.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sArticle_O.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sArticle_O.Designer.cs">
       <DependentUpon>Frm_PopUpSel_sArticle_O.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_AddSave.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_AddSave.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_AddSave.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_AddSave.Designer.cs">
       <DependentUpon>Frm_PopUpSel_AddSave.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sProcess.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sProcess.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sProcess.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sProcess.Designer.cs">
       <DependentUpon>Frm_PopUpSel_sProcess.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgArticleInfo.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUp_ImgArticleInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgArticleInfo.designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUp_ImgArticleInfo.designer.cs">
       <DependentUpon>Frm_PopUp_ImgArticleInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgWorkOrder.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUp_ImgWorkOrder.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUp_ImgWorkOrder.designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUp_ImgWorkOrder.designer.cs">
       <DependentUpon>Frm_PopUp_ImgWorkOrder.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_LabelPrint.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_LabelPrint.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_LabelPrint.Designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_LabelPrint.Designer.cs">
       <DependentUpon>frm_PopUp_LabelPrint.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_Popup_NoWork.cs">
+    <Compile Include="SeoGang\PopUp\frm_Popup_NoWork.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_Popup_NoWork.Designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_Popup_NoWork.Designer.cs">
       <DependentUpon>frm_Popup_NoWork.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_PreScanWork4.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_PreScanWork4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_PreScanWork4.designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_PreScanWork4.designer.cs">
       <DependentUpon>frm_PopUp_PreScanWork4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_SaveSelection.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_SaveSelection.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_SaveSelection.designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_SaveSelection.designer.cs">
       <DependentUpon>frm_PopUp_SaveSelection.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_PreScanWork3.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_PreScanWork3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_PreScanWork3.designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_PreScanWork3.designer.cs">
       <DependentUpon>frm_PopUp_PreScanWork3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_PreScanWork.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_PreScanWork.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_PreScanWork.designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_PreScanWork.designer.cs">
       <DependentUpon>frm_PopUp_PreScanWork.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUp_setPerson_Work.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUp_setPerson_Work.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUp_setPerson_Work.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUp_setPerson_Work.Designer.cs">
       <DependentUpon>Frm_PopUp_setPerson_Work.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUp_sJobIDBy0405.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUp_sJobIDBy0405.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUp_sJobIDBy0405.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUp_sJobIDBy0405.Designer.cs">
       <DependentUpon>Frm_PopUp_sJobIDBy0405.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_tins_Calendar.cs">
+    <Compile Include="SeoGang\PopUp\Frm_tins_Calendar.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_tins_Calendar.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_tins_Calendar.Designer.cs">
       <DependentUpon>Frm_tins_Calendar.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_mtr_RemainMove_Q.cs">
+    <Compile Include="SeoGang\PopUp\frm_mtr_RemainMove_Q.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_mtr_RemainMove_Q.Designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_mtr_RemainMove_Q.Designer.cs">
       <DependentUpon>frm_mtr_RemainMove_Q.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_tprc_UseTool_U.cs">
+    <Compile Include="SeoGang\PopUp\frm_tprc_UseTool_U.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_tprc_UseTool_U.designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_tprc_UseTool_U.designer.cs">
       <DependentUpon>frm_tprc_UseTool_U.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_trpc_MtrLossAlarm_Q.cs">
+    <Compile Include="SeoGang\PopUp\frm_trpc_MtrLossAlarm_Q.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_trpc_MtrLossAlarm_Q.Designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_trpc_MtrLossAlarm_Q.Designer.cs">
       <DependentUpon>frm_trpc_MtrLossAlarm_Q.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_trpc_MtrLossAlarm_U.cs">
+    <Compile Include="SeoGang\PopUp\frm_trpc_MtrLossAlarm_U.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_trpc_MtrLossAlarm_U.Designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_trpc_MtrLossAlarm_U.Designer.cs">
       <DependentUpon>frm_trpc_MtrLossAlarm_U.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_mtr_RemainQtyMoveByLotID2_U.cs">
+    <Compile Include="SeoGang\PopUp\frm_mtr_RemainQtyMoveByLotID2_U.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_mtr_RemainQtyMoveByLotID2_U.designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_mtr_RemainQtyMoveByLotID2_U.designer.cs">
       <DependentUpon>frm_mtr_RemainQtyMoveByLotID2_U.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sArticle_ByScan.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sArticle_ByScan.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sArticle_ByScan.designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sArticle_ByScan.designer.cs">
       <DependentUpon>Frm_PopUpSel_sArticle_ByScan.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_ImgInspectAuto.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_ImgInspectAuto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_PopUp_ImgInspectAuto.Designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_PopUp_ImgInspectAuto.Designer.cs">
       <DependentUpon>frm_PopUp_ImgInspectAuto.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Com_MessageBox.cs">
+    <Compile Include="SeoGang\PopUp\Com_MessageBox.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Com_MessageBox.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Com_MessageBox.Designer.cs">
       <DependentUpon>Com_MessageBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\Tools\NativeMethods.cs" />
+    <Compile Include="SeoGang\Tools\NativeMethods.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\Frm_Info.cs">
+    <Compile Include="SeoGang\Frm_Info.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\Frm_Info.Designer.cs">
+    <Compile Include="SeoGang\Frm_Info.Designer.cs">
       <DependentUpon>Frm_Info.cs</DependentUpon>
     </Compile>
     <Compile Include="FTP.cs" />
@@ -508,124 +520,130 @@
     <Compile Include="TableData\wk_Work_sResultMissingWorkQty.cs" />
     <Compile Include="TableData\wk_Work_sResultWithMachineComProcess.cs" />
     <Compile Include="TableData\wk_Work_sWorkDefect.cs" />
-    <EmbeddedResource Include="Tkb\Com\frm_tprc_TransCracData.resx">
+    <EmbeddedResource Include="SeoGang\Com\frm_tprc_TransCracData.resx">
       <DependentUpon>frm_tprc_TransCracData.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\Frm_Info.resx">
+    <EmbeddedResource Include="SeoGang\Frm_Info.resx">
       <DependentUpon>Frm_Info.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tins_InspectAuto_U_New.resx">
+    <EmbeddedResource Include="SeoGang\frm_tins_InspectAuto_U_New.resx">
       <DependentUpon>frm_tins_InspectAuto_U_New.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_CardRePrint_U.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_CardRePrint_U.resx">
       <DependentUpon>frm_tprc_CardRePrint_U.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_DailMoldCheck.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_DailMoldCheck.resx">
       <DependentUpon>frm_tprc_DailMoldCheck.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_DailMoldCheck_Q.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_DailMoldCheck_Q.resx">
       <DependentUpon>frm_tprc_DailMoldCheck_Q.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\Frm_tprc_PlanInputMolded_Q.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_MoldDetail_Q.resx">
+      <DependentUpon>frm_tprc_MoldDetail_Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeoGang\frm_tprc_Mold_Q.resx">
+      <DependentUpon>frm_tprc_Mold_Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeoGang\Frm_tprc_PlanInputMolded_Q.resx">
       <DependentUpon>Frm_tprc_PlanInputMolded_Q.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_SearchMenuCollection.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_SearchMenuCollection.resx">
       <DependentUpon>frm_tprc_SearchMenuCollection.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_setProcess.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_setProcess.resx">
       <DependentUpon>frm_tprc_setProcess.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_TransCracData.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_TransCracData.resx">
       <DependentUpon>frm_tprc_TransCracData.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_UseTool_Q.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_UseTool_Q.resx">
       <DependentUpon>frm_tprc_UseTool_Q.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\Control\DefectButton.resx">
+    <EmbeddedResource Include="SeoGang\Control\DefectButton.resx">
       <DependentUpon>DefectButton.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_mtr_RemainQtyMoveByLotID_U.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_mtr_RemainQtyMoveByLotID_U.resx">
       <DependentUpon>frm_mtr_RemainQtyMoveByLotID_U.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_mtr_InputMove_U2.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_mtr_InputMove_U2.resx">
       <DependentUpon>frm_mtr_InputMove_U2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sMoldByArticleID.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUpSel_sMoldByArticleID.resx">
       <DependentUpon>Frm_PopUpSel_sMoldByArticleID.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sPerson.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUpSel_sPerson.resx">
       <DependentUpon>Frm_PopUpSel_sPerson.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sProcess.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUpSel_sProcess.resx">
       <DependentUpon>Frm_PopUpSel_sProcess.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_BringSplitData.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_PopUp_BringSplitData.resx">
       <DependentUpon>frm_PopUp_BringSplitData.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_ChoiceLabelPrintType.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_PopUp_ChoiceLabelPrintType.resx">
       <DependentUpon>frm_PopUp_ChoiceLabelPrintType.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUp_ImgIns2.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUp_ImgIns2.resx">
       <DependentUpon>Frm_PopUp_ImgIns2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUp_ImgIns.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUp_ImgIns.resx">
       <DependentUpon>Frm_PopUp_ImgIns.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_AddSave.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUpSel_AddSave.resx">
       <DependentUpon>Frm_PopUpSel_AddSave.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sArticle.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUpSel_sArticle.resx">
       <DependentUpon>Frm_PopUpSel_sArticle.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sArticle_O.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUpSel_sArticle_O.resx">
       <DependentUpon>Frm_PopUpSel_sArticle_O.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sMachine.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUpSel_sMachine.resx">
       <DependentUpon>Frm_PopUpSel_sMachine.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUp_ImgArticleInfo.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUp_ImgArticleInfo.resx">
       <DependentUpon>Frm_PopUp_ImgArticleInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUp_ImgWorkOrder.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUp_ImgWorkOrder.resx">
       <DependentUpon>Frm_PopUp_ImgWorkOrder.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_LabelPrint.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_PopUp_LabelPrint.resx">
       <DependentUpon>frm_PopUp_LabelPrint.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_Popup_NoWork.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_Popup_NoWork.resx">
       <DependentUpon>frm_Popup_NoWork.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_PreScanWork4.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_PopUp_PreScanWork4.resx">
       <DependentUpon>frm_PopUp_PreScanWork4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_SaveSelection.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_PopUp_SaveSelection.resx">
       <DependentUpon>frm_PopUp_SaveSelection.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_PreScanWork3.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_PopUp_PreScanWork3.resx">
       <DependentUpon>frm_PopUp_PreScanWork3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_PreScanWork.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_PopUp_PreScanWork.resx">
       <DependentUpon>frm_PopUp_PreScanWork.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUp_setPerson_Work.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUp_setPerson_Work.resx">
       <DependentUpon>Frm_PopUp_setPerson_Work.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUp_sJobIDBy0405.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUp_sJobIDBy0405.resx">
       <DependentUpon>Frm_PopUp_sJobIDBy0405.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_tins_Calendar.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_tins_Calendar.resx">
       <DependentUpon>Frm_tins_Calendar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_mtr_RemainMove_Q.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_mtr_RemainMove_Q.resx">
       <DependentUpon>frm_mtr_RemainMove_Q.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_tprc_UseTool_U.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_tprc_UseTool_U.resx">
       <DependentUpon>frm_tprc_UseTool_U.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_trpc_MtrLossAlarm_Q.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_trpc_MtrLossAlarm_Q.resx">
       <DependentUpon>frm_trpc_MtrLossAlarm_Q.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_trpc_MtrLossAlarm_U.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_trpc_MtrLossAlarm_U.resx">
       <DependentUpon>frm_trpc_MtrLossAlarm_U.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -643,229 +661,229 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Tkb\frmSetting.cs">
+    <Compile Include="SeoGang\frmSetting.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frmSetting.designer.cs">
+    <Compile Include="SeoGang\frmSetting.designer.cs">
       <DependentUpon>frmSetting.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_setProcess_NoWork.cs">
+    <Compile Include="SeoGang\frm_tprc_setProcess_NoWork.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_setProcess_NoWork.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_setProcess_NoWork.designer.cs">
       <DependentUpon>frm_tprc_setProcess_NoWork.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_Work_U.cs">
+    <Compile Include="SeoGang\frm_tprc_Work_U.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_Work_U.Designer.cs">
+    <Compile Include="SeoGang\frm_tprc_Work_U.Designer.cs">
       <DependentUpon>frm_tprc_Work_U.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\Lib\MES_WTS_Lib.cs" />
-    <Compile Include="Tkb\PopUp\Frm_CMKeypad.cs">
+    <Compile Include="SeoGang\Lib\MES_WTS_Lib.cs" />
+    <Compile Include="SeoGang\PopUp\Frm_CMKeypad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_CMKeypad.designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_CMKeypad.designer.cs">
       <DependentUpon>Frm_CMKeypad.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_CMNumericKeypad.cs">
+    <Compile Include="SeoGang\PopUp\Frm_CMNumericKeypad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_CMNumericKeypad.designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_CMNumericKeypad.designer.cs">
       <DependentUpon>Frm_CMNumericKeypad.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_DefectYN.cs">
+    <Compile Include="SeoGang\PopUp\frm_DefectYN.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_DefectYN.designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_DefectYN.designer.cs">
       <DependentUpon>frm_DefectYN.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\Frm_InspectionLegend.cs">
+    <Compile Include="SeoGang\Frm_InspectionLegend.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\Frm_InspectionLegend.designer.cs">
+    <Compile Include="SeoGang\Frm_InspectionLegend.designer.cs">
       <DependentUpon>Frm_InspectionLegend.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\Frm_SelectReason.cs">
+    <Compile Include="SeoGang\Frm_SelectReason.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\Frm_SelectReason.designer.cs">
+    <Compile Include="SeoGang\Frm_SelectReason.designer.cs">
       <DependentUpon>Frm_SelectReason.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tins_InspectAutoResult_Q.cs">
+    <Compile Include="SeoGang\frm_tins_InspectAutoResult_Q.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tins_InspectAutoResult_Q.Designer.cs">
+    <Compile Include="SeoGang\frm_tins_InspectAutoResult_Q.Designer.cs">
       <DependentUpon>frm_tins_InspectAutoResult_Q.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tins_InspectAuto_U.cs">
+    <Compile Include="SeoGang\frm_tins_InspectAuto_U.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tins_InspectAuto_U.Designer.cs">
+    <Compile Include="SeoGang\frm_tins_InspectAuto_U.Designer.cs">
       <DependentUpon>frm_tins_InspectAuto_U.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tins_InspectText.cs">
+    <Compile Include="SeoGang\frm_tins_InspectText.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tins_InspectText.Designer.cs">
+    <Compile Include="SeoGang\frm_tins_InspectText.Designer.cs">
       <DependentUpon>frm_tins_InspectText.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_DailMachineCheck.cs">
+    <Compile Include="SeoGang\frm_tprc_DailMachineCheck.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_DailMachineCheck.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_DailMachineCheck.designer.cs">
       <DependentUpon>frm_tprc_DailMachineCheck.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_DailMachineCheck_Q.cs">
+    <Compile Include="SeoGang\frm_tprc_DailMachineCheck_Q.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_DailMachineCheck_Q.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_DailMachineCheck_Q.designer.cs">
       <DependentUpon>frm_tprc_DailMachineCheck_Q.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\Frm_tprc_Main.cs">
+    <Compile Include="SeoGang\Frm_tprc_Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\Frm_tprc_Main.designer.cs">
+    <Compile Include="SeoGang\Frm_tprc_Main.designer.cs">
       <DependentUpon>Frm_tprc_Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_NoWork_U.cs">
+    <Compile Include="SeoGang\frm_tprc_NoWork_U.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_NoWork_U.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_NoWork_U.designer.cs">
       <DependentUpon>frm_tprc_NoWork_U.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_Result_Q.cs">
+    <Compile Include="SeoGang\frm_tprc_Result_Q.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_Result_Q.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_Result_Q.designer.cs">
       <DependentUpon>frm_tprc_Result_Q.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_Work_Defect_U.cs">
+    <Compile Include="SeoGang\frm_tprc_Work_Defect_U.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\frm_tprc_Work_Defect_U.designer.cs">
+    <Compile Include="SeoGang\frm_tprc_Work_Defect_U.designer.cs">
       <DependentUpon>frm_tprc_Work_Defect_U.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp.cs">
+    <Compile Include="SeoGang\PopUp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp.designer.cs">
+    <Compile Include="SeoGang\PopUp.designer.cs">
       <DependentUpon>PopUp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel.Designer.cs">
       <DependentUpon>Frm_PopUpSel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sPerson.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sPerson.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sPerson.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sPerson.Designer.cs">
       <DependentUpon>Frm_PopUpSel_sPerson.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sMachine.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sMachine.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\Frm_PopUpSel_sMachine.Designer.cs">
+    <Compile Include="SeoGang\PopUp\Frm_PopUpSel_sMachine.Designer.cs">
       <DependentUpon>Frm_PopUpSel_sMachine.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_tins_Find.cs">
+    <Compile Include="SeoGang\PopUp\frm_tins_Find.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Tkb\PopUp\frm_tins_Find.Designer.cs">
+    <Compile Include="SeoGang\PopUp\frm_tins_Find.Designer.cs">
       <DependentUpon>frm_tins_Find.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\Tools\AutoClosingMessageBox.cs" />
-    <Compile Include="Tkb\Tools\CurrentData.cs" />
-    <Compile Include="Tkb\Tools\DataDeliver.cs" />
-    <Compile Include="Tkb\Tools\FTPAcess.cs" />
-    <Compile Include="Tkb\Tools\INI_GS.cs" />
-    <Compile Include="Tkb\Tools\TextEvent.cs" />
-    <Compile Include="Tkb\UC_ReasonMenuCell.cs">
+    <Compile Include="SeoGang\Tools\AutoClosingMessageBox.cs" />
+    <Compile Include="SeoGang\Tools\CurrentData.cs" />
+    <Compile Include="SeoGang\Tools\DataDeliver.cs" />
+    <Compile Include="SeoGang\Tools\FTPAcess.cs" />
+    <Compile Include="SeoGang\Tools\INI_GS.cs" />
+    <Compile Include="SeoGang\Tools\TextEvent.cs" />
+    <Compile Include="SeoGang\UC_ReasonMenuCell.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Tkb\UC_ReasonMenuCell.designer.cs">
+    <Compile Include="SeoGang\UC_ReasonMenuCell.designer.cs">
       <DependentUpon>UC_ReasonMenuCell.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tkb\WizWorkLib.cs" />
+    <Compile Include="SeoGang\WizWorkLib.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <EmbeddedResource Include="Tkb\frmSetting.resx">
+    <EmbeddedResource Include="SeoGang\frmSetting.resx">
       <DependentUpon>frmSetting.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_setProcess_NoWork.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_setProcess_NoWork.resx">
       <DependentUpon>frm_tprc_setProcess_NoWork.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_Work_U.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_Work_U.resx">
       <DependentUpon>frm_tprc_Work_U.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_CMKeypad.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_CMKeypad.resx">
       <DependentUpon>Frm_CMKeypad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_CMNumericKeypad.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_CMNumericKeypad.resx">
       <DependentUpon>Frm_CMNumericKeypad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_DefectYN.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_DefectYN.resx">
       <DependentUpon>frm_DefectYN.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\Frm_InspectionLegend.resx">
+    <EmbeddedResource Include="SeoGang\Frm_InspectionLegend.resx">
       <DependentUpon>Frm_InspectionLegend.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\Frm_SelectReason.resx">
+    <EmbeddedResource Include="SeoGang\Frm_SelectReason.resx">
       <DependentUpon>Frm_SelectReason.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tins_InspectAutoResult_Q.resx">
+    <EmbeddedResource Include="SeoGang\frm_tins_InspectAutoResult_Q.resx">
       <DependentUpon>frm_tins_InspectAutoResult_Q.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tins_InspectAuto_U.resx">
+    <EmbeddedResource Include="SeoGang\frm_tins_InspectAuto_U.resx">
       <DependentUpon>frm_tins_InspectAuto_U.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tins_InspectText.resx">
+    <EmbeddedResource Include="SeoGang\frm_tins_InspectText.resx">
       <DependentUpon>frm_tins_InspectText.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_DailMachineCheck.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_DailMachineCheck.resx">
       <DependentUpon>frm_tprc_DailMachineCheck.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_DailMachineCheck_Q.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_DailMachineCheck_Q.resx">
       <DependentUpon>frm_tprc_DailMachineCheck_Q.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\Frm_tprc_Main.resx">
+    <EmbeddedResource Include="SeoGang\Frm_tprc_Main.resx">
       <DependentUpon>Frm_tprc_Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_NoWork_U.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_NoWork_U.resx">
       <DependentUpon>frm_tprc_NoWork_U.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_Result_Q.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_Result_Q.resx">
       <DependentUpon>frm_tprc_Result_Q.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\frm_tprc_Work_Defect_U.resx">
+    <EmbeddedResource Include="SeoGang\frm_tprc_Work_Defect_U.resx">
       <DependentUpon>frm_tprc_Work_Defect_U.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp.resx">
+    <EmbeddedResource Include="SeoGang\PopUp.resx">
       <DependentUpon>PopUp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUpSel.resx">
       <DependentUpon>Frm_PopUpSel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_tins_Find.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_tins_Find.resx">
       <DependentUpon>frm_tins_Find.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_mtr_RemainQtyMoveByLotID2_U.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_mtr_RemainQtyMoveByLotID2_U.resx">
       <DependentUpon>frm_mtr_RemainQtyMoveByLotID2_U.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Frm_PopUpSel_sArticle_ByScan.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUpSel_sArticle_ByScan.resx">
       <DependentUpon>Frm_PopUpSel_sArticle_ByScan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\frm_PopUp_ImgInspectAuto.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\frm_PopUp_ImgInspectAuto.resx">
       <DependentUpon>frm_PopUp_ImgInspectAuto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\PopUp\Com_MessageBox.resx">
+    <EmbeddedResource Include="SeoGang\PopUp\Com_MessageBox.resx">
       <DependentUpon>Com_MessageBox.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Tkb\UC_ReasonMenuCell.resx">
+    <EmbeddedResource Include="SeoGang\UC_ReasonMenuCell.resx">
       <DependentUpon>UC_ReasonMenuCell.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\app.manifest" />
