@@ -262,6 +262,18 @@
         bh6bzTt13lIkWtpR+QAAAABJRU5ErkJggg==
 </value>
   </data>
+  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7AAAAOwAFq1okJAAAAB3RJ
+        TUUH5AIEAiIAEJWlTQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEcSURBVFhH
+        7ZfBasMwEER9bntqf7g/1lM/LPGQDMyuRrs1FgmEPhjWmh3JsrEN3v75A5eDAu/3ugQs+nk7DHztyieH
+        wO+uj9vhebioO1FVl21CF1WB7EG4M0vBoqwqkCvQjPoteSIno7qrmj0DWWDmB2C6hy1PPKoMNz5AM09G
+        PfIWZAE3HujC6rueQ/sUsPkurP7McwJuPNCF1Xc9h/YpYPNdWP2Z5wTceKALq+96Du1TwOar8MrvAGAN
+        VOEzAm48UIU7Vd8JoFnAGujCrBntq4DrAdZAFe4EZh6r8wNdmDWjfRVwPcAaqMKdqrcEaBawBqrwGQE3
+        HoDprmQ1emcC3OGj9Bp83/U0nr6Bh/K262eXe6BUS/+KXp1tuwL8SosILzalpwAAAABJRU5ErkJggg==
+</value>
+  </data>
   <metadata name="No.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -307,18 +319,6 @@
   <metadata name="WorkDate.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7AAAAOwAFq1okJAAAAB3RJ
-        TUUH5AIEAiIAEJWlTQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEcSURBVFhH
-        7ZfBasMwEER9bntqf7g/1lM/LPGQDMyuRrs1FgmEPhjWmh3JsrEN3v75A5eDAu/3ugQs+nk7DHztyieH
-        wO+uj9vhebioO1FVl21CF1WB7EG4M0vBoqwqkCvQjPoteSIno7qrmj0DWWDmB2C6hy1PPKoMNz5AM09G
-        PfIWZAE3HujC6rueQ/sUsPkurP7McwJuPNCF1Xc9h/YpYPNdWP2Z5wTceKALq+96Du1TwOar8MrvAGAN
-        VOEzAm48UIU7Vd8JoFnAGujCrBntq4DrAdZAFe4EZh6r8wNdmDWjfRVwPcAaqMKdqrcEaBawBqrwGQE3
-        HoDprmQ1emcC3OGj9Bp83/U0nr6Bh/K262eXe6BUS/+KXp1tuwL8SosILzalpwAAAABJRU5ErkJggg==
-</value>
-  </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>43</value>
   </metadata>
