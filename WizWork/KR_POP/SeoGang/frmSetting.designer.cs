@@ -81,7 +81,7 @@
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(105, 63);
             this.btnOK.TabIndex = 162;
-            this.btnOK.Text = "선택";
+            this.btnOK.Text = "저장";
             this.btnOK.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
@@ -434,6 +434,9 @@
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(647, 558);
             this.Controls.Add(this.tlpForm);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(663, 597);
+            this.MinimizeBox = false;
             this.Name = "FrmSetting";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "공정 및 호기 설정";

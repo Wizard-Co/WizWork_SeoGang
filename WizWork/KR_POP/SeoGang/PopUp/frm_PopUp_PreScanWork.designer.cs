@@ -50,6 +50,7 @@
             this.NowLoc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.UnitClssName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Label = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ScanExceptYN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.IsIN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cancel = new System.Windows.Forms.DataGridViewButtonColumn();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -216,6 +217,7 @@
             this.NowLoc,
             this.UnitClssName,
             this.Label,
+            this.ScanExceptYN,
             this.IsIN,
             this.Cancel});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -305,6 +307,14 @@
             this.Label.Name = "Label";
             this.Label.ReadOnly = true;
             this.Label.Width = 67;
+            // 
+            // ScanExceptYN
+            // 
+            this.ScanExceptYN.HeaderText = "하위품스캔예외여부";
+            this.ScanExceptYN.Name = "ScanExceptYN";
+            this.ScanExceptYN.ReadOnly = true;
+            this.ScanExceptYN.Visible = false;
+            this.ScanExceptYN.Width = 179;
             // 
             // IsIN
             // 
@@ -454,10 +464,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(803, 526);
+            this.ClientSize = new System.Drawing.Size(803, 398);
             this.Controls.Add(this.tlpMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(819, 437);
+            this.MinimizeBox = false;
             this.Name = "frm_PopUp_PreScanWork";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "전표라벨 스캔";
@@ -512,6 +525,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NowLoc;
         private System.Windows.Forms.DataGridViewTextBoxColumn UnitClssName;
         private System.Windows.Forms.DataGridViewTextBoxColumn Label;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ScanExceptYN;
         private System.Windows.Forms.DataGridViewTextBoxColumn IsIN;
         private System.Windows.Forms.DataGridViewButtonColumn Cancel;
     }

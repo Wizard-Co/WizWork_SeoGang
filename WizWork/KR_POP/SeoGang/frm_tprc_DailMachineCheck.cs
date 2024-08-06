@@ -17,6 +17,9 @@ namespace WizWork
         POPUP.Frm_CMKeypad keypad = new POPUP.Frm_CMKeypad();
         string g_ProcessID = string.Empty;
         string g_MachineList = string.Empty;
+        string m_ProcessID = "";
+        string m_MachineID = "";
+        string m_MCID = "";
         INI_GS gs = new INI_GS();
         List<string> DeleteRowInspectID = new List<string>();
         DataGridView UpdateList = new DataGridView();
@@ -44,6 +47,14 @@ namespace WizWork
         {
             InitializeComponent();
         }
+
+        public Frm_tprc_DailMachineCheck(string ProcessID, string MachineID)
+        {
+            InitializeComponent();
+            m_ProcessID = ProcessID;
+            m_MachineID = MachineID;
+        }
+
         #region Default Grid Setting
 
         private void InitGrid()
@@ -844,6 +855,8 @@ namespace WizWork
 
                 ProcSave();
 
+                btnClose_Click(null, null);
+
             }
 
         }
@@ -949,7 +962,9 @@ namespace WizWork
             ClearData();
             SetComboBox();
             //SetCboMcName();
+
             blLoad = true;
+
             //if (cboProcess.Items.Count > 0)
             //{
             //    //cboProcess.SelectedIndex = 0;
@@ -965,6 +980,16 @@ namespace WizWork
 
             // 작업자 변경
             txtPerson.Text = Frm_tprc_Main.g_tBase.Person.ToString().Trim();
+
+            //빈칸이 아니라면 작업수량입력에서 넘어옴
+            if (m_ProcessID != "" && m_MachineID != "")
+            {
+                cboProcess.SelectedValue = m_ProcessID;
+                FindMCID();
+                cboMcName.SelectedValue = m_MCID;
+                SetBasisDate();                         //개정일자
+                ProcQuery();
+            }
         }
         private void ClearData()
         {
@@ -1197,6 +1222,26 @@ namespace WizWork
             if (setPerson.DialogResult == DialogResult.OK)
             {
                 txtPerson.Text = Frm_tprc_Main.g_tBase.Person;
+            }
+        }
+
+        #endregion
+
+        #region ProcessID, MachineID로 MCID 찾기 
+        private void FindMCID()
+        {
+            Dictionary<string, object> sqlParameter = new Dictionary<string, object>();
+            sqlParameter.Add("ProcessID", m_ProcessID);
+            sqlParameter.Add("MachineID", m_MachineID);
+
+            DataTable dt = DataStore.Instance.ProcedureToDataTable("xp_Work_sMCID", sqlParameter, false);
+
+            if (dt != null && dt.Rows.Count > 0)
+            {
+                foreach (DataRow dr in dt.Rows)
+                {
+                    m_MCID = dr["MCID"].ToString();
+                }
             }
         }
 

@@ -136,7 +136,7 @@
             this.tlpMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tlpMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 70F));
             this.tlpMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tlpMain.Size = new System.Drawing.Size(781, 506);
+            this.tlpMain.Size = new System.Drawing.Size(781, 316);
             this.tlpMain.TabIndex = 0;
             // 
             // tableLayoutPanel8
@@ -287,7 +287,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26F));
             this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 78);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 50);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -755,7 +755,7 @@
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tableLayoutPanel7.Controls.Add(this.btnCancel, 3, 0);
             this.tableLayoutPanel7.Controls.Add(this.btnOK, 2, 0);
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 432);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(3, 271);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -800,6 +800,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(84, 53);
             this.panel6.TabIndex = 273;
+            this.panel6.Visible = false;
             // 
             // tableLayoutPanel3
             // 
@@ -902,17 +903,21 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(84, 53);
             this.panel7.TabIndex = 273;
+            this.panel7.Visible = false;
             // 
             // Frm_PopUp_PackingAndOutBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(803, 592);
+            this.ClientSize = new System.Drawing.Size(803, 340);
             this.Controls.Add(this.tlpMain);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel7);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(819, 379);
+            this.MinimizeBox = false;
             this.Name = "Frm_PopUp_PackingAndOutBox";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "포장작업";

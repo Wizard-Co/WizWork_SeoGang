@@ -3714,10 +3714,11 @@ public class ChildLabel
     private float _DeficiencyQty = 0; // 부족량
     private float _WorkQty = 0; // 생산하려는 양
     private string _UnitClss = ""; // 생산하려는 양
+    private string _OutwareExceptYN = ""; //하위품예외관리
 
     public ChildLabel() { }
 
-    public ChildLabel(string LabelID, string ArticleID, string Article, string BuyerArticleNo, float ReaQty, float LocRemainQty, float WorkQty)
+    public ChildLabel(string LabelID, string ArticleID, string Article, string BuyerArticleNo, float ReaQty, float LocRemainQty, float WorkQty, string OutwareExceptYN)
     {
         this._LabelID = LabelID;
         this._ArticleID = ArticleID;
@@ -3734,6 +3735,7 @@ public class ChildLabel
         {
             this._DeficiencyQty = 0;
         }
+        this._OutwareExceptYN = OutwareExceptYN;
     }
 
     public string UnitClss
@@ -3794,6 +3796,12 @@ public class ChildLabel
     {
         get { return _DeficiencyQty; }
         set { _DeficiencyQty = value; }
+    }
+
+    public string OutwareExceptYN
+    {
+        get { return _OutwareExceptYN; }
+        set { _OutwareExceptYN = value; }
     }
 }
 

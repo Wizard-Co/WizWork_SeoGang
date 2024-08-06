@@ -734,7 +734,7 @@ namespace WizWork
             if (chkMoveJobID.Checked)
             {
                 txtMoveJobID.Text = "";
-                WizCommon.Popup.Frm_CMNumericKeypad keypad = new WizCommon.Popup.Frm_CMNumericKeypad(txtMoveJobID.Text.Trim(), "잔량이동번호");
+                POPUP.Frm_CMNumericKeypad keypad = new POPUP.Frm_CMNumericKeypad(txtMoveJobID.Text.Trim(), "잔량이동번호");
                 keypad.Owner = this;
                 if (keypad.ShowDialog() == DialogResult.OK)
                 {

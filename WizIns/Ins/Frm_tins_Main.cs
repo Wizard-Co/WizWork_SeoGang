@@ -21,6 +21,9 @@ namespace WizIns
     public partial class Frm_tins_Main : Form
     {
         private int childFormNumber = 0;
+
+        bool Screen_Resolution = false; //해상도 조절 여부 2024-06-17
+
         //전역 변수 선언
         string[] Message = new string[2];
         Button btn = null;//상단 조작부 버튼 클릭 시 사용할 변수
@@ -49,9 +52,11 @@ namespace WizIns
 
         Form form = null;
 
-        public Frm_tins_Main()
+        public Frm_tins_Main(bool screen)
         {
             InitializeComponent();
+
+            Screen_Resolution = screen; //해상도 조절 여부 2024-06-17
         }
 
         private void ShowNewForm(object sender, EventArgs e)
@@ -253,10 +258,25 @@ namespace WizIns
             //ExecuteVB(); >> 시작할때 애가 FORM.FRONT 처리되서 거슬린데.            
             timer_Clock.Start();
             timer_Clock.Interval = 1000;//1초
+
+            //해상도에 따른 크기 조절 2024-06-14 KDH
+            if (Screen_Resolution)
+            {
+                dynamicallyFormSize();
+            }
+            else
+            {
+                //최대화로 로드 함
+                this.WindowState = FormWindowState.Maximized;
+            }
+
             SetScreen();
             LoadRegistry();
 
             btnControl_Click(btnInfo, null);
+
+            //하단 정보를 폼 로드 후 조절
+            this.stsInfo.Dock = DockStyle.Bottom;
         }
         private void ExecuteVB()
         {
@@ -416,7 +436,7 @@ namespace WizIns
             stsInfo_Team.Text = g_tBase.Team;
             stsInfo_Team.Tag = g_tBase.TeamID;
             stsInfo_Person.Tag = g_tBase.PersonID;
-            //stsInfo_Person.Text = g_tBase.Name;
+            stsInfo_Person.Text = g_tBase.Name;
             //stsInfo_ProMac.Tag = g_tBase.MachineID;
             //stsInfo_Mold.Text = g_tBase.sMold;
             //stsInfo_Mold.Tag = g_tBase.sMoldID;
@@ -475,7 +495,28 @@ namespace WizIns
             string strProcessID = gs.GetValue("Work", "ProcessID", "ProcessID");
         }
 
-        
+        //해상도에 맞게 Form 사이즈 조절
+        private void dynamicallyFormSize()
+        {
+            // 기본 모니터의 해상도 가져오기
+            var primaryScreen = Screen.PrimaryScreen;
+            var screenWidth = primaryScreen.Bounds.Width;
+            var screenHeight = primaryScreen.Bounds.Height;
+
+            //this.Location = new System.Drawing.Point(0, 0);
+
+            // 폼의 크기를 화면 해상도의 최대로 설정
+            this.MaximumSize = new System.Drawing.Size(screenWidth, screenHeight);
+            this.MinimumSize = new System.Drawing.Size(screenWidth, screenHeight);
+            this.Size = new System.Drawing.Size(screenWidth, screenHeight);
+
+            //최대화로 로드 함
+            this.WindowState = FormWindowState.Maximized;
+
+
+        }
+
+
     }
 
     public class Frm_tins_Main_CodeView

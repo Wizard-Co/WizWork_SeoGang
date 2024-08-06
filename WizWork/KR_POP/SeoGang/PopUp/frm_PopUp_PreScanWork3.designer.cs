@@ -52,6 +52,7 @@
             this.BomQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NeedQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DeficiencyQty = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.OutwareExceptYN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -264,7 +265,8 @@
             this.Article,
             this.BomQty,
             this.NeedQty,
-            this.DeficiencyQty});
+            this.DeficiencyQty,
+            this.OutwareExceptYN});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("굴림", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -337,6 +339,14 @@
             this.DeficiencyQty.Name = "DeficiencyQty";
             this.DeficiencyQty.ReadOnly = true;
             this.DeficiencyQty.Width = 72;
+            // 
+            // OutwareExceptYN
+            // 
+            this.OutwareExceptYN.HeaderText = "하위품 예외관리";
+            this.OutwareExceptYN.Name = "OutwareExceptYN";
+            this.OutwareExceptYN.ReadOnly = true;
+            this.OutwareExceptYN.Visible = false;
+            this.OutwareExceptYN.Width = 87;
             // 
             // panel4
             // 
@@ -672,6 +682,9 @@
             this.Controls.Add(this.pnlForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(819, 468);
+            this.MinimizeBox = false;
             this.Name = "frm_PopUp_PreScanWork3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "전표라벨 스캔";
@@ -733,13 +746,6 @@
         private System.Windows.Forms.DataGridView dgdSub;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label lblLabelList;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Num;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ArticleID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn BuyerArticleNo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Article;
-        private System.Windows.Forms.DataGridViewTextBoxColumn BomQty;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NeedQty;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DeficiencyQty;
         private System.Windows.Forms.DataGridViewTextBoxColumn Num2;
         private System.Windows.Forms.DataGridViewTextBoxColumn LabelID2;
         private System.Windows.Forms.DataGridViewTextBoxColumn ArticleID2;
@@ -749,5 +755,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn LocRemainQty2;
         private System.Windows.Forms.DataGridViewButtonColumn Cancel2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Remark;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Num;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ArticleID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BuyerArticleNo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Article;
+        private System.Windows.Forms.DataGridViewTextBoxColumn BomQty;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NeedQty;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DeficiencyQty;
+        private System.Windows.Forms.DataGridViewTextBoxColumn OutwareExceptYN;
     }
 }

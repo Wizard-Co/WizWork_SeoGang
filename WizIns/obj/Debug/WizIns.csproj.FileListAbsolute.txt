@@ -309,3 +309,7 @@ D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.csproj.CoreComp
 D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.csproj.CopyComplete
 D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.exe
 D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.pdb
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.frm_tprc_Screenresolution.resources
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.POPUP.Frm_CMNumericKeypad.resources
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.PopUp.Frm_CMKeypad.resources
+D:\업무\프로그램\2022\서강정밀\WizIns\obj\Debug\WizIns.frm_tprc_Work_Defect_U.resources

@@ -1016,8 +1016,8 @@ namespace WizWork
         }
         private void LoadCalendar()
         {
-            Frm_tins_Calendar calendar = new Frm_tins_Calendar(mtb_Date.Text.Replace("-", ""), mtb_Date.Name);
-            calendar.WriteDateTextEvent += new Frm_tins_Calendar.TextEventHandler(GetDate);
+            WizCommon.Popup.Frm_TLP_Calendar calendar = new WizCommon.Popup.Frm_TLP_Calendar(mtb_Date.Text.Replace("-", ""), mtb_Date.Name);
+            calendar.WriteDateTextEvent += new WizCommon.Popup.Frm_TLP_Calendar.TextEventHandler(GetDate);
             calendar.Owner = this;
             calendar.ShowDialog();
             //Calendar.Value -> mtbBox.Text 달력창으로부터 텍스트로 값을 옮겨주는 메소드

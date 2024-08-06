@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -149,11 +150,11 @@
             this.tlpForm = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tlpRight = new System.Windows.Forms.TableLayoutPanel();
+            this.btnCtSave = new System.Windows.Forms.Button();
             this.cmdSave = new System.Windows.Forms.Button();
             this.cmdExit = new System.Windows.Forms.Button();
             this.cmdWorkDefect = new System.Windows.Forms.Button();
             this.btnWorkingDestory = new System.Windows.Forms.Button();
-            this.btnSaveSelection = new System.Windows.Forms.Button();
             this.tlpFill = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -184,9 +185,11 @@
             this.txtSetCT = new System.Windows.Forms.TextBox();
             this.lblSetCT = new System.Windows.Forms.Label();
             this.tableLayoutPanel32 = new System.Windows.Forms.TableLayoutPanel();
-            this.txtProdQtyPerBox = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
+            this.chkLotProdQty = new System.Windows.Forms.CheckBox();
+            this.txtLotProdQty = new System.Windows.Forms.TextBox();
+            this.btnSaveSelection = new System.Windows.Forms.Button();
             this.btnBringSplitData = new System.Windows.Forms.Button();
+            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.pnlWorkTimeNTodHis.SuspendLayout();
             this.tlpTodayHisNWorkTime.SuspendLayout();
             this.pnlTodayHis.SuspendLayout();
@@ -1697,11 +1700,11 @@
             // 
             this.tlpRight.ColumnCount = 1;
             this.tlpRight.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tlpRight.Controls.Add(this.btnCtSave, 0, 1);
             this.tlpRight.Controls.Add(this.cmdSave, 0, 0);
             this.tlpRight.Controls.Add(this.cmdExit, 0, 6);
             this.tlpRight.Controls.Add(this.cmdWorkDefect, 0, 3);
             this.tlpRight.Controls.Add(this.btnWorkingDestory, 0, 5);
-            this.tlpRight.Controls.Add(this.btnSaveSelection, 0, 1);
             this.tlpRight.Location = new System.Drawing.Point(0, 43);
             this.tlpRight.Name = "tlpRight";
             this.tlpRight.RowCount = 7;
@@ -1715,6 +1718,19 @@
             this.tlpRight.Size = new System.Drawing.Size(121, 571);
             this.tlpRight.TabIndex = 0;
             // 
+            // btnCtSave
+            // 
+            this.btnCtSave.BackColor = System.Drawing.Color.LightSalmon;
+            this.btnCtSave.FlatAppearance.BorderSize = 0;
+            this.btnCtSave.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold);
+            this.btnCtSave.Location = new System.Drawing.Point(3, 117);
+            this.btnCtSave.Name = "btnCtSave";
+            this.btnCtSave.Size = new System.Drawing.Size(110, 101);
+            this.btnCtSave.TabIndex = 268;
+            this.btnCtSave.Text = "저  장\r\n(계속 \r\n진행)";
+            this.btnCtSave.UseVisualStyleBackColor = true;
+            this.btnCtSave.Click += new System.EventHandler(this.btnCtSave_Click);
+            // 
             // cmdSave
             // 
             this.cmdSave.BackColor = System.Drawing.Color.LightPink;
@@ -1725,7 +1741,7 @@
             this.cmdSave.Name = "cmdSave";
             this.cmdSave.Size = new System.Drawing.Size(115, 108);
             this.cmdSave.TabIndex = 20;
-            this.cmdSave.Text = "저  장";
+            this.cmdSave.Text = "저  장\r\n(종료)";
             this.cmdSave.UseVisualStyleBackColor = true;
             this.cmdSave.Click += new System.EventHandler(this.cmdSave_Click);
             // 
@@ -1768,20 +1784,6 @@
             this.btnWorkingDestory.Text = "작업취소";
             this.btnWorkingDestory.UseVisualStyleBackColor = true;
             this.btnWorkingDestory.Click += new System.EventHandler(this.btnWorkingDestory_Click);
-            // 
-            // btnSaveSelection
-            // 
-            this.btnSaveSelection.BackColor = System.Drawing.Color.LightSalmon;
-            this.btnSaveSelection.FlatAppearance.BorderSize = 0;
-            this.btnSaveSelection.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold);
-            this.btnSaveSelection.Location = new System.Drawing.Point(3, 117);
-            this.btnSaveSelection.Name = "btnSaveSelection";
-            this.btnSaveSelection.Size = new System.Drawing.Size(110, 101);
-            this.btnSaveSelection.TabIndex = 23;
-            this.btnSaveSelection.Text = "라벨 선택\r\n저  장";
-            this.btnSaveSelection.UseVisualStyleBackColor = true;
-            this.btnSaveSelection.Visible = false;
-            this.btnSaveSelection.Click += new System.EventHandler(this.btnSaveSelection_Click);
             // 
             // tlpFill
             // 
@@ -2195,8 +2197,8 @@
             // 
             this.tableLayoutPanel32.ColumnCount = 1;
             this.tableLayoutPanel32.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel32.Controls.Add(this.txtProdQtyPerBox, 0, 1);
-            this.tableLayoutPanel32.Controls.Add(this.label21, 0, 0);
+            this.tableLayoutPanel32.Controls.Add(this.chkLotProdQty, 0, 0);
+            this.tableLayoutPanel32.Controls.Add(this.txtLotProdQty, 0, 1);
             this.tableLayoutPanel32.Location = new System.Drawing.Point(309, 3);
             this.tableLayoutPanel32.Name = "tableLayoutPanel32";
             this.tableLayoutPanel32.RowCount = 2;
@@ -2206,31 +2208,53 @@
             this.tableLayoutPanel32.Size = new System.Drawing.Size(102, 34);
             this.tableLayoutPanel32.TabIndex = 266;
             // 
-            // txtProdQtyPerBox
+            // chkLotProdQty
             // 
-            this.txtProdQtyPerBox.BackColor = System.Drawing.Color.White;
-            this.txtProdQtyPerBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtProdQtyPerBox.Font = new System.Drawing.Font("맑은 고딕", 13F, System.Drawing.FontStyle.Bold);
-            this.txtProdQtyPerBox.Location = new System.Drawing.Point(0, 17);
-            this.txtProdQtyPerBox.Margin = new System.Windows.Forms.Padding(0);
-            this.txtProdQtyPerBox.Name = "txtProdQtyPerBox";
-            this.txtProdQtyPerBox.ReadOnly = true;
-            this.txtProdQtyPerBox.Size = new System.Drawing.Size(96, 31);
-            this.txtProdQtyPerBox.TabIndex = 263;
-            this.txtProdQtyPerBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.chkLotProdQty.Appearance = System.Windows.Forms.Appearance.Button;
+            this.chkLotProdQty.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.chkLotProdQty.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.chkLotProdQty.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.chkLotProdQty.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chkLotProdQty.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold);
+            this.chkLotProdQty.ForeColor = System.Drawing.Color.White;
+            this.chkLotProdQty.Location = new System.Drawing.Point(0, 0);
+            this.chkLotProdQty.Margin = new System.Windows.Forms.Padding(0);
+            this.chkLotProdQty.Name = "chkLotProdQty";
+            this.chkLotProdQty.Size = new System.Drawing.Size(96, 16);
+            this.chkLotProdQty.TabIndex = 268;
+            this.chkLotProdQty.Text = "박스당수량";
+            this.chkLotProdQty.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chkLotProdQty.UseVisualStyleBackColor = false;
+            this.chkLotProdQty.CheckedChanged += new System.EventHandler(this.checkBox_CheckedPrevent);
+            this.chkLotProdQty.Click += new System.EventHandler(this.chkLotProdQty_Click);
             // 
-            // label21
+            // txtLotProdQty
             // 
-            this.label21.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.label21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label21.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Bold);
-            this.label21.ForeColor = System.Drawing.Color.Black;
-            this.label21.Location = new System.Drawing.Point(3, 0);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(96, 16);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "박스당 수량";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.txtLotProdQty.BackColor = System.Drawing.Color.White;
+            this.txtLotProdQty.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtLotProdQty.Font = new System.Drawing.Font("맑은 고딕", 13F, System.Drawing.FontStyle.Bold);
+            this.txtLotProdQty.Location = new System.Drawing.Point(0, 17);
+            this.txtLotProdQty.Margin = new System.Windows.Forms.Padding(0);
+            this.txtLotProdQty.Name = "txtLotProdQty";
+            this.txtLotProdQty.ReadOnly = true;
+            this.txtLotProdQty.Size = new System.Drawing.Size(96, 31);
+            this.txtLotProdQty.TabIndex = 263;
+            this.txtLotProdQty.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtLotProdQty.Click += new System.EventHandler(this.txtLotProdQty_Click);
+            // 
+            // btnSaveSelection
+            // 
+            this.btnSaveSelection.BackColor = System.Drawing.Color.LightSalmon;
+            this.btnSaveSelection.FlatAppearance.BorderSize = 0;
+            this.btnSaveSelection.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold);
+            this.btnSaveSelection.Location = new System.Drawing.Point(1153, 76);
+            this.btnSaveSelection.Name = "btnSaveSelection";
+            this.btnSaveSelection.Size = new System.Drawing.Size(110, 101);
+            this.btnSaveSelection.TabIndex = 23;
+            this.btnSaveSelection.Text = "라벨 선택\r\n저  장";
+            this.btnSaveSelection.UseVisualStyleBackColor = true;
+            this.btnSaveSelection.Visible = false;
+            this.btnSaveSelection.Click += new System.EventHandler(this.btnSaveSelection_Click);
             // 
             // btnBringSplitData
             // 
@@ -2256,6 +2280,7 @@
             this.Controls.Add(this.tableLayoutPanel14);
             this.Controls.Add(this.pnlCardPrintMessage);
             this.Controls.Add(this.txt4MID);
+            this.Controls.Add(this.btnSaveSelection);
             this.Controls.Add(this.btnBringSplitData);
             this.Controls.Add(this.txtErrMsg);
             this.Controls.Add(this.pnlMoveStatement);
@@ -2505,8 +2530,7 @@
         private System.Windows.Forms.TextBox txtWorkQty;
         private System.Windows.Forms.CheckBox chkWorkQty;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel23;
-        private System.Windows.Forms.TextBox txtProdQtyPerBox;
-        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox txtLotProdQty;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel15;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox txtProcess;
@@ -2514,5 +2538,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtArticle;
         private System.Windows.Forms.Button btnSaveSelection;
+        private System.Windows.Forms.Button btnCtSave;
+        private System.IO.Ports.SerialPort serialPort1;
+        private System.Windows.Forms.CheckBox chkLotProdQty;
     }
 }

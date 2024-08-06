@@ -638,6 +638,7 @@
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel6.Size = new System.Drawing.Size(401, 30);
             this.tableLayoutPanel6.TabIndex = 234;
+            this.tableLayoutPanel6.Visible = false;
             // 
             // txtPLotID
             // 

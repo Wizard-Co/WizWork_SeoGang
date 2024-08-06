@@ -151,7 +151,7 @@ namespace WizIns
         {
             try
             {
-                WizWork.POPUP.Frm_CMNumericKeypad FK = new WizWork.POPUP.Frm_CMNumericKeypad(Title);
+                WizIns.PopUp.Frm_CMNumericKeypad FK = new WizIns.PopUp.Frm_CMNumericKeypad(Title);
                 FK.Owner = this;
                 string sTime = "";
                 DateTime dt = DateTime.Now;
@@ -465,7 +465,7 @@ namespace WizIns
             //string bakup = txtSender.Text;
 
             //txtSender.Text = "";
-            WizWork.POPUP.Frm_CMNumericKeypad keypad = new WizWork.POPUP.Frm_CMNumericKeypad(Title + "입력", Title);
+            WizIns.PopUp.Frm_CMNumericKeypad keypad = new WizIns.PopUp.Frm_CMNumericKeypad(Title + "입력", Title);
 
             keypad.Owner = this;
             if (keypad.ShowDialog() == DialogResult.OK)

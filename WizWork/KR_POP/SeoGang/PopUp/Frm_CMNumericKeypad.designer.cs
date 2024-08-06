@@ -291,7 +291,7 @@ namespace WizWork.POPUP
             this.tbInputText.ForeColor = System.Drawing.Color.White;
             this.tbInputText.Location = new System.Drawing.Point(90, 12);
             this.tbInputText.Name = "tbInputText";
-            this.tbInputText.Size = new System.Drawing.Size(198, 42);
+            this.tbInputText.Size = new System.Drawing.Size(198, 35);
             this.tbInputText.TabIndex = 0;
             this.tbInputText.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbInputText_KeyDown);
             this.tbInputText.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbInputText_KeyPress);
@@ -333,6 +333,9 @@ namespace WizWork.POPUP
             this.Controls.Add(this.btnKey2);
             this.Controls.Add(this.btnKey1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(315, 300);
+            this.MinimizeBox = false;
             this.Name = "Frm_CMNumericKeypad";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.TopMost = true;

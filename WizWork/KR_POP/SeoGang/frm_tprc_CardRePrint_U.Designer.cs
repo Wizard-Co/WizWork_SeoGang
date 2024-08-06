@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -55,6 +56,7 @@
             this.btnNew = new System.Windows.Forms.Button();
             this.cmdRowUp = new System.Windows.Forms.Button();
             this.cmdRowDown = new System.Windows.Forms.Button();
+            this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
             this.tlpForm.SuspendLayout();
             this.tlpMain.SuspendLayout();
             this.tlpTop.SuspendLayout();
@@ -504,5 +506,6 @@
         private System.Windows.Forms.DataGridView grdData;
         private System.Windows.Forms.TextBox txtMtrLotNo;
         private System.Windows.Forms.RadioButton rbnProcessLabel;
+        private System.IO.Ports.SerialPort serialPort1;
     }
 }

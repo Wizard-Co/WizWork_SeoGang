@@ -231,7 +231,7 @@ namespace WizIns
         private void loadKeyboard(TextBox txtSender, string title)
         {
             txtSender.Text = "";
-            WizWork.POPUP.Frm_CMKeypad keypad = new WizWork.POPUP.Frm_CMKeypad(title + "입력", title);
+            WizIns.PopUp.Frm_CMKeypad keypad = new WizIns.PopUp.Frm_CMKeypad(title + "입력", title);
 
             keypad.Owner = this;
             if (keypad.ShowDialog() == DialogResult.OK)

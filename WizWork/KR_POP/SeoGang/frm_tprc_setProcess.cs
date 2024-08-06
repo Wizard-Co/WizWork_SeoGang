@@ -153,7 +153,7 @@ namespace WizWork
                 string NowTic = DateTime.Now.ToString("HHmmss");
 
                 double D_NowTic = Lib.GetDouble(NowTic);
-                if ((D_NowTic > 200000) || (D_NowTic < 70000))
+                if ((D_NowTic > 200000) || (D_NowTic < 80000))
                 { Is_NightWorkTime = true; }
 
                 for (int i = 0; i < rBtnDayOrNightRowCnt; i++)

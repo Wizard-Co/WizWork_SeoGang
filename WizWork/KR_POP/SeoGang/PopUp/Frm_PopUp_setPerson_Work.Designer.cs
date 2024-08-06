@@ -36,8 +36,22 @@
             this.Tab_Person = new System.Windows.Forms.TabControl();
             this.tabPersonByProcess = new System.Windows.Forms.TabPage();
             this.dgdByProcess = new System.Windows.Forms.DataGridView();
+            this.Process = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DepartID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Depart = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabAllPerson = new System.Windows.Forms.TabPage();
             this.dgdAll = new System.Windows.Forms.DataGridView();
+            this.AllProcess = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel8 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label7 = new System.Windows.Forms.Label();
@@ -55,20 +69,6 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.cmdPersonID = new System.Windows.Forms.Button();
             this.btnDel = new System.Windows.Forms.Button();
-            this.Process = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DepartID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Depart = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.AllProcess = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tlpMain.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -207,6 +207,60 @@
             this.dgdByProcess.Size = new System.Drawing.Size(390, 137);
             this.dgdByProcess.TabIndex = 3;
             // 
+            // Process
+            // 
+            this.Process.DataPropertyName = "Process";
+            this.Process.HeaderText = "공정";
+            this.Process.Name = "Process";
+            this.Process.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "PersonID";
+            this.dataGridViewTextBoxColumn1.HeaderText = "사용자코드";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 109;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "Name";
+            this.dataGridViewTextBoxColumn6.HeaderText = "사용자명";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "Team";
+            this.dataGridViewTextBoxColumn7.HeaderText = "작업조";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "TeamID";
+            this.dataGridViewTextBoxColumn8.HeaderText = "작업조코드";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.ReadOnly = true;
+            this.dataGridViewTextBoxColumn8.Visible = false;
+            // 
+            // DepartID
+            // 
+            this.DepartID.DataPropertyName = "DepartID";
+            this.DepartID.HeaderText = "부서코드";
+            this.DepartID.Name = "DepartID";
+            this.DepartID.ReadOnly = true;
+            this.DepartID.Visible = false;
+            // 
+            // Depart
+            // 
+            this.Depart.DataPropertyName = "Depart";
+            this.Depart.HeaderText = "부서";
+            this.Depart.Name = "Depart";
+            this.Depart.ReadOnly = true;
+            this.Depart.Visible = false;
+            // 
             // tabAllPerson
             // 
             this.tabAllPerson.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -248,6 +302,60 @@
             this.dgdAll.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgdAll.Size = new System.Drawing.Size(390, 137);
             this.dgdAll.TabIndex = 4;
+            // 
+            // AllProcess
+            // 
+            this.AllProcess.HeaderText = "공정";
+            this.AllProcess.Name = "AllProcess";
+            this.AllProcess.ReadOnly = true;
+            this.AllProcess.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "PersonID";
+            this.dataGridViewTextBoxColumn2.HeaderText = "사용자코드";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            this.dataGridViewTextBoxColumn2.Width = 109;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Name";
+            this.dataGridViewTextBoxColumn3.HeaderText = "사용자명";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Team";
+            this.dataGridViewTextBoxColumn4.HeaderText = "작업조";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "TeamID";
+            this.dataGridViewTextBoxColumn5.HeaderText = "작업조코드";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            this.dataGridViewTextBoxColumn5.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "DepartID";
+            this.dataGridViewTextBoxColumn9.HeaderText = "부서코드";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.ReadOnly = true;
+            this.dataGridViewTextBoxColumn9.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "Depart";
+            this.dataGridViewTextBoxColumn10.HeaderText = "부서";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.ReadOnly = true;
+            this.dataGridViewTextBoxColumn10.Visible = false;
             // 
             // panel8
             // 
@@ -483,114 +591,6 @@
             this.btnDel.UseVisualStyleBackColor = false;
             this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
-            // Process
-            // 
-            this.Process.DataPropertyName = "Process";
-            this.Process.HeaderText = "공정";
-            this.Process.Name = "Process";
-            this.Process.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "PersonID";
-            this.dataGridViewTextBoxColumn1.HeaderText = "사용자코드";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 109;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "Name";
-            this.dataGridViewTextBoxColumn6.HeaderText = "사용자명";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "Team";
-            this.dataGridViewTextBoxColumn7.HeaderText = "작업조";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "TeamID";
-            this.dataGridViewTextBoxColumn8.HeaderText = "작업조코드";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.ReadOnly = true;
-            this.dataGridViewTextBoxColumn8.Visible = false;
-            // 
-            // DepartID
-            // 
-            this.DepartID.DataPropertyName = "DepartID";
-            this.DepartID.HeaderText = "부서코드";
-            this.DepartID.Name = "DepartID";
-            this.DepartID.ReadOnly = true;
-            this.DepartID.Visible = false;
-            // 
-            // Depart
-            // 
-            this.Depart.DataPropertyName = "Depart";
-            this.Depart.HeaderText = "부서";
-            this.Depart.Name = "Depart";
-            this.Depart.ReadOnly = true;
-            this.Depart.Visible = false;
-            // 
-            // AllProcess
-            // 
-            this.AllProcess.HeaderText = "공정";
-            this.AllProcess.Name = "AllProcess";
-            this.AllProcess.ReadOnly = true;
-            this.AllProcess.Visible = false;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "PersonID";
-            this.dataGridViewTextBoxColumn2.HeaderText = "사용자코드";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            this.dataGridViewTextBoxColumn2.Width = 109;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "Name";
-            this.dataGridViewTextBoxColumn3.HeaderText = "사용자명";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Team";
-            this.dataGridViewTextBoxColumn4.HeaderText = "작업조";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "TeamID";
-            this.dataGridViewTextBoxColumn5.HeaderText = "작업조코드";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Visible = false;
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "DepartID";
-            this.dataGridViewTextBoxColumn9.HeaderText = "부서코드";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.ReadOnly = true;
-            this.dataGridViewTextBoxColumn9.Visible = false;
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "Depart";
-            this.dataGridViewTextBoxColumn10.HeaderText = "부서";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.ReadOnly = true;
-            this.dataGridViewTextBoxColumn10.Visible = false;
-            // 
             // Frm_PopUp_setPerson_Work
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -599,6 +599,7 @@
             this.Controls.Add(this.tlpMain);
             this.Controls.Add(this.cmdPersonID);
             this.Controls.Add(this.btnDel);
+            this.MaximumSize = new System.Drawing.Size(815, 651);
             this.Name = "Frm_PopUp_setPerson_Work";
             this.Text = "작업자 선택";
             this.Load += new System.EventHandler(this.Frm_PopUp_setPerson_Load);

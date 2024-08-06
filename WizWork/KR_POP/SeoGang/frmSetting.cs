@@ -552,20 +552,25 @@ namespace WizWork
         //그리드뷰의 셀클릭시 그리드뷰의체크박스 변경해주는 메소드
         private void Grid_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+
             DataGridView dgv = sender as DataGridView;
             if (e.RowIndex >= 0)
             {
-                bool flag = (bool)dgv.Rows[e.RowIndex].Cells["Check"].Value;
-                dgv.Rows[e.RowIndex].Cells["Check"].Value = !flag;
-                if (dgv.Name == "grdMachine" && tabProMacTerm.SelectedIndex == 1)
+                //마지막 셀은 클릭시 이벤트 처리 되지 않게 조건 추가 2024-06-12 KDH
+                if (e.ColumnIndex < 3) 
                 {
-                    string MachineID = dgv.Rows[e.RowIndex].Cells["MachineID"].Value.ToString();
-                    foreach (BoolValue bv in list_AllProcessID[intProIdx])
+                    bool flag = (bool)dgv.Rows[e.RowIndex].Cells["Check"].Value;
+                    dgv.Rows[e.RowIndex].Cells["Check"].Value = !flag;
+                    if (dgv.Name == "grdMachine" && tabProMacTerm.SelectedIndex == 1)
                     {
-                        if (bv.value == MachineID)
+                        string MachineID = dgv.Rows[e.RowIndex].Cells["MachineID"].Value.ToString();
+                        foreach (BoolValue bv in list_AllProcessID[intProIdx])
                         {
-                            bv.bl = !flag;
-                            break;
+                            if (bv.value == MachineID)
+                            {
+                                bv.bl = !flag;
+                                break;
+                            }
                         }
                     }
                 }

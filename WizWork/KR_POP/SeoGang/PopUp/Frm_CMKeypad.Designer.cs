@@ -74,6 +74,9 @@
             this.tbInputText = new System.Windows.Forms.TextBox();
             this.btnKeyShift = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnLRoundBrackets = new System.Windows.Forms.Button();
+            this.btnRRoundBrackets = new System.Windows.Forms.Button();
+            this.btnslash = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnKey9
@@ -713,7 +716,7 @@
             this.tbInputText.ForeColor = System.Drawing.Color.White;
             this.tbInputText.Location = new System.Drawing.Point(112, 11);
             this.tbInputText.Name = "tbInputText";
-            this.tbInputText.Size = new System.Drawing.Size(651, 35);
+            this.tbInputText.Size = new System.Drawing.Size(438, 35);
             this.tbInputText.TabIndex = 0;
             this.tbInputText.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tbInputText_KeyDown);
             // 
@@ -747,11 +750,59 @@
             this.button1.TabIndex = 56;
             this.button1.UseVisualStyleBackColor = false;
             // 
+            // btnLRoundBrackets
+            // 
+            this.btnLRoundBrackets.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnLRoundBrackets.FlatAppearance.BorderSize = 0;
+            this.btnLRoundBrackets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLRoundBrackets.Font = new System.Drawing.Font("굴림", 15F, System.Drawing.FontStyle.Bold);
+            this.btnLRoundBrackets.ForeColor = System.Drawing.Color.White;
+            this.btnLRoundBrackets.Location = new System.Drawing.Point(556, 6);
+            this.btnLRoundBrackets.Name = "btnLRoundBrackets";
+            this.btnLRoundBrackets.Size = new System.Drawing.Size(62, 44);
+            this.btnLRoundBrackets.TabIndex = 57;
+            this.btnLRoundBrackets.Text = "(";
+            this.btnLRoundBrackets.UseVisualStyleBackColor = false;
+            this.btnLRoundBrackets.Click += new System.EventHandler(this.InputKey);
+            // 
+            // btnRRoundBrackets
+            // 
+            this.btnRRoundBrackets.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnRRoundBrackets.FlatAppearance.BorderSize = 0;
+            this.btnRRoundBrackets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRRoundBrackets.Font = new System.Drawing.Font("굴림", 15F, System.Drawing.FontStyle.Bold);
+            this.btnRRoundBrackets.ForeColor = System.Drawing.Color.White;
+            this.btnRRoundBrackets.Location = new System.Drawing.Point(624, 6);
+            this.btnRRoundBrackets.Name = "btnRRoundBrackets";
+            this.btnRRoundBrackets.Size = new System.Drawing.Size(62, 44);
+            this.btnRRoundBrackets.TabIndex = 58;
+            this.btnRRoundBrackets.Text = ")";
+            this.btnRRoundBrackets.UseVisualStyleBackColor = false;
+            this.btnRRoundBrackets.Click += new System.EventHandler(this.InputKey);
+            // 
+            // btnslash
+            // 
+            this.btnslash.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.btnslash.FlatAppearance.BorderSize = 0;
+            this.btnslash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnslash.Font = new System.Drawing.Font("굴림", 15F, System.Drawing.FontStyle.Bold);
+            this.btnslash.ForeColor = System.Drawing.Color.White;
+            this.btnslash.Location = new System.Drawing.Point(702, 6);
+            this.btnslash.Name = "btnslash";
+            this.btnslash.Size = new System.Drawing.Size(62, 44);
+            this.btnslash.TabIndex = 59;
+            this.btnslash.Text = "/";
+            this.btnslash.UseVisualStyleBackColor = false;
+            this.btnslash.Click += new System.EventHandler(this.InputKey);
+            // 
             // Frm_CMKeypad
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
             this.ClientSize = new System.Drawing.Size(775, 261);
+            this.Controls.Add(this.btnslash);
+            this.Controls.Add(this.btnRRoundBrackets);
+            this.Controls.Add(this.btnLRoundBrackets);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnKeyShift);
             this.Controls.Add(this.tbInputText);
@@ -798,6 +849,9 @@
             this.Controls.Add(this.btnKey2);
             this.Controls.Add(this.btnKey1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(791, 300);
+            this.MinimizeBox = false;
             this.Name = "Frm_CMKeypad";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "키패드";
@@ -855,5 +909,8 @@
         public System.Windows.Forms.TextBox tbInputText;
         private System.Windows.Forms.Button btnKeyShift;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLRoundBrackets;
+        private System.Windows.Forms.Button btnRRoundBrackets;
+        private System.Windows.Forms.Button btnslash;
     }
 }

@@ -38,6 +38,7 @@ namespace WizWork
         private string m_UnitClss = "";         // 단위
         private string m_EffectDate = "";       // 유효일? 효과일?    (스캔 후 초기화)     
         private string m_MtrExceptYN = "";      // 예외처리 체크용도
+        private string m_OutwareExceptYN = "";  // 선입선출 체크용도
 
         private double m_RemainQty = 0;         //      입고수량  (스캔 후 초기화)
         private double m_LocRemainQty = 0;      //    '자품목 현 재고량  (스캔 후 초기화)
@@ -55,6 +56,9 @@ namespace WizWork
         string[] Message = new string[2];  // 메시지박스 처리용도.
 
         string WhAr_MoveArticle_I = string.Empty;    // I_FMB_재단 자동이동시의 Article.(Whole-Area)
+
+        string FIFOLOTID = "";      //2023-12-07 선입선출용 LOTID
+        string strBarcodeList = ""; //2023-12-26 LOTIDLIst
 
         WizWorkLib Lib = new WizWorkLib();
 
@@ -126,7 +130,10 @@ namespace WizWork
 
             int DetSeq = ConvertInt(Frm_tprc_Main.g_tBase.sInstDetSeq);
 
-            setDataGrid__ChildArticle();
+            if (m_MtrExceptYN == "N") 
+            {
+                setDataGrid__ChildArticle();
+            }
             
         }
 
@@ -162,10 +169,12 @@ namespace WizWork
                                                  Lib.CheckNull(stringFormatN0(dr["NowLoc"])), // 현재고량
                                                  Lib.CheckNull(dr["UnitClssName"].ToString()), // 현재고량
                                                  Lib.CheckNull(""), // 라벨
+                                                 Lib.CheckNull(dr["ScanExceptYN"].ToString()), //하위품 스캔 예외 여부
                                                  Lib.CheckNull("X") // 투입여부
                         );
                         dgvr = dgdMain.Rows[i - 1];
                         dgvr.Cells["IsIN"].Style.ForeColor = Color.Red;
+
                     }
                 }
                 else
@@ -266,6 +275,7 @@ namespace WizWork
                 {
                     DataRow dr = dt.Rows[0];
                     m_MtrExceptYN = Lib.CheckNull(dr["MtrExceptYN"].ToString());//PLotID가 라벨일때 pl_input의 MtrExceptYN                    
+                    m_OutwareExceptYN = Lib.CheckNull(dr["OutwareExceptYN"].ToString());//pl_input의 OutwareExceptYN
                     strInstID = Lib.CheckNull(dr["InstID"].ToString());//PLotID가 라벨일때 pl_input의 InstID                                        
                     strInstDetSeq = Lib.CheckNull(dr["InstDetSeq"].ToString());
                     Wh_Ar_InstID_Seq = strInstDetSeq;
@@ -298,11 +308,17 @@ namespace WizWork
                     //m_UnitClss = Lib.CheckNull(dr["UnitClss"].ToString());//pl_inputdet articleid의 UnitClss
                     //m_UnitClssName = Lib.CheckNull(dr["UnitClssName"].ToString());
 
-                // 2020.04.22 데이터 넣는곳
+                    // 2020.04.22 데이터 넣는곳
                     //txtArticle.Text = Lib.CheckNull(dr["pldArticle"].ToString());
 
-                    //txtBuyerArticleNo.Text = Lib.CheckNull(dr["BuyerArticleNo"].ToString());                   
+                    //txtBuyerArticleNo.Text = Lib.CheckNull(dr["BuyerArticleNo"].ToString());
 
+                    //예외처리 조건문 2024-04-08
+                    if (m_MtrExceptYN == "Y")
+                    {
+                        setDataGrid__ChildArticle();
+                        btnOK_Click(null, null);
+                    }
                 }
 
             }
@@ -560,10 +576,10 @@ namespace WizWork
         /// </summary>
         /// <param name="strBarCode"></param>
         private bool BarCodeCheck(string strBarCode)
-        {
-           
-
+        {         
             DataRow dr = null;
+            DataRow dr2 = null;
+
             try
             {
                 // 메시지 초기화
@@ -591,6 +607,30 @@ namespace WizWork
                     m_UnitClss = dr["UnitClss"].ToString();
                     m_EffectDate = Lib.MakeDateTime("yyyyMMdd", dr["EffectDate"].ToString());
 
+                    //선입선출 추가
+                    if (m_MtrExceptYN.Equals("N"))
+                    {
+                        //초기화 
+                        strBarcodeList = "";
+
+                        //그리드 라벨 리스트에 입력해서 리스트에 있으면 해당 라벨로 다시 찾기
+                        Dictionary<string, object> sqlParameter2 = new Dictionary<string, object>();
+                        sqlParameter2.Add("BarCode", strBarCode);
+                        sqlParameter2.Add("BarCodeList", strBarcodeList);
+                        sqlParameter2.Add("ArticleID", m_ArticleID);
+                        DataTable dt2 = DataStore.Instance.ProcedureToDataTable("xp_WizWork_FIFOLOT", sqlParameter2, false);
+                        if (dt2 != null && dt2.Rows.Count > 0)
+                        {
+                            dr2 = dt2.Rows[0];
+                            FIFOLOTID = dr2["LotID"].ToString().Trim();
+
+                            Message[0] = "[선입선출]";
+                            Message[1] = "해당 하위품( " + FIFOLOTID + " )에 재고가 존재 합니다. \r\n" +
+                                            FIFOLOTID + "의 재고를 먼저 소진해주세요.";
+                            throw new Exception();
+
+                        }
+                    }
 
                     if (Find_BOM_Child())
                     {
@@ -760,23 +800,31 @@ namespace WizWork
 
             string ArticleS = "";
 
-            for( int i = 0; i < dgdMain.Rows.Count; i++)
+            if (m_MtrExceptYN == "N")
             {
-                string IsIN = dgdMain.Rows[i].Cells["IsIN"].Value.ToString().ToUpper().Trim();
-
-                if (IsIN.Equals("X"))
+                             
+                for (int i = 0; i < dgdMain.Rows.Count; i++)
                 {
-                    ArticleS += "\r\n(" + dgdMain.Rows[i].Cells["ArticleID"].Value.ToString().Trim() + ")" +  dgdMain.Rows[i].Cells["Article"].Value.ToString().Trim();
+                    //하위품스캔예외 조건 추가 2024-04-12 KDH
+                    if (dgdMain.Rows[i].Cells["ScanExceptYN"].Value.ToString() == "N") 
+                    {
+                        string IsIN = dgdMain.Rows[i].Cells["IsIN"].Value.ToString().ToUpper().Trim();
 
-                    flag = false;
+                        if (IsIN.Equals("X"))
+                        {
+                            ArticleS += "\r\n(" + dgdMain.Rows[i].Cells["ArticleID"].Value.ToString().Trim() + ")" + dgdMain.Rows[i].Cells["Article"].Value.ToString().Trim();
+
+                            flag = false;
+                        }
+                    }
                 }
-            }
 
-            if (flag == false)
-            {
-                Message[0] = "[시작 오류]";
-                Message[1] = string.Format("아래의 하위품이 투입되지 않았습니다." + ArticleS);
-                WizCommon.Popup.MyMessageBox.ShowBox(Message[1], Message[0], 0, 1);
+                if (flag == false)
+                {
+                    Message[0] = "[시작 오류]";
+                    Message[1] = string.Format("아래의 하위품이 투입되지 않았습니다." + ArticleS);
+                    WizCommon.Popup.MyMessageBox.ShowBox(Message[1], Message[0], 0, 1);
+                }
             }
 
             return flag;

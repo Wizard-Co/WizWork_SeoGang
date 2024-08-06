@@ -133,8 +133,7 @@ namespace WizIns
             if (chkBuyerArticleNo.Checked)
             {
                 txtBuyerArticleNo.Text = "";
-                WizWork.POPUP.Frm_CMKeypad keypad = new WizWork.POPUP.Frm_CMKeypad("품번입력", "품번");
-
+                WizIns.PopUp.Frm_CMKeypad keypad = new WizIns.PopUp.Frm_CMKeypad("품번입력", "품번");
                 keypad.Owner = this;
                 if (keypad.ShowDialog() == DialogResult.OK)
                 {

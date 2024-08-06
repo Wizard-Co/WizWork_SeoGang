@@ -25,6 +25,7 @@ namespace WizWork
         int i = 0;//상단버튼 switch문용 정수
         POPUP.Frm_CMNumericKeypad keypad = null;
         bool blOpen = false;
+        bool Screen_Resolution = false; //해상도 조절 여부 2024-06-17
         //
         public static WizWorkLib Lib = new WizWorkLib();
         public static INI_GS gs = new INI_GS();
@@ -72,6 +73,15 @@ namespace WizWork
         public Frm_tprc_Main()
         {
             InitializeComponent();
+
+            mainForm = this;
+        }
+
+        public Frm_tprc_Main(bool screen)
+        {
+            InitializeComponent();
+
+            Screen_Resolution = screen; //해상도 조절 여부 2024-06-17
 
             mainForm = this;
         }
@@ -437,10 +447,26 @@ namespace WizWork
             //ExecuteVB(); >> 시작할때 애가 FORM.FRONT 처리되서 거슬린데.            
             timer_Clock.Start();
             timer_Clock.Interval = 1000;//1초
+
+            //해상도에 따른 크기 조절 2024-06-14 KDH
+            if (Screen_Resolution)
+            {
+                dynamicallyFormSize();
+            }
+            else
+            {
+                //최대화로 로드 함
+                this.WindowState = FormWindowState.Maximized;
+            }
+
             SetScreen();
             LoadRegistry();
 
             btnControl_Click(btnInfo, null);
+
+            //하단 정보를 폼 로드 후 조절
+            this.stsInfo.Dock = DockStyle.Bottom;
+
         }
         private void ExecuteVB()
         {
@@ -760,6 +786,28 @@ namespace WizWork
 
         }
 
-        
+
+        //해상도에 맞게 Form 사이즈 조절
+        private void dynamicallyFormSize()
+        {
+            // 기본 모니터의 해상도 가져오기
+            var primaryScreen = Screen.PrimaryScreen;
+            var screenWidth = primaryScreen.Bounds.Width;
+            var screenHeight = primaryScreen.Bounds.Height;
+
+            //this.Location = new System.Drawing.Point(0, 0);
+
+            // 폼의 크기를 화면 해상도의 최대로 설정
+            this.MaximumSize = new System.Drawing.Size(screenWidth, screenHeight);
+            this.MinimumSize = new System.Drawing.Size(screenWidth, screenHeight);
+            this.Size = new System.Drawing.Size(screenWidth, screenHeight);
+
+            //최대화로 로드 함
+            this.WindowState = FormWindowState.Maximized;
+
+
+        }
+
+
     }
 }

@@ -147,19 +147,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>UbEk7Qhksg8qzyipm6NYxVX55Ok=</dsig:DigestValue>
+        <dsig:DigestValue>jk6K3a5d5gR52ZqMZ7n0N1rpChA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WizMes_Work.exe" size="2714112">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WizMes_Work.exe" size="2738176">
       <assemblyIdentity name="WizMes_Work" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>k/5SZC2lDym50gQmOu+WwRsf+mg=</dsig:DigestValue>
+        <dsig:DigestValue>uz7h7qD1nUbMUoebB+x5qAcy73I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

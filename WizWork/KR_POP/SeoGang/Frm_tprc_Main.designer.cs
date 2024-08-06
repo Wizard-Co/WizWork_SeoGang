@@ -41,23 +41,25 @@
             this.tlpTop = new System.Windows.Forms.TableLayoutPanel();
             this.btnInfo = new System.Windows.Forms.Button();
             this.btnDailyCheck = new System.Windows.Forms.Button();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnSetting = new System.Windows.Forms.Button();
+            this.btnChoiceWorker = new System.Windows.Forms.Button();
+            this.btnWorkQ = new System.Windows.Forms.Button();
+            this.btnRePrint = new System.Windows.Forms.Button();
+            this.btnMove = new System.Windows.Forms.Button();
             this.btnNoWork = new System.Windows.Forms.Button();
             this.btnWork = new System.Windows.Forms.Button();
-            this.btnMove = new System.Windows.Forms.Button();
-            this.btnWorkQ = new System.Windows.Forms.Button();
-            this.btnChoiceWorker = new System.Windows.Forms.Button();
-            this.btnSetting = new System.Windows.Forms.Button();
-            this.btnExit = new System.Windows.Forms.Button();
-            this.btnRePrint = new System.Windows.Forms.Button();
-            this.btnInsInspectAuto = new System.Windows.Forms.Button();
             this.btnMold = new System.Windows.Forms.Button();
+            this.btnInsInspectAuto = new System.Windows.Forms.Button();
             this.stsInfo.SuspendLayout();
             this.tlpTop.SuspendLayout();
             this.SuspendLayout();
             // 
             // stsInfo
             // 
-            this.stsInfo.AutoSize = false;
+            this.stsInfo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stsInfo.Dock = System.Windows.Forms.DockStyle.None;
             this.stsInfo.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.stsInfo.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.stsInfo_Msg,
@@ -68,7 +70,7 @@
             this.stsInfo_Time});
             this.stsInfo.Location = new System.Drawing.Point(0, 663);
             this.stsInfo.Name = "stsInfo";
-            this.stsInfo.Size = new System.Drawing.Size(1005, 22);
+            this.stsInfo.Size = new System.Drawing.Size(1019, 22);
             this.stsInfo.SizingGrip = false;
             this.stsInfo.TabIndex = 6;
             this.stsInfo.Text = "statusStrip1";
@@ -82,7 +84,8 @@
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.stsInfo_Msg.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.stsInfo_Msg.Name = "stsInfo_Msg";
-            this.stsInfo_Msg.Size = new System.Drawing.Size(385, 17);
+            this.stsInfo_Msg.Size = new System.Drawing.Size(371, 17);
+            this.stsInfo_Msg.Spring = true;
             this.stsInfo_Msg.Text = "Message";
             // 
             // stsInfo_ProMac
@@ -221,6 +224,116 @@
             this.btnDailyCheck.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnDailyCheck.UseVisualStyleBackColor = false;
             // 
+            // btnExit
+            // 
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(162)))), ((int)(((byte)(143)))));
+            this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnExit.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnExit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnExit.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
+            this.btnExit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnExit.Location = new System.Drawing.Point(910, 0);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(0);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(82, 84);
+            this.btnExit.TabIndex = 3;
+            this.btnExit.Text = "작업종료";
+            this.btnExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnSetting
+            // 
+            this.btnSetting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(194)))), ((int)(((byte)(133)))));
+            this.btnSetting.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnSetting.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight;
+            this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnSetting.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnSetting.Image = ((System.Drawing.Image)(resources.GetObject("btnSetting.Image")));
+            this.btnSetting.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnSetting.Location = new System.Drawing.Point(819, 0);
+            this.btnSetting.Margin = new System.Windows.Forms.Padding(0);
+            this.btnSetting.Name = "btnSetting";
+            this.btnSetting.Size = new System.Drawing.Size(91, 84);
+            this.btnSetting.TabIndex = 10;
+            this.btnSetting.Text = "환경설정";
+            this.btnSetting.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnSetting.UseVisualStyleBackColor = false;
+            // 
+            // btnChoiceWorker
+            // 
+            this.btnChoiceWorker.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(166)))), ((int)(((byte)(244)))));
+            this.btnChoiceWorker.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnChoiceWorker.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnChoiceWorker.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnChoiceWorker.Image = global::WizWork.Properties.Resources.worker;
+            this.btnChoiceWorker.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnChoiceWorker.Location = new System.Drawing.Point(728, 0);
+            this.btnChoiceWorker.Margin = new System.Windows.Forms.Padding(0);
+            this.btnChoiceWorker.Name = "btnChoiceWorker";
+            this.btnChoiceWorker.Size = new System.Drawing.Size(91, 84);
+            this.btnChoiceWorker.TabIndex = 21;
+            this.btnChoiceWorker.Text = "작업자선택";
+            this.btnChoiceWorker.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnChoiceWorker.UseVisualStyleBackColor = false;
+            // 
+            // btnWorkQ
+            // 
+            this.btnWorkQ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(166)))), ((int)(((byte)(244)))));
+            this.btnWorkQ.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnWorkQ.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnWorkQ.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnWorkQ.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnWorkQ.Image = ((System.Drawing.Image)(resources.GetObject("btnWorkQ.Image")));
+            this.btnWorkQ.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnWorkQ.Location = new System.Drawing.Point(637, 0);
+            this.btnWorkQ.Margin = new System.Windows.Forms.Padding(0);
+            this.btnWorkQ.Name = "btnWorkQ";
+            this.btnWorkQ.Size = new System.Drawing.Size(91, 84);
+            this.btnWorkQ.TabIndex = 7;
+            this.btnWorkQ.Text = "\n조회화면";
+            this.btnWorkQ.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnWorkQ.UseVisualStyleBackColor = false;
+            // 
+            // btnRePrint
+            // 
+            this.btnRePrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(166)))), ((int)(((byte)(244)))));
+            this.btnRePrint.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnRePrint.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnRePrint.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnRePrint.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnRePrint.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnRePrint.Image = global::WizWork.Properties.Resources.printer;
+            this.btnRePrint.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnRePrint.Location = new System.Drawing.Point(546, 0);
+            this.btnRePrint.Margin = new System.Windows.Forms.Padding(0);
+            this.btnRePrint.Name = "btnRePrint";
+            this.btnRePrint.Size = new System.Drawing.Size(91, 84);
+            this.btnRePrint.TabIndex = 7;
+            this.btnRePrint.Text = "공정라벨\r\n재발행";
+            this.btnRePrint.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnRePrint.UseVisualStyleBackColor = false;
+            // 
+            // btnMove
+            // 
+            this.btnMove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(108)))), ((int)(((byte)(128)))));
+            this.btnMove.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnMove.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnMove.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMove.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnMove.Image = ((System.Drawing.Image)(resources.GetObject("btnMove.Image")));
+            this.btnMove.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnMove.Location = new System.Drawing.Point(455, 0);
+            this.btnMove.Margin = new System.Windows.Forms.Padding(0);
+            this.btnMove.Name = "btnMove";
+            this.btnMove.Size = new System.Drawing.Size(91, 84);
+            this.btnMove.TabIndex = 10;
+            this.btnMove.Text = "잔량이동";
+            this.btnMove.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMove.UseVisualStyleBackColor = false;
+            // 
             // btnNoWork
             // 
             this.btnNoWork.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(108)))), ((int)(((byte)(128)))));
@@ -257,115 +370,23 @@
             this.btnWork.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnWork.UseVisualStyleBackColor = false;
             // 
-            // btnMove
+            // btnMold
             // 
-            this.btnMove.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(108)))), ((int)(((byte)(128)))));
-            this.btnMove.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnMove.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnMove.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMove.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnMove.Image = ((System.Drawing.Image)(resources.GetObject("btnMove.Image")));
-            this.btnMove.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnMove.Location = new System.Drawing.Point(455, 0);
-            this.btnMove.Margin = new System.Windows.Forms.Padding(0);
-            this.btnMove.Name = "btnMove";
-            this.btnMove.Size = new System.Drawing.Size(91, 84);
-            this.btnMove.TabIndex = 10;
-            this.btnMove.Text = "잔량이동";
-            this.btnMove.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnMove.UseVisualStyleBackColor = false;
-            // 
-            // btnWorkQ
-            // 
-            this.btnWorkQ.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(166)))), ((int)(((byte)(244)))));
-            this.btnWorkQ.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnWorkQ.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnWorkQ.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnWorkQ.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnWorkQ.Image = ((System.Drawing.Image)(resources.GetObject("btnWorkQ.Image")));
-            this.btnWorkQ.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnWorkQ.Location = new System.Drawing.Point(637, 0);
-            this.btnWorkQ.Margin = new System.Windows.Forms.Padding(0);
-            this.btnWorkQ.Name = "btnWorkQ";
-            this.btnWorkQ.Size = new System.Drawing.Size(91, 84);
-            this.btnWorkQ.TabIndex = 7;
-            this.btnWorkQ.Text = "\n조회화면";
-            this.btnWorkQ.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnWorkQ.UseVisualStyleBackColor = false;
-            // 
-            // btnChoiceWorker
-            // 
-            this.btnChoiceWorker.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(166)))), ((int)(((byte)(244)))));
-            this.btnChoiceWorker.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnChoiceWorker.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnChoiceWorker.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnChoiceWorker.Image = global::WizWork.Properties.Resources.worker;
-            this.btnChoiceWorker.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnChoiceWorker.Location = new System.Drawing.Point(728, 0);
-            this.btnChoiceWorker.Margin = new System.Windows.Forms.Padding(0);
-            this.btnChoiceWorker.Name = "btnChoiceWorker";
-            this.btnChoiceWorker.Size = new System.Drawing.Size(91, 84);
-            this.btnChoiceWorker.TabIndex = 21;
-            this.btnChoiceWorker.Text = "작업자선택";
-            this.btnChoiceWorker.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnChoiceWorker.UseVisualStyleBackColor = false;
-            // 
-            // btnSetting
-            // 
-            this.btnSetting.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(113)))), ((int)(((byte)(194)))), ((int)(((byte)(133)))));
-            this.btnSetting.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnSetting.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlLight;
-            this.btnSetting.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnSetting.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnSetting.Image = ((System.Drawing.Image)(resources.GetObject("btnSetting.Image")));
-            this.btnSetting.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnSetting.Location = new System.Drawing.Point(819, 0);
-            this.btnSetting.Margin = new System.Windows.Forms.Padding(0);
-            this.btnSetting.Name = "btnSetting";
-            this.btnSetting.Size = new System.Drawing.Size(91, 84);
-            this.btnSetting.TabIndex = 10;
-            this.btnSetting.Text = "환경설정";
-            this.btnSetting.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSetting.UseVisualStyleBackColor = false;
-            // 
-            // btnExit
-            // 
-            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(162)))), ((int)(((byte)(143)))));
-            this.btnExit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnExit.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnExit.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnExit.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
-            this.btnExit.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnExit.Location = new System.Drawing.Point(910, 0);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(0);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(82, 84);
-            this.btnExit.TabIndex = 3;
-            this.btnExit.Text = "작업종료";
-            this.btnExit.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnExit.UseVisualStyleBackColor = false;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
-            // btnRePrint
-            // 
-            this.btnRePrint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(166)))), ((int)(((byte)(244)))));
-            this.btnRePrint.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnRePrint.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnRePrint.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnRePrint.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnRePrint.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnRePrint.Image = global::WizWork.Properties.Resources.printer;
-            this.btnRePrint.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnRePrint.Location = new System.Drawing.Point(546, 0);
-            this.btnRePrint.Margin = new System.Windows.Forms.Padding(0);
-            this.btnRePrint.Name = "btnRePrint";
-            this.btnRePrint.Size = new System.Drawing.Size(91, 84);
-            this.btnRePrint.TabIndex = 7;
-            this.btnRePrint.Text = "공정라벨\r\n재발행";
-            this.btnRePrint.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnRePrint.UseVisualStyleBackColor = false;
+            this.btnMold.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(108)))), ((int)(((byte)(128)))));
+            this.btnMold.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnMold.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnMold.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnMold.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.btnMold.Image = ((System.Drawing.Image)(resources.GetObject("btnMold.Image")));
+            this.btnMold.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnMold.Location = new System.Drawing.Point(182, 0);
+            this.btnMold.Margin = new System.Windows.Forms.Padding(0);
+            this.btnMold.Name = "btnMold";
+            this.btnMold.Size = new System.Drawing.Size(91, 84);
+            this.btnMold.TabIndex = 22;
+            this.btnMold.Text = "금형점검";
+            this.btnMold.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnMold.UseVisualStyleBackColor = false;
             // 
             // btnInsInspectAuto
             // 
@@ -386,24 +407,6 @@
             this.btnInsInspectAuto.UseVisualStyleBackColor = false;
             this.btnInsInspectAuto.Visible = false;
             // 
-            // btnMold
-            // 
-            this.btnMold.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(108)))), ((int)(((byte)(128)))));
-            this.btnMold.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.btnMold.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnMold.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMold.Font = new System.Drawing.Font("맑은 고딕", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.btnMold.Image = ((System.Drawing.Image)(resources.GetObject("btnMold.Image")));
-            this.btnMold.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnMold.Location = new System.Drawing.Point(182, 0);
-            this.btnMold.Margin = new System.Windows.Forms.Padding(0);
-            this.btnMold.Name = "btnMold";
-            this.btnMold.Size = new System.Drawing.Size(91, 84);
-            this.btnMold.TabIndex = 22;
-            this.btnMold.Text = "금형점검";
-            this.btnMold.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnMold.UseVisualStyleBackColor = false;
-            // 
             // Frm_tprc_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -419,7 +422,7 @@
             this.Name = "Frm_tprc_Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "생산정보시스템";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Activated += new System.EventHandler(this.Frm_tprc_Main_Activated);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Frm_tprc_Main_FormClosing);
             this.Load += new System.EventHandler(this.MDIParent1_Load);
@@ -427,6 +430,7 @@
             this.stsInfo.PerformLayout();
             this.tlpTop.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
         #endregion

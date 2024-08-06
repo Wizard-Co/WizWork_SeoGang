@@ -256,6 +256,7 @@
             this.btnColRight.Text = "우";
             this.btnColRight.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnColRight.UseVisualStyleBackColor = true;
+            this.btnColRight.Visible = false;
             // 
             // btnColLeft
             // 
@@ -270,6 +271,7 @@
             this.btnColLeft.Text = "좌";
             this.btnColLeft.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnColLeft.UseVisualStyleBackColor = true;
+            this.btnColLeft.Visible = false;
             // 
             // tlpForm
             // 
@@ -657,6 +659,8 @@
             // 
             this.chkDate.Appearance = System.Windows.Forms.Appearance.Button;
             this.chkDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.chkDate.Checked = true;
+            this.chkDate.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkDate.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
             this.chkDate.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.chkDate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;

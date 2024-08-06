@@ -56,8 +56,9 @@ namespace WizWork
         private string Wh_Ar_InstID = "";       // PL_Input 작지의 해당 대상 InstID.
         private string Wh_Ar_InstID_Seq = "";   // PL_Input 작지의 해당 대상 InstID_Seq.
 
-
-
+        string FIFOLOTID = "";      //2023-12-07 선입선출용 LOTID
+        string strBarcodeList = ""; //2023-12-26 LOTIDLIst
+        
         string[] Message = new string[2];  // 메시지박스 처리용도.
 
         string WhAr_MoveArticle_I = string.Empty;    // I_FMB_재단 자동이동시의 Article.(Whole-Area)
@@ -65,6 +66,8 @@ namespace WizWork
         WizWorkLib Lib = new WizWorkLib();
 
         List<ChildLabel> lstChildLabel = new List <ChildLabel>();
+        List<string> ListLabelID = new List<string>(); //2023-12-15 그리드에 입력되어 있는 LabelID
+
         // 각 품명의 라벨 리스트
         Dictionary<string, List<ChildLabel>> dicSubList = new Dictionary<string, List<ChildLabel>>(); 
 
@@ -155,7 +158,8 @@ namespace WizWork
         private void setDataGrid__ChildArticle()
         {
             dgdMain.Rows.Clear();
-            dgdSub.Rows.Clear();
+            dgdSub.Rows.Clear(); 
+            ListLabelID.Clear();
 
             try
             {
@@ -170,12 +174,16 @@ namespace WizWork
                                                 , stringFormatN0(lstChildLabel[i].ReaQty)
                                                 , stringFormatN0(lstChildLabel[i].NeedQty)
                                                 , stringFormatN0(lstChildLabel[i].DeficiencyQty)
+                                                , lstChildLabel[i].OutwareExceptYN
                                                 );
 
                     // 각 품명의 라벨 리스트 dicSubList 세팅
                     List<ChildLabel> lstCL = new List<ChildLabel>();
                     lstCL.Add(lstChildLabel[i]);
                     dicSubList.Add(lstChildLabel[i].ArticleID, lstCL);
+
+                    //2023-12-15 라벨ID를 리스트에 입력
+                    ListLabelID.Add(lstChildLabel[i].LabelID);
                 }
             }
             catch (Exception excpt)
@@ -200,6 +208,7 @@ namespace WizWork
                         string sLabelID = dgdSub.SelectedRows[0].Cells["LabelID2"].Value.ToString();
                         double CancelQty = ConvertDouble(dgdSub.SelectedRows[0].Cells["LocRemainQty2"].Value.ToString());
 
+                        ListLabelID.Remove(dgdSub.SelectedRows[0].Cells["LabelID2"].Value.ToString()); //2023-12-26 리스트에서 삭제
                         dgdSub.Rows.Remove(dgdSub.SelectedRows[0]);
 
                         // 삭제하면서 dgdMain 에 부족량 업데이트 하기
@@ -367,7 +376,7 @@ namespace WizWork
                     //m_UnitClss = Lib.CheckNull(dr["UnitClss"].ToString());//pl_inputdet articleid의 UnitClss
                     //m_UnitClssName = Lib.CheckNull(dr["UnitClssName"].ToString());
 
-                // 2020.04.22 데이터 넣는곳
+                    // 2020.04.22 데이터 넣는곳
                     //txtArticle.Text = Lib.CheckNull(dr["pldArticle"].ToString());
 
                     //txtBuyerArticleNo.Text = Lib.CheckNull(dr["BuyerArticleNo"].ToString());                   
@@ -403,6 +412,8 @@ namespace WizWork
                     txtBarCodePreScan.Text = txtBarCodePreScan.Text.Trim().ToUpper();
                     if (BarcodeEnter())
                     {
+                        ListLabelID.Add(txtBarCodePreScan.Text.Trim());
+
                         //if (btnOK.Tag != null
                         //    && btnOK.Tag.ToString().Equals("OK"))
                         //{
@@ -414,6 +425,9 @@ namespace WizWork
                         //{
                         //    btnOK_Click(null, null);
                         //}
+
+
+
                     }
 
                     txtBarCodePreScan.Text = string.Empty;
@@ -456,11 +470,13 @@ namespace WizWork
                 txtBarCodePreScan.Text = FK.tbInputText.Text;
                 if (BarcodeEnter())
                 {
-                    if (btnOK.Tag != null
-                            && btnOK.Tag.ToString().Equals("OK"))
-                    {
-                        btnOK_Click(null, null);
-                    }
+                    //if (btnOK.Tag != null
+                    //        && btnOK.Tag.ToString().Equals("OK"))
+                    //{
+                    //    btnOK_Click(null, null);
+                    //}
+
+                    ListLabelID.Add(txtBarCodePreScan.Text.Trim());
 
                 }
 
@@ -597,7 +613,7 @@ namespace WizWork
                                         }
                                     }
 
-                                    ChildLabel cl = new ChildLabel(m_LabelID, m_ArticleID, m_Article, m_BuyerArticleNo, dicSubList[Key][0].ReaQty, (float)m_LocRemainQty, 0);
+                                    ChildLabel cl = new ChildLabel(m_LabelID, m_ArticleID, m_Article, m_BuyerArticleNo, dicSubList[Key][0].ReaQty, (float)m_LocRemainQty, 0, "");
                                     dicSubList[Key][0].DeficiencyQty = (float)DeficiencyQty;
                                     dicSubList[Key].Add(cl);
                                 }
@@ -684,6 +700,8 @@ namespace WizWork
         private bool BarCodeCheck(string strBarCode)
         {
             DataRow dr = null;
+            DataRow dr2 = null;
+
             try
             {
 
@@ -774,6 +792,65 @@ namespace WizWork
                             }
                         }
                     }
+
+                    //선입선출 추가
+                    if (m_MtrExceptYN.Equals("N"))
+                    {
+                        //예외관리 여부 확인
+                        string OutwareExceptYN = "";
+
+                        for (int i = 0; i < dgdMain.Rows.Count; i++)
+                        {
+                            if(dgdMain.Rows[i].Cells["ArticleID"].Value.ToString() == m_ArticleID)
+                            {
+                                OutwareExceptYN = dgdMain.Rows[i].Cells["OutwareExceptYN"].Value.ToString(); 
+                            }
+                        }
+
+                        if (OutwareExceptYN.Equals("N")) 
+                        {
+                            //초기화 
+                            strBarcodeList = "";
+
+                            //먼저 입력한 라벨 리스트
+                            for (int i = 0; i < ListLabelID.Count; i++)
+                            {
+                                if (i == ListLabelID.Count - 1)
+                                {
+                                    strBarcodeList += ListLabelID[i].ToString();
+                                }
+                                else
+                                {
+                                    strBarcodeList += ListLabelID[i].ToString() + ",";
+                                }
+                            }
+
+                            //그리드 라벨 리스트에 입력해서 리스트에 있으면 해당 라벨로 다시 찾기
+                            Dictionary<string, object> sqlParameter2 = new Dictionary<string, object>();
+                            sqlParameter2.Add("BarCode", strBarCode);
+                            sqlParameter2.Add("BarCodeList", strBarcodeList);
+                            sqlParameter2.Add("ArticleID", m_ArticleID);
+                            DataTable dt2 = DataStore.Instance.ProcedureToDataTable("xp_WizWork_FIFOLOT", sqlParameter2, false);
+                            if (dt2 != null && dt2.Rows.Count > 0)
+                            {
+                                dr2 = dt2.Rows[0];
+                                FIFOLOTID = dr2["LotID"].ToString().Trim();
+
+                                Message[0] = "[선입선출]";
+                                Message[1] = "해당 하위품( " + FIFOLOTID + " )에 재고가 존재 합니다. \r\n" +
+                                             FIFOLOTID + "의 재고를 먼저 소진해주세요.";
+                                throw new Exception();
+
+                            }
+                        }
+                        else
+                        {
+                            Message[0] = "[하위품 예외관리]";
+                            Message[1] = "해당 하위품은 하위품 예외관리가 체크되어 있어 \r\n 라벨을 스캔 하지 않아도 됩니다.";
+                            throw new Exception();
+                        }
+                    }
+
                     if (Find_BOM_Child())
                     {
                         return true;

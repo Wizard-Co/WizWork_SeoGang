@@ -83,6 +83,8 @@ namespace WizWork
             this.cboProcess = new System.Windows.Forms.ComboBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.txtModel = new System.Windows.Forms.TextBox();
+            this.chkModel = new System.Windows.Forms.CheckBox();
             this.txtPLotID = new System.Windows.Forms.TextBox();
             this.chkPLotID = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -672,8 +674,8 @@ namespace WizWork
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.ColumnCount = 2;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.Controls.Add(this.panel2, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel3, 1, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 43);
@@ -690,7 +692,7 @@ namespace WizWork
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(478, 28);
+            this.panel2.Size = new System.Drawing.Size(397, 28);
             this.panel2.TabIndex = 1;
             // 
             // tableLayoutPanel6
@@ -724,7 +726,7 @@ namespace WizWork
             this.txtBuyerArticle.Text = "8MG";
             this.txtBuyerArticle.WordWrap = false;
             this.txtBuyerArticle.Click += new System.EventHandler(this.txtBuyerArticle_Click);
-            this.txtBuyerArticle.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPLotID_KeyPress);
+            this.txtBuyerArticle.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuyerArticle_KeyPress);
             // 
             // chkProcess
             // 
@@ -740,7 +742,7 @@ namespace WizWork
             this.chkProcess.Name = "chkProcess";
             this.chkProcess.Size = new System.Drawing.Size(71, 21);
             this.chkProcess.TabIndex = 205;
-            this.chkProcess.Text = "공   정";
+            this.chkProcess.Text = "공정";
             this.chkProcess.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkProcess.UseVisualStyleBackColor = false;
             // 
@@ -758,7 +760,7 @@ namespace WizWork
             this.chkBuyerArticle.Name = "chkBuyerArticle";
             this.chkBuyerArticle.Size = new System.Drawing.Size(71, 21);
             this.chkBuyerArticle.TabIndex = 204;
-            this.chkBuyerArticle.Text = "품   번";
+            this.chkBuyerArticle.Text = "품번";
             this.chkBuyerArticle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkBuyerArticle.UseVisualStyleBackColor = false;
             this.chkBuyerArticle.Click += new System.EventHandler(this.chkBuyerArticle_Click);
@@ -783,35 +785,71 @@ namespace WizWork
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.tableLayoutPanel5);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(487, 3);
+            this.panel3.Location = new System.Drawing.Point(406, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(317, 28);
+            this.panel3.Size = new System.Drawing.Size(398, 28);
             this.panel3.TabIndex = 2;
             // 
             // tableLayoutPanel5
             // 
-            this.tableLayoutPanel5.ColumnCount = 2;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Controls.Add(this.txtPLotID, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.chkPLotID, 0, 0);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(-1, -1);
+            this.tableLayoutPanel5.ColumnCount = 4;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel5.Controls.Add(this.txtModel, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.chkModel, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.txtPLotID, 3, 0);
+            this.tableLayoutPanel5.Controls.Add(this.chkPLotID, 2, 0);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.tableLayoutPanel5.RowCount = 1;
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel5.Size = new System.Drawing.Size(317, 30);
             this.tableLayoutPanel5.TabIndex = 1;
             // 
+            // txtModel
+            // 
+            this.txtModel.BackColor = System.Drawing.Color.White;
+            this.txtModel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtModel.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold);
+            this.txtModel.Location = new System.Drawing.Point(65, 2);
+            this.txtModel.Margin = new System.Windows.Forms.Padding(2);
+            this.txtModel.Name = "txtModel";
+            this.txtModel.Size = new System.Drawing.Size(91, 39);
+            this.txtModel.TabIndex = 208;
+            this.txtModel.WordWrap = false;
+            this.txtModel.Click += new System.EventHandler(this.txtModel_Click);
+            this.txtModel.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtModel_KeyPress);
+            // 
+            // chkModel
+            // 
+            this.chkModel.Appearance = System.Windows.Forms.Appearance.Button;
+            this.chkModel.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.chkModel.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.chkModel.FlatAppearance.CheckedBackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.chkModel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.chkModel.Font = new System.Drawing.Font("맑은 고딕", 12.25F, System.Drawing.FontStyle.Bold);
+            this.chkModel.ForeColor = System.Drawing.Color.White;
+            this.chkModel.Location = new System.Drawing.Point(2, 2);
+            this.chkModel.Margin = new System.Windows.Forms.Padding(2);
+            this.chkModel.Name = "chkModel";
+            this.chkModel.Size = new System.Drawing.Size(59, 21);
+            this.chkModel.TabIndex = 207;
+            this.chkModel.Text = "차종";
+            this.chkModel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.chkModel.UseVisualStyleBackColor = false;
+            this.chkModel.Click += new System.EventHandler(this.chkModel_Click);
+            // 
             // txtPLotID
             // 
             this.txtPLotID.BackColor = System.Drawing.Color.White;
             this.txtPLotID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPLotID.Font = new System.Drawing.Font("맑은 고딕", 18F, System.Drawing.FontStyle.Bold);
-            this.txtPLotID.Location = new System.Drawing.Point(107, 2);
+            this.txtPLotID.Location = new System.Drawing.Point(223, 2);
             this.txtPLotID.Margin = new System.Windows.Forms.Padding(2);
             this.txtPLotID.Name = "txtPLotID";
-            this.txtPLotID.Size = new System.Drawing.Size(193, 39);
+            this.txtPLotID.Size = new System.Drawing.Size(92, 39);
             this.txtPLotID.TabIndex = 206;
             this.txtPLotID.Text = "PL2020";
             this.txtPLotID.WordWrap = false;
@@ -827,10 +865,10 @@ namespace WizWork
             this.chkPLotID.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.chkPLotID.Font = new System.Drawing.Font("맑은 고딕", 12.25F, System.Drawing.FontStyle.Bold);
             this.chkPLotID.ForeColor = System.Drawing.Color.White;
-            this.chkPLotID.Location = new System.Drawing.Point(2, 2);
+            this.chkPLotID.Location = new System.Drawing.Point(160, 2);
             this.chkPLotID.Margin = new System.Windows.Forms.Padding(2);
             this.chkPLotID.Name = "chkPLotID";
-            this.chkPLotID.Size = new System.Drawing.Size(68, 26);
+            this.chkPLotID.Size = new System.Drawing.Size(59, 26);
             this.chkPLotID.TabIndex = 203;
             this.chkPLotID.Text = "LotID";
             this.chkPLotID.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1152,6 +1190,20 @@ namespace WizWork
         private TextBox txtPLotID;
         private CheckBox chkPLotID;
         private CheckBox chkComplete;
+        private TableLayoutPanel tableLayoutPanel4;
+        private Button btnThisMonth;
+        private Panel panel4;
+        private Label label1;
+        private Label label2;
+        private Button btnToolChange;
+        private Button btnWorkOrderJPG;
+        private Button button2;
+        private TextBox txtBuyerArticle;
+        private Label label3;
+        private TableLayoutPanel tlpBottom;
+        private Button btnNextWork;
+        private Button btnBeforeWork;
+        private Button btnInspectAuto;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn InstDate;
         private DataGridViewTextBoxColumn StartDate;
@@ -1167,19 +1219,7 @@ namespace WizWork
         private DataGridViewTextBoxColumn MachineID;
         private DataGridViewTextBoxColumn CreateUserID;
         private DataGridViewTextBoxColumn SHWorkingYN;
-        private TableLayoutPanel tableLayoutPanel4;
-        private Button btnThisMonth;
-        private Panel panel4;
-        private Label label1;
-        private Label label2;
-        private Button btnToolChange;
-        private Button btnWorkOrderJPG;
-        private Button button2;
-        private TextBox txtBuyerArticle;
-        private Label label3;
-        private TableLayoutPanel tlpBottom;
-        private Button btnNextWork;
-        private Button btnBeforeWork;
-        private Button btnInspectAuto;
+        private TextBox txtModel;
+        private CheckBox chkModel;
     }
 }

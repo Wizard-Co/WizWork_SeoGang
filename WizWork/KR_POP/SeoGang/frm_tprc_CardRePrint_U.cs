@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
+using System.IO.Ports;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading;
 using System.Windows.Forms;
 using Microsoft.VisualBasic;
 using WizCommon;
@@ -131,7 +134,7 @@ namespace WizWork
             grdData.Columns[i].DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             grdData.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
             grdData.Columns[i].ReadOnly = true;
-            grdData.Columns[i].Visible = false;           
+            grdData.Columns[i].Visible = false;
 
             grdData.Columns[++i].Name = "Model";
             grdData.Columns[i].HeaderText = "차종";
@@ -146,7 +149,7 @@ namespace WizWork
             grdData.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
             grdData.Columns[i].ReadOnly = true;
             grdData.Columns[i].Visible = false;
-           
+
 
             grdData.Columns[++i].Name = "WorkDate";
             grdData.Columns[i].HeaderText = "작업일자";
@@ -194,7 +197,7 @@ namespace WizWork
                 string sSDate = mtb_From.Text.Replace("-", "");
                 string sEDate = mtb_To.Text.Replace("-", "");
 
-                
+
                 foreach (Control rbn in tlpSearch_LL.Controls)
                 {
                     if (rbn is RadioButton)
@@ -226,7 +229,7 @@ namespace WizWork
                 sqlParameter.Add("nChkMtrLotNo", nChkMtrLotNo);//상위품ID
                 sqlParameter.Add("MtrLotNo", txtMtrLotNo.Text);//상위품ID
 
-                
+
                 DataTable dt = DataStore.Instance.ProcedureToDataTable("xp_prdWork_sCardLabelPrint", sqlParameter, false);
                 DataRow dr = null;
                 int QtyPerBox = 0;
@@ -249,7 +252,7 @@ namespace WizWork
                                          Lib.MakeDateTime("yyyymmdd", dr["ReprintDate"].ToString().Trim()),   //'재발행일자
                                          string.Format("{0:n0}", ReprintQty),       // 재발행'수량
 
-                   
+
                                          dr["InstID"].ToString(),       // 'InstID       
                                          dr["OrderID"].ToString(),           // 'OrderID  
                                          string.Format("{0:n0}", QtyPerBox),   //'수량
@@ -324,7 +327,7 @@ namespace WizWork
                         }
                     }
                 }
-                
+
                 if (!hasCheck)
                 {
                     Message[0] = "[재발행라벨 선택]";
@@ -381,6 +384,7 @@ namespace WizWork
             if (list_TWkLabelPrint.Count > 0)
             {
                 List<string> list_Data = null;
+
                 for (int i = 0; i < nCount; i++)
                 {
                     try
@@ -392,7 +396,6 @@ namespace WizWork
 
                         DataTable dt = DataStore.Instance.ProcedureToDataTable("xp_WizWork_uCardLabelPrint", sqlParameter, false);
 
-
                         string g_sPrinterName = Lib.GetDefaultPrinter();
 
                         string TagID = "";
@@ -400,7 +403,8 @@ namespace WizWork
                         //라벨선택
                         if (rbnProcessLabel.Checked)
                         {
-                            TagID = "013";
+                            //TagID = "013";
+                            TagID = "014";
 
                             list_TWkLabelPrint[i].sLabelGubun = "7";
                         }
@@ -411,137 +415,306 @@ namespace WizWork
 
                         string DayNightName = string.Empty;
                         string ArticleSub = string.Empty;
+                        string Dong = string.Empty;
 
-
-                        int index = 0;
-                        foreach (DataRow dr in dt.Rows)
+                        if (g_sPrinterName.Contains("TSC") == false) 
                         {
-                            index++;
-                            if (index == 1)//  (dr["ProcSeq"].ToString().Equals("1"))
+                            //Port OPEN
+
+                            SerialPort();
+                            int index = 0;
+                            foreach (DataRow dr in dt.Rows)
                             {
-                                if (dr["DayOrNightID"].ToString().Trim().Equals("01"))
+                                index++;
+                                if (index == 1)//  (dr["ProcSeq"].ToString().Equals("1"))
                                 {
-                                    DayNightName = "주간";
+                                    if (dr["DayOrNightID"].ToString().Trim().Equals("01"))
+                                    {
+                                        DayNightName = "주간";
+                                    }
+                                    else if (dr["DayOrNightID"].ToString().Trim().Equals("02"))
+                                    {
+                                        DayNightName = "야간";
+                                    }
+                                    double.TryParse(dr["WorkQty"].ToString(), out douworkqty);
+                                    double.TryParse(dr["wk_defectQty"].ToString(), out doudefectqty);
+
+                                    //list_Data.Add(Lib.CheckNull(dr["wk_CardID"].ToString())); //라벨번호(공정전표)
+
+                                    //list_Data.Add(Lib.CheckNull(dr["Model"].ToString()));// 차종
+                                    //list_Data.Add(Lib.CheckNull(dr["Process"].ToString()));// 공정명
+                                    //list_Data.Add(Lib.CheckNull(dr["BuyerArticleNo"].ToString()));// 품번
+                                    //list_Data.Add(Lib.CheckNull(dr["Article"].ToString())); // 품명
+                                    //                                                        //list_Data.Add(Lib.CheckNull(dr["DayOrNightID"].ToString())); // 주/야간
+                                    //list_Data.Add(Lib.CheckNull(DayNightName));
+                                    //list_Data.Add(Lib.CheckNull(dr["wk_Name"].ToString()));// 작업자
+                                    //list_Data.Add((string.Format("{0:n0}", (int)douworkqty)));// _수량
+                                    //list_Data.Add(Lib.MakeDate(WizWorkLib.DateTimeClss.DF_FD, DateTime.Now.ToString("yyyyMMdd")));//재발행일자로 수정 2024-02-19
+                                    //list_Data.Add(Lib.MakeDate(WizWorkLib.DateTimeClss.DF_FD, Lib.CheckNull(dr["wk_ResultDate"].ToString())));//D_생산일자
+                                    //list_Data.Add((string.Format("{0:n0}", (int)doudefectqty)));// _불량수량
+
+                                    #region 서강정밀 Zebra Printer 사용
+
+                                    #region 라벨에 주/야간 출력(서강정밀)
+                                    //if (dr["Article"].ToString().Length > 12)  // 품명 12글자 이상일 경우 12글자까지만 출력
+                                    //{
+                                    //    ArticleSub = dr["Article"].ToString().Substring(0, 12);
+                                    //}
+
+                                    ArticleSub = dr["Article"].ToString();
+
+                                    //프레스동(프레스, 프로, 블랭킹)
+                                    //출하동(프레스제품, 검사포장)
+                                    //용접동(p/j용접,sub용접,메인용접)
+                                    //가공동(절단,면취,밴딩,드릴,확관)
+
+                                    if (Lib.CheckNull(dr["Process"].ToString().Trim()) == "프레스" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "프로" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "블랭킹")
+                                    {
+                                        Dong = "프레스동";
+                                    }
+                                    else if (Lib.CheckNull(dr["Process"].ToString().Trim()) == "P/J용접" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "Sub용접" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "메인용접")
+                                    {
+                                        Dong = "용접동";
+                                    }
+                                    else if (Lib.CheckNull(dr["Process"].ToString().Trim()) == "절단" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "면취" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "밴딩" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "드릴" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "확관")
+                                    {
+                                        Dong = "가공동";
+                                    }
+                                    else
+                                    {
+                                        Dong = "출하동";
+                                    }
+
+                                    #endregion
+
+
+                                    #region 제브라 ZT230 프린터 라벨 소스(2020.11.03.서강정밀)
+                                    //Zebra Printer 인쇄 라벨 디자인 2020.10.23.KGH
+                                    string zZPL = " ^XA\n";
+
+                                    //zZPL += "^SEE:UHANGUL.DAT^FS\n";               // 요 두줄을 날려줘야 한글이 출력
+                                    //zZPL += "^CW1,E:KFONT3.FNT^CI26^FS\n";
+
+                                    zZPL += "^CI28\n";
+                                    zZPL += "^LH3,3\n";
+                                    zZPL += "^FO10,20^GB712,390,3^FS\n";           // 가장 바깥 테두리
+                                    zZPL += "^FO10,20^^FS\n";
+                                    zZPL += "^FO20,30^A1N35,35^FD생 산 전 표^FS\n";// T 좌측상단 텍스트
+                                    zZPL += "^FO550,30^A1N35,35^FD" + Dong + "^FS\n";    // T 우측상단 텍스트
+                                    //zZPL += "^FO125,335^BY2,3,60^B3 ,,,, ^FD"+Lib.CheckNull(dr["wk_CardID"].ToString())+"^FS\n";
+                                    zZPL += "^FO125,315^BY3^BCN,60,Y,N,N^FD" + Lib.CheckNull(dr["wk_CardID"].ToString()) + "^FS\n";    // D 바코드
+                                    zZPL += "^PRD\n";                              // 프린트 속도 152.4mm/Sec
+                                    zZPL += "^FO20,65^GB693,60,3^FS\n";            // 세로 1번째 칸
+                                    zZPL += "^FO20,65^^FS\n";
+                                    zZPL += "^FO20,65^GB693,120,3^FS\n";           // 세로 2번째 칸
+                                    zZPL += "^FO20,65^^FS\n";
+                                    zZPL += "^FO20,65^GB693,180,3^FS\n";           // 세로 3번째 칸
+                                    zZPL += "^FO20,65^^FS\n";
+                                    zZPL += "^FO20,65^GB693,240,3^FS\n";           // 세로 4번째 칸
+                                    zZPL += "^FO20,65^^FS\n";
+                                    zZPL += "^FO25,80^A1N35,35^FD차 종^FS\n";      // T 세로 1번째 텍스트
+                                    zZPL += "^FO25,140^A1N35,35^FD품 번^FS\n";     // T 세로 2번째 텍스트
+                                    zZPL += "^FO25,200^A1N35,35^FD품 명^FS\n";     // T 세로 3번째 텍스트
+                                    zZPL += "^FO25,260^A1N35,35^FD수 량^FS\n";     // T 세로 4번째 텍스트
+                                    zZPL += "^FO130,80^A1N35,35^FD" + Lib.CheckNull(dr["Model"].ToString()) + "^FS\n"; // D 텍스트 1 내용 텍스트 (차종)
+                                    zZPL += "^FO130,140^A1N35,35^FD" + Lib.CheckNull(dr["BuyerArticleNo"].ToString()) + "^FS\n"; // D 텍스트 2 내용 텍스트 (품번)
+
+                                    //if문으로 2줄처리 2024-06-14
+                                    //zZPL += "^FO130,200^A1N20,20^FD" + ArticleSub + "^FS\n"; // D 텍스트 3 내용 텍스트(품명)
+
+                                    if (ArticleSub.Length < 18)
+                                    {
+                                        zZPL += "^FO130,200^A1N25,25^FD" + ArticleSub + "^FS\n"; // D 텍스트 3 내용 텍스트(품명)
+                                    }
+                                    else
+                                    {
+                                        zZPL += "^FO130,190^A1N25,25^FD" + ArticleSub.Substring(0, 18) + "^FS\n"; // D 텍스트 3 내용 텍스트(품명)
+                                        zZPL += "^FO130,210^A1N25,25^FD" + ArticleSub.Substring(18) + "^FS\n"; // D 텍스트 3 내용 텍스트(품명)
+                                    }
+
+                                    zZPL += "^FO130,260^A1N35,35^FD" + string.Format("{0:n0}", (int)douworkqty) + "^FS\n"; // D 텍스트 4 내용 텍스트 (수량)
+                                    zZPL += "^FO20,65^GB100,240,3^FS\n";           // 차종, 품번, 품명, 수량 칸
+                                    zZPL += "^FO20,65^^FS\n";
+                                    zZPL += "^FO310,65^GB149,60,3^FS\n";           // 작업장(공정) 칸
+                                    zZPL += "^FO310,65^^FS\n";
+                                    zZPL += "^FO335,80^A1N35,35^FD공 정^FS\n";    // T 작업장(공정) 칸 텍스트
+                                    zZPL += "^FO470,80^A1N35,35^FD" + Lib.CheckNull(dr["Process"].ToString()) + "^FS\n";    // D 작업장 내용 텍스트(공정명)
+                                    zZPL += "^FO548,123^GB165,122,2^FS\n";         // 주/야간 칸, 합격자 성명 칸
+                                    zZPL += "^FO585,123^^FS\n";
+                                    zZPL += "^FO560,140^A1N35,35^FD" + DayNightName + "^FS\n";   // D 주/야간 텍스트  
+                                    zZPL += "^FO455,183^GB95,62,2^FS\n";          // 합격 칸
+                                    zZPL += "^FO455,183^^FS\n";
+                                    zZPL += "^FO465,200^A1N35,35^FD합격^FS\n";    // T 합격 칸 텍스트 
+
+                                    //if문으로 2줄처리 2024-06-14
+                                    //zZPL += "^FO560,200^A1N20,20^FD" + Lib.CheckNull(dr["wk_Name"].ToString()) + "^FS\n";  // D 합격 칸 내용 텍스트
+
+                                    if (Lib.CheckNull(dr["wk_Name"].ToString()).Length < 5)
+                                    {
+                                        zZPL += "^FO560,200^A1N25,25^FD" + Lib.CheckNull(dr["wk_Name"].ToString()) + "^FS\n";  // D 합격 칸 내용 텍스트
+                                    }
+                                    else
+                                    {
+                                        zZPL += "^FO560,190^A1N25,25^FD" + Lib.CheckNull(dr["wk_Name"].ToString()).Substring(0, 5) + "^FS\n";  // D 합격 칸 내용 텍스트
+                                        zZPL += "^FO560,210^A1N25,25^FD" + Lib.CheckNull(dr["wk_Name"].ToString()).Substring(5) + "^FS\n";  // D 합격 칸 내용 텍스트
+                                    }
+
+                                    zZPL += "^FO310,242^GB157,63,2^FS\n";          // 생산일자 칸
+                                    zZPL += "^FO310,242^^FS\n";
+                                    zZPL += "^FO320,260^A1N35,35^FD생산일자^FS\n"; // T 생산일자 텍스트
+                                    //zZPL += "^FO500,277^AE30,30^FD"+Lib.MakeDate(WizWorkLib.DateTimeClss.DF_FD, Lib.CheckNull(dr["wk_ResultDate"].ToString().Trim()))+"^FS\n"; // D 날짜 텍스트
+                                    zZPL += "^FO480,260^AE35,35^FD" + Lib.MakeDate(WizWorkLib.DateTimeClss.DF_FD, DateTime.Now.ToString("yyyyMMdd")) + "^FS\n"; // D 날짜 텍스트 //ConvertDateTime(Lib.CheckNull(dr["wk_ResultDate"].ToString().Trim()))
+                                    zZPL += "^FO20,65^GB693,240,3^FS\n";           // 안쪽 바깥 테두리
+                                    zZPL += "^XZ";
+
+                                    // Zebra Printer 연결
+                                    //RawPrinterHelper.SendStringToPrinter("ZDesigner ZT230-200dpi ZPL", zZPL); // 프린터 이름으로 연결(ZDesigner ZT230-200dpi ZPL), Zebra ZM400 (203 dpi) - ZPL, Zebra ZT230 (203 dpi)
+
+                                    SendToPrinter(zZPL);
+
+                                    #endregion
+                                    #endregion
                                 }
-                                else if (dr["DayOrNightID"].ToString().Trim().Equals("02"))
+                                else
                                 {
-                                    DayNightName = "야간";
+                                    list_Data.Add(Lib.CheckNull(dr["Process"].ToString())); // 다음(순차) 공정의  품명
                                 }
-                                double.TryParse(dr["WorkQty"].ToString(), out douworkqty);
-                                double.TryParse(dr["wk_defectQty"].ToString(), out doudefectqty);
-
-                                list_Data.Add(Lib.CheckNull(dr["wk_CardID"].ToString())); //라벨번호(공정전표)
-
-                                list_Data.Add(Lib.CheckNull(dr["Model"].ToString()));// 차종
-                                list_Data.Add(Lib.CheckNull(dr["Process"].ToString()));// 공정명
-                                list_Data.Add(Lib.CheckNull(dr["BuyerArticleNo"].ToString()));// 품번
-                                list_Data.Add(Lib.CheckNull(dr["Article"].ToString())); // 품명
-                                //list_Data.Add(Lib.CheckNull(dr["DayOrNightID"].ToString())); // 주/야간
-                                list_Data.Add(Lib.CheckNull(DayNightName));
-                                list_Data.Add(Lib.CheckNull(dr["wk_Name"].ToString()));// 작업자
-                                list_Data.Add((string.Format("{0:n0}", (int)douworkqty)));// _수량
-                                list_Data.Add(Lib.MakeDate(WizWorkLib.DateTimeClss.DF_FD, DateTime.Now.ToString("yyyyMMdd")));//재발행일자로 수정 2024-02-19
-                                //list_Data.Add(Lib.MakeDate(WizWorkLib.DateTimeClss.DF_FD, Lib.CheckNull(dr["wk_ResultDate"].ToString())));//D_생산일자
-                                //list_Data.Add((string.Format("{0:n0}", (int)doudefectqty)));// _불량수량
-
-                                #region 서강정밀 Zebra Printer 사용
-
-                                //#region 라벨에 주/야간 출력(서강정밀)
-
-
-                                //if (dr["Article"].ToString().Length > 12)  // 품명 12글자 이상일 경우 12글자까지만 출력
-                                //{
-                                //    ArticleSub = dr["Article"].ToString().Substring(0, 12);
-                                //}
-                                //#endregion
-
-
-                                //#region 제브라 ZT230 프린터 라벨 소스(2020.11.03.서강정밀)
-                                ////Zebra Printer 인쇄 라벨 디자인 2020.10.23.KGH
-                                //string zZPL = " ^XA\n";
-                                //zZPL += "^SEE:UHANGUL.DAT^FS\n";               // 요 두줄을 날려줘야 한글이 출력
-                                //zZPL += "^CW1,E:KFONT3.FNT^CI26^FS\n";
-
-                                //zZPL += "^LH3,3\n";
-                                //zZPL += "^FO10,20^GB712,390,3^FS\n";           // 가장 바깥 테두리
-                                //zZPL += "^FO10,20^^FS\n";
-                                //zZPL += "^FO20,30^A1N35,35^FD생 산 전 표^FS\n";// T 좌측상단 텍스트
-                                //zZPL += "^FO600,30^A1N35,35^FD출하동^FS\n";    // T 우측상단 텍스트
-                                ////zZPL += "^FO125,335^BY2,3,60^B3 ,,,, ^FD"+Lib.CheckNull(dr["wk_CardID"].ToString())+"^FS\n";
-                                //zZPL += "^FO125,315^BY3^BCN,60,Y,N,N^FD" + Lib.CheckNull(dr["wk_CardID"].ToString()) + "^FS\n";    // D 바코드
-                                //zZPL += "^PRD\n";                              // 프린트 속도 152.4mm/Sec
-                                //zZPL += "^FO20,65^GB693,60,3^FS\n";            // 세로 1번째 칸
-                                //zZPL += "^FO20,65^^FS\n";
-                                //zZPL += "^FO20,65^GB693,120,3^FS\n";           // 세로 2번째 칸
-                                //zZPL += "^FO20,65^^FS\n";
-                                //zZPL += "^FO20,65^GB693,180,3^FS\n";           // 세로 3번째 칸
-                                //zZPL += "^FO20,65^^FS\n";
-                                //zZPL += "^FO20,65^GB693,240,3^FS\n";           // 세로 4번째 칸
-                                //zZPL += "^FO20,65^^FS\n";
-                                //zZPL += "^FO25,80^A1N35,35^FD차 종^FS\n";      // T 세로 1번째 텍스트
-                                //zZPL += "^FO25,140^A1N35,35^FD품 번^FS\n";     // T 세로 2번째 텍스트
-                                //zZPL += "^FO25,200^A1N35,35^FD품 명^FS\n";     // T 세로 3번째 텍스트
-                                //zZPL += "^FO25,260^A1N35,35^FD수 량^FS\n";     // T 세로 4번째 텍스트
-                                //zZPL += "^FO130,80^A1N35,35^FD" + Lib.CheckNull(dr["Model"].ToString()) + "^FS\n"; // D 텍스트 1 내용 텍스트 (차종)
-                                //zZPL += "^FO130,140^A1N35,35^FD" + Lib.CheckNull(dr["BuyerArticleNo"].ToString()) + "^FS\n"; // D 텍스트 2 내용 텍스트 (품번)
-                                //zZPL += "^FO130,200^A1N35,35^FD" + ArticleSub + "..." + "^FS\n"; // D 텍스트 3 내용 텍스트(품명)
-                                //zZPL += "^FO130,260^A1N35,35^FD" + string.Format("{0:n0}", (int)douworkqty) + "^FS\n"; // D 텍스트 4 내용 텍스트 (수량)
-                                //zZPL += "^FO20,65^GB100,240,3^FS\n";           // 차종, 품번, 품명, 수량 칸
-                                //zZPL += "^FO20,65^^FS\n";
-                                //zZPL += "^FO310,65^GB149,60,3^FS\n";           // 작업장(공정) 칸
-                                //zZPL += "^FO310,65^^FS\n";
-                                //zZPL += "^FO335,80^A1N35,35^FD공 정^FS\n";    // T 작업장(공정) 칸 텍스트
-                                //zZPL += "^FO470,80^A1N35,35^FD" + Lib.CheckNull(dr["Process"].ToString()) + "^FS\n";    // D 작업장 내용 텍스트(공정명)
-                                //zZPL += "^FO548,123^GB165,122,2^FS\n";         // 주/야간 칸, 합격자 성명 칸
-                                //zZPL += "^FO585,123^^FS\n";
-                                //zZPL += "^FO560,140^A1N35,35^FD" + DayNightName + "^FS\n";   // D 주/야간 텍스트  
-                                //zZPL += "^FO455,183^GB95,62,2^FS\n";          // 합격 칸
-                                //zZPL += "^FO455,183^^FS\n";
-                                //zZPL += "^FO465,200^A1N35,35^FD합격^FS\n";    // T 합격 칸 텍스트 
-                                //zZPL += "^FO560,200^A1N35,35^FD" + Lib.CheckNull(dr["wk_Name"].ToString()) + "^FS\n";  // D 합격 칸 내용 텍스트
-                                //zZPL += "^FO310,242^GB157,63,2^FS\n";          // 생산일자 칸
-                                //zZPL += "^FO310,242^^FS\n";
-                                //zZPL += "^FO320,260^A1N35,35^FD생산일자^FS\n"; // T 생산일자 텍스트
-                                ////zZPL += "^FO500,277^AE30,30^FD"+Lib.MakeDate(WizWorkLib.DateTimeClss.DF_FD, Lib.CheckNull(dr["wk_ResultDate"].ToString().Trim()))+"^FS\n"; // D 날짜 텍스트
-                                //zZPL += "^FO480,260^AE35,35^FD" + ConvertDateTime(Lib.CheckNull(dr["wk_ResultDate"].ToString().Trim())) + "^FS\n"; // D 날짜 텍스트
-                                //zZPL += "^FO20,65^GB693,240,3^FS\n";           // 안쪽 바깥 테두리
-                                //zZPL += "^XZ";
-
-                                //// Zebra Printer 연결
-                                //RawPrinterHelper.SendStringToPrinter("Zebra ZM400 (203 dpi) - ZPL", zZPL); // 프린터 이름으로 연결(ZDesigner ZT230-200dpi ZPL), Zebra ZM400 (203 dpi) - ZPL, Zebra ZT230 (203 dpi)
-                                //#endregion
-                                #endregion
-                            }
-                            else
-                            {
-                                list_Data.Add(Lib.CheckNull(dr["Process"].ToString())); // 다음(순차) 공정의  품명
                             }
                         }
-                        //인쇄DLL 
-
-                        frm_tprc_Work_U ftWU = new frm_tprc_Work_U();
-
-                        TSCLIB_DLL.openport(g_sPrinterName);
-                        if (ftWU.SendWindowDllCommand(list_Data, TagID, 1, 0))
-                        {
-                            Message[0] = "[라벨발행 중]";
-                            Message[1] = "라벨 발행중입니다. 잠시만 기다려주세요.";
-                            WizCommon.Popup.MyMessageBox.ShowBox(Message[1], Message[0], 2, 2);
-                        }
-
                         else
                         {
-                            Message[0] = "[라벨발행 실패]";
-                            Message[1] = "라벨 발행에 실패했습니다. 관리자에게 문의하여주세요.\r\n<SendWindowDllCommand>";
-                            WizCommon.Popup.MyMessageBox.ShowBox(Message[1], Message[0], 2, 2);
+                            int index = 0;
+                            foreach (DataRow dr in dt.Rows)
+                            {
+                                index++;
+                                if (index == 1)//  (dr["ProcSeq"].ToString().Equals("1"))
+                                {
+                                    if (dr["DayOrNightID"].ToString().Trim().Equals("01"))
+                                    {
+                                        DayNightName = "주간";
+                                    }
+                                    else if (dr["DayOrNightID"].ToString().Trim().Equals("02"))
+                                    {
+                                        DayNightName = "야간";
+                                    }
+
+                                    //프레스동(프레스, 프로, 블랭킹)
+                                    //출하동(프레스제품, 검사포장)
+                                    //용접동(p/j용접,sub용접,메인용접)
+                                    //가공동(절단,면취,밴딩,드릴,확관)
+
+                                    if (Lib.CheckNull(dr["Process"].ToString().Trim()) == "프레스" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "프로" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "블랭킹")
+                                    {
+                                        Dong = "프레스동";
+                                    }
+                                    else if (Lib.CheckNull(dr["Process"].ToString().Trim()) == "P/J용접" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "Sub용접" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "메인용접")
+                                    {
+                                        Dong = "용접동";
+                                    }
+                                    else if (Lib.CheckNull(dr["Process"].ToString().Trim()) == "절단" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "면취" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "밴딩" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "드릴" || Lib.CheckNull(dr["Process"].ToString().Trim()) == "확관")
+                                    {
+                                        Dong = "가공동";
+                                    }
+                                    else
+                                    {
+                                        Dong = "출하동";
+                                    }
+
+                                    double.TryParse(dr["WorkQty"].ToString(), out douworkqty);
+                                    double.TryParse(dr["wk_defectQty"].ToString(), out doudefectqty);
+
+                                    list_Data.Add(Lib.CheckNull(dr["wk_CardID"].ToString())); //라벨번호(공정전표) 0
+
+                                    list_Data.Add(Lib.CheckNull(dr["Model"].ToString()));// 차종 1
+                                    list_Data.Add(Lib.CheckNull(dr["Process"].ToString()));// 공정명 2
+                                    list_Data.Add(Lib.CheckNull(dr["BuyerArticleNo"].ToString()));// 품번 3
+
+                                    if (Lib.CheckNull(dr["Article"].ToString()).Length < 20) 
+                                    {
+                                        list_Data.Add(Lib.CheckNull(dr["Article"].ToString())); // 품명 4
+                                        list_Data.Add(""); // 품명 5
+                                    }
+                                    else
+                                    {
+                                        list_Data.Add(Lib.CheckNull(dr["Article"].ToString().Substring(0, 20))); // 품명 4
+
+                                        list_Data.Add(Lib.CheckNull(dr["Article"].ToString().Substring(20))); // 품명 5
+                                    }
+
+                                    list_Data.Add(Lib.CheckNull(DayNightName)); //6
+                                    //list_Data.Add(Lib.CheckNull(dr["wk_Name"].ToString()));// 작업자 7
+
+                                    if (Lib.CheckNull(dr["wk_Name"].ToString()).Length < 5) 
+                                    {
+                                        list_Data.Add(Lib.CheckNull(dr["wk_Name"].ToString()));  //7
+                                        list_Data.Add(""); //8
+                                    }
+                                    else
+                                    {
+                                        list_Data.Add(Lib.CheckNull(dr["wk_Name"].ToString()).Substring(0, 5)); //7
+                                        list_Data.Add(Lib.CheckNull(dr["wk_Name"].ToString()).Substring(5)); //8
+                                    }
+
+
+                                    list_Data.Add((string.Format("{0:n0}", (int)douworkqty)));// _수량 9
+                                    list_Data.Add(Lib.MakeDate(WizWorkLib.DateTimeClss.DF_FD, DateTime.Now.ToString("yyyyMMdd")));//재발행일자로 수정 2024-02-19 10
+                                    //list_Data.Add(Lib.MakeDate(WizWorkLib.DateTimeClss.DF_FD, Lib.CheckNull(dr["wk_ResultDate"].ToString())));//D_생산일자
+                                    //list_Data.Add((string.Format("{0:n0}", (int)doudefectqty)));// _불량수량 
+                                    list_Data.Add(Lib.CheckNull(Dong)); //상단 동 11
+                                }
+                                else
+                                {
+                                    list_Data.Add(Lib.CheckNull(dr["Process"].ToString())); // 다음(순차) 공정의  품명
+                                }
+                            }
+
+                            //인쇄DLL 
+
+                            frm_tprc_Work_U ftWU = new frm_tprc_Work_U();
+
+                            TSCLIB_DLL.openport(g_sPrinterName);
+                            if (ftWU.SendWindowDllCommand(list_Data, TagID, 1, 0))
+                            {
+                                Message[0] = "[라벨발행 중]";
+                                Message[1] = "라벨 발행중입니다. 잠시만 기다려주세요.";
+                                WizCommon.Popup.MyMessageBox.ShowBox(Message[1], Message[0], 2, 2);
+                            }
+
+                            else
+                            {
+                                Message[0] = "[라벨발행 실패]";
+                                Message[1] = "라벨 발행에 실패했습니다. 관리자에게 문의하여주세요.\r\n<SendWindowDllCommand>";
+                                WizCommon.Popup.MyMessageBox.ShowBox(Message[1], Message[0], 2, 2);
+                            }
+                            TSCLIB_DLL.closeport();
                         }
-                        TSCLIB_DLL.closeport();
+                      
                     }
                     catch (Exception ex)
                     {
                         WizCommon.Popup.MyMessageBox.ShowBox(string.Format("오류! 관리자에게 문의\r\n{0}", ex.Message), "[오류]", 0, 1);
                     }
                 }
+            }
+        }
+
+        private void SendToPrinter(string zplCommand)
+        {
+            try
+            {
+                byte[] data = Encoding.UTF8.GetBytes(zplCommand);
+                serialPort1.Write(data, 0, data.Length);
+                Thread.Sleep(500); // 충분한 시간을 줘야합니다. (출력이 완료될 때까지 대기)
+
+                Message[0] = "[라벨발행 중]";
+                Message[1] = "라벨 발행중입니다. 잠시만 기다려주세요.";
+                WizCommon.Popup.MyMessageBox.ShowBox(Message[1], Message[0], 2, 2);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error printing: " + ex.Message);
+                serialPort1.Close();
             }
         }
 
@@ -579,7 +752,7 @@ namespace WizWork
             ////ini 날짜 불러와서 기간 설정하기
             chkInstDate.Checked = true;
             int Days = 0;
-            string[] sInstDate =Frm_tprc_Main.gs.GetValue("Work", "Screen", "Screen").Split('|');
+            string[] sInstDate = Frm_tprc_Main.gs.GetValue("Work", "Screen", "Screen").Split('|');
             foreach (string str in sInstDate)
             {
                 string[] Value = str.Split('/');
@@ -638,6 +811,7 @@ namespace WizWork
         #endregion
         private void cmdClose_Click(object sender, EventArgs e)
         {
+            serialPort1.Close();
             this.Dispose();
             this.Close();
         }
@@ -650,7 +824,7 @@ namespace WizWork
                 grdData.Rows[e.RowIndex].Cells["Check"].Value = !flag;
                 if (!flag)
                 {
-                    if(grdData.Rows[e.RowIndex].Cells["ReprintDate"].Value.ToString().Equals(""))
+                    if (grdData.Rows[e.RowIndex].Cells["ReprintDate"].Value.ToString().Equals(""))
                     {
                         grdData.Rows[e.RowIndex].Cells["ReprintDate"].Value = Lib.MakeDateTime("yyyymmdd", DateTime.Now.ToString("yyyyMMdd"));
                     }
@@ -660,7 +834,7 @@ namespace WizWork
                     grdData.Rows[e.RowIndex].Cells["ReprintDate"].Value = "";
                 }
             }
-        }       
+        }
 
         #region 달력 From값 입력 // 달력 창 띄우기
         private void mtb_From_Click(object sender, EventArgs e)
@@ -899,5 +1073,82 @@ namespace WizWork
 
         #endregion
 
+
+        #region 시리얼포트 함수
+
+        private void SerialPort() //2021-11-20 통신 함수
+        {
+            try
+            {
+                INI_GS gs = new INI_GS();
+                string m_PortName = "";
+
+                m_PortName = gs.GetValue("COMPort", "Zebra", "2"); //2021-12-11 COMPort 1번 사용
+
+                if (m_PortName == "0")
+                {
+                    WizCommon.Popup.MyMessageBox.ShowBox("프린터 연결을 확인하세요.", "Port연결 오류.", 3, 1);
+                }
+                else
+                {
+                    GetSerial(m_PortName);
+                }
+            }
+            catch (Exception excpt)
+            {
+                WizCommon.Popup.MyMessageBox.ShowBox("프린터 연결을 확인하세요.", "Port연결 오류.", 3, 1);
+            }
+        }
+
+        private void GetSerial(string PortNum) //2021-11-20 통신 함수
+        {
+            try
+            {
+                if (serialPort1.IsOpen == false)
+                {
+                    serialPort1.PortName = "COM" + PortNum;
+                    serialPort1.BaudRate = 9600;
+                    serialPort1.DataBits = 8;
+                    serialPort1.StopBits = StopBits.One;
+                    serialPort1.Parity = Parity.None;
+                    //serialPort1.DataReceived += new SerialDataReceivedEventHandler(serialPort1_DataReceived);
+                    serialPort1.Open();                                               // abcd\r\n Send
+
+                    //btnComport.BackColor = System.Drawing.Color.Green;
+                    //btnComport.Text = "포트 재연결\r\n연결";
+                    WizCommon.Popup.MyMessageBox.ShowBox("프린터가 연결 되었습니다.", "연결 완료", 3, 1);
+                }
+                else
+                {
+                    serialPort1.Close();
+
+                    serialPort1.PortName = "COM" + PortNum;
+                    serialPort1.BaudRate = 9600;
+                    serialPort1.DataBits = 8;
+                    serialPort1.StopBits = StopBits.One;
+                    serialPort1.Parity = Parity.None;
+                    //serialPort1.DataReceived += new SerialDataReceivedEventHandler(serialPort1_DataReceived);
+                    serialPort1.Open();                                               // abcd\r\n Send
+
+                    //btnComport.BackColor = System.Drawing.Color.Green;
+                    //btnComport.Text = "포트 재연결\r\n연결";
+                    WizCommon.Popup.MyMessageBox.ShowBox("프린터가 연결 되었습니다.", "연결 완료", 3, 1);
+                }
+
+            }
+
+            catch (Exception excpt)
+            {
+                WizCommon.Popup.MyMessageBox.ShowBox("프린터 연결을 확인하세요.", "Port연결 오류", 3, 1);
+                serialPort1.Close();
+                //btnComport.BackColor = System.Drawing.Color.Red;
+                //btnComport.Text = "포트 \r\n연결X";
+            }
+        }
+
+        #endregion
+
+
     }
+
 }

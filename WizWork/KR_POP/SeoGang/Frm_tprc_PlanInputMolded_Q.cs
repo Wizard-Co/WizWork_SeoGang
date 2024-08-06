@@ -143,8 +143,7 @@ namespace WizWork
             var now = DateTime.Now;
             var startOfMonth = new DateTime(now.Year, now.Month, 1);
 
-            //mtb_From.Text = startOfMonth.ToString("yyyyMMdd");
-            mtb_From.Text = DateTime.Today.ToString("yyyyMMdd");
+            mtb_From.Text = startOfMonth.ToString("yyyyMMdd");     
             mtb_To.Text = DateTime.Today.ToString("yyyyMMdd");
         }
 
@@ -265,7 +264,7 @@ namespace WizWork
             grdData.Columns[i].DefaultCellStyle.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             grdData.Columns[i].AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
             grdData.Columns[i].ReadOnly = true;
-            grdData.Columns[i].Visible = false;
+            grdData.Columns[i].Visible = true;
 
             grdData.Columns[++i].Name = "ArticleID";
             grdData.Columns[i].HeaderText = "품목코드";
@@ -534,9 +533,12 @@ namespace WizWork
 
             int intnChkBuyerArticle = 0;
             string strBuyerArticle = "";
+
+            int intnChkModel = 0;
+            string strModel = "";
+
             int intnChkLotID = 0;
             string strLotID = "";
-
 
             double InstQty = 0;
             int intnChkCompleteYN = 0;
@@ -595,6 +597,22 @@ namespace WizWork
                 strBuyerArticle = txtBuyerArticle.Text.Trim();
             }
 
+            //차종 기입여부 체크
+            if (chkModel.Checked)
+            {
+                if (this.txtModel.Text == "" || txtModel.Text == string.Empty)
+                {
+                    Message[0] = "[검색조건]";
+                    Message[1] = "차종을 입력하시기 바랍니다.!!";
+                    WizCommon.Popup.MyMessageBox.ShowBox(Message[1], Message[0], 0, 1);
+                    this.txtModel.Focus();
+
+                    return;
+                }
+
+                intnChkModel = 1;
+                strModel = txtModel.Text.Trim();
+            }
 
 
             // 공정 값체크
@@ -626,7 +644,7 @@ namespace WizWork
                 }
             }
 
-            if (chkInsDate.Checked == false && chkProcess.Checked == false && chkBuyerArticle.Checked == false && intnchkInstDate == 0 && intnChkProcessID == 0 &&  intnChkLotID == 0)
+            if (chkInsDate.Checked == false && chkProcess.Checked == false && chkBuyerArticle.Checked == false && chkModel.Checked == false && intnchkInstDate == 0 && intnChkProcessID == 0 &&  intnChkLotID == 0)
             {
                 WizCommon.Popup.MyMessageBox.ShowBox("최소한 하나의 검색조건을 선택하세요.\n ※검색조건 선택은 버튼을 눌러 오목하게 들어간 모양으로 만들어주세요!!", "[검색조건]", 0, 1);
                 return;
@@ -643,6 +661,11 @@ namespace WizWork
 
                 sqlParameter.Add("nChkBuyerArticle", intnChkBuyerArticle);
                 sqlParameter.Add("BuyerArticle", strBuyerArticle);
+
+                //모델 검색 조건 추가
+                sqlParameter.Add("nChkModel", intnChkModel);
+                sqlParameter.Add("Model", strModel);
+
                 sqlParameter.Add("nChkLotID", intnChkLotID);
                 sqlParameter.Add("LotID", strLotID);
                 sqlParameter.Add("nChkCompleteYN", intnChkCompleteYN);
@@ -926,6 +949,93 @@ namespace WizWork
                 }
             }
         }
+
+        private void txtBuyerArticle_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                if (txtBuyerArticle.Text.Trim().Length > 1)
+                {
+                    chkBuyerArticle.Checked = true;
+                    procQuery();
+                }
+                else
+                {
+                    WizCommon.Popup.MyMessageBox.ShowBox("올바른 작업지시 번호가 아닙니다. \r\n 작업지시번호를 스캔해주세요!", "[바코드 오류]", 2, 1);
+                    return;
+                }
+            }
+        }
+
+        #region 차종 검색 이벤트
+
+        private void chkModel_Click(object sender, EventArgs e)
+        {
+            if (this.chkModel.Checked)
+            {
+                txtModel.Text = "";
+                POPUP.Frm_CMKeypad keypad = new POPUP.Frm_CMKeypad("차종입력", "차종");
+
+                keypad.Owner = this;
+                if (keypad.ShowDialog() == DialogResult.OK)
+                {
+                    txtModel.Text = keypad.tbInputText.Text;
+                    procQuery();
+                }
+            }
+            else
+            {
+                this.txtModel.Text = "";
+            }
+        }
+
+        private void txtModel_Click(object sender, EventArgs e)
+        {
+            if (this.chkModel.Checked)
+            {
+                txtModel.Text = "";
+                POPUP.Frm_CMKeypad keypad = new POPUP.Frm_CMKeypad("차종입력", "차종");
+
+                keypad.Owner = this;
+                if (keypad.ShowDialog() == DialogResult.OK)
+                {
+                    txtModel.Text = keypad.tbInputText.Text;
+                    procQuery();
+                }
+            }
+            else
+            {
+                chkModel.Checked = true;
+                txtModel.Text = "";
+                POPUP.Frm_CMKeypad keypad = new POPUP.Frm_CMKeypad("차종입력", "차종");
+
+                keypad.Owner = this;
+                if (keypad.ShowDialog() == DialogResult.OK)
+                {
+                    txtModel.Text = keypad.tbInputText.Text;
+                    procQuery();
+                }
+            }
+        }
+
+        private void txtModel_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)Keys.Enter)
+            {
+                if (txtModel.Text.Trim().Length > 1)
+                {
+                    chkModel.Checked = true;
+                    procQuery();
+                }
+                else
+                {
+                    WizCommon.Popup.MyMessageBox.ShowBox("올바른 작업지시 번호가 아닙니다. \r\n 작업지시번호를 스캔해주세요!", "[바코드 오류]", 2, 1);
+                    return;
+                }
+            }
+        }
+
+        #endregion
 
 
         private void txtPLotID_KeyPress(object sender, KeyPressEventArgs e)
@@ -1632,12 +1742,14 @@ namespace WizWork
 
                         // 하위 라벨 리스트 
                         List<string> lstStartLabel = new List<string>();
+                        List<string> lstStartAritcleID = new List<string>();
                         for (int i = 0; i < dt.Rows.Count; i++)
                         {
                             lstStartLabel.Add(dt.Rows[i]["ChildLabelID"].ToString());
+                            lstStartAritcleID.Add(dt.Rows[i]["ChildArticleID"].ToString());
                         }
 
-                        frm_tprc_Work_U workForm = new frm_tprc_Work_U(JobID, wrProcessID, lstStartLabel, WorkStartDate, WorkStartTime, DayOrNightID, CT);
+                        frm_tprc_Work_U workForm = new frm_tprc_Work_U(JobID, wrProcessID, lstStartLabel, lstStartAritcleID, WorkStartDate, WorkStartTime, DayOrNightID, CT);
                         Form form = workForm;
 
                         if (form != null)
@@ -1888,6 +2000,7 @@ namespace WizWork
 
                 // 라벨 리스트 초기화
                 Frm_tprc_Main.lstStartLabel = new List<string>();
+                
                 if (FPPSW.ShowDialog() == DialogResult.OK)
                 {
                     procQuery();
@@ -2247,6 +2360,8 @@ namespace WizWork
         {
 
         }
+
+
     }
 
     #region CodeView

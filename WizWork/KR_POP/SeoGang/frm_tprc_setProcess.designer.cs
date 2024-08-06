@@ -433,8 +433,8 @@
             // tableLayoutPanel6
             // 
             this.tableLayoutPanel6.ColumnCount = 2;
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 80F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35F));
             this.tableLayoutPanel6.Controls.Add(this.panel2, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.panel5, 1, 0);
             this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 5);
@@ -450,7 +450,7 @@
             this.panel2.Controls.Add(this.tlpProcess);
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(528, 154);
+            this.panel2.Size = new System.Drawing.Size(430, 154);
             this.panel2.TabIndex = 0;
             // 
             // tlpProcess
@@ -471,7 +471,7 @@
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.tableLayoutPanel7);
-            this.panel5.Location = new System.Drawing.Point(540, 3);
+            this.panel5.Location = new System.Drawing.Point(439, 3);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(129, 154);
             this.panel5.TabIndex = 1;
@@ -652,7 +652,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1012, 596);
             this.Controls.Add(this.tlpForm);
+            this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1028, 635);
+            this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(1028, 635);
             this.Name = "frm_tprc_setProcess";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -51,7 +51,9 @@
             // 
             // stsInfo
             // 
-            this.stsInfo.AutoSize = false;
+            this.stsInfo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stsInfo.Dock = System.Windows.Forms.DockStyle.None;
             this.stsInfo.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.stsInfo.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.stsInfo_Msg,
@@ -62,7 +64,7 @@
             this.stsInfo_Time});
             this.stsInfo.Location = new System.Drawing.Point(0, 664);
             this.stsInfo.Name = "stsInfo";
-            this.stsInfo.Size = new System.Drawing.Size(1005, 22);
+            this.stsInfo.Size = new System.Drawing.Size(1035, 22);
             this.stsInfo.SizingGrip = false;
             this.stsInfo.TabIndex = 6;
             this.stsInfo.Text = "statusStrip1";
@@ -76,7 +78,8 @@
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this.stsInfo_Msg.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.stsInfo_Msg.Name = "stsInfo_Msg";
-            this.stsInfo_Msg.Size = new System.Drawing.Size(385, 17);
+            this.stsInfo_Msg.Size = new System.Drawing.Size(356, 17);
+            this.stsInfo_Msg.Spring = true;
             this.stsInfo_Msg.Text = "Message";
             // 
             // stsInfo_ProMac
@@ -252,7 +255,7 @@
             this.btnChoiceWorker.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnChoiceWorker.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnChoiceWorker.Font = new System.Drawing.Font("맑은 고딕", 10.5F, System.Drawing.FontStyle.Bold);
-            this.btnChoiceWorker.Image = global::WizWork.Properties.Resources.worker;
+            this.btnChoiceWorker.Image = ((System.Drawing.Image)(resources.GetObject("btnChoiceWorker.Image")));
             this.btnChoiceWorker.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btnChoiceWorker.Location = new System.Drawing.Point(668, 0);
             this.btnChoiceWorker.Margin = new System.Windows.Forms.Padding(0);
@@ -290,7 +293,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1005, 686);
+            this.ClientSize = new System.Drawing.Size(1005, 685);
             this.Controls.Add(this.tlpTop);
             this.Controls.Add(this.stsInfo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -300,7 +303,7 @@
             this.Name = "Frm_tins_Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "검사/포장 시스템";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Activated += new System.EventHandler(this.Frm_tins_Main_Activated);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Frm_tins_Main_FormClosing);
             this.Load += new System.EventHandler(this.MDIParent1_Load);
@@ -308,6 +311,7 @@
             this.stsInfo.PerformLayout();
             this.tlpTop.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
         #endregion

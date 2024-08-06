@@ -270,6 +270,12 @@
     <Compile Include="SeoGang\Frm_tprc_PlanInputMolded_Q.designer.cs">
       <DependentUpon>Frm_tprc_PlanInputMolded_Q.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeoGang\PopUp\frm_PopUp_Screenresolution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeoGang\PopUp\frm_PopUp_Screenresolution.Designer.cs">
+      <DependentUpon>frm_PopUp_Screenresolution.cs</DependentUpon>
+    </Compile>
     <Compile Include="SeoGang\frm_tprc_SearchMenuCollection.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -624,6 +630,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SeoGang\PopUp\frm_PopUp_PreScanWork.resx">
       <DependentUpon>frm_PopUp_PreScanWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SeoGang\PopUp\frm_PopUp_Screenresolution.resx">
+      <DependentUpon>frm_PopUp_Screenresolution.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SeoGang\PopUp\Frm_PopUp_setPerson_Work.resx">
       <DependentUpon>Frm_PopUp_setPerson_Work.cs</DependentUpon>

@@ -116,9 +116,10 @@ namespace WizCommon.Popup
             }
             else if (newMessageBox._intSize == 1)
             {
-                newMessageBox.Size = new Size(567, 267);
+                newMessageBox.Size = new Size(667, 367);
                 lblTitle.Font = new Font("¸¼Àº °íµñ", 17F, FontStyle.Bold);
                 lblTimer.Font = new Font("¸¼Àº °íµñ", 17F, FontStyle.Bold);
+                lblMessage.Font = new Font("¸¼Àº °íµñ", 20F, FontStyle.Bold);
             }
             //OK¹öÆ°¸¸
             if (_intType == 1)

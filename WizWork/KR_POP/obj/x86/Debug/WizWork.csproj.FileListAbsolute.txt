@@ -7972,3 +7972,4 @@ D:\업무\프로그램\2022\서강정밀\WizWork\KR_POP\obj\x86\Debug\WizMes_Wor
 D:\업무\프로그램\2022\서강정밀\WizWork\KR_POP\obj\x86\Debug\WizMes_Work.pdb
 D:\업무\프로그램\2022\서강정밀\WizWork\KR_POP\obj\x86\Debug\WizWork.Frm_tprc_MoldDetail_Q.resources
 D:\업무\프로그램\2022\서강정밀\WizWork\KR_POP\obj\x86\Debug\WizWork.Frm_tprc_Mold_Q.resources
+D:\업무\프로그램\2022\서강정밀\WizWork\KR_POP\obj\x86\Debug\WizWork.POPUP.frm_tprc_Screenresolution.resources

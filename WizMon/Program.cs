@@ -99,7 +99,7 @@ namespace WizMon
             {
                 WizWork.Tools.INI_GS gs = new WizWork.Tools.INI_GS();
                 string POPServerIPAddress = Frm_tprc_Main.gs.GetValue("SQLServer", "server", "wizis.iptime.org,20140");
-                string DBCatalog_MES = ";Initial Catalog= " + Frm_tprc_Main.gs.GetValue("SQLServer", "Database", "WizMRP") + ";UID=";
+                string DBCatalog_MES = ";Initial Catalog= " + Frm_tprc_Main.gs.GetValue("SQLServer", "Database", "MES_SeoGang") + ";UID=";
 
                 DataStore.Instance.SetConnectionString(POPServerIPAddress, ConnectionInfo.POPServerLoginID, ConnectionInfo.POPServerPassword, DBCatalog_MES);//, ConnectionInfo.DBCatalog_LOG);
                 DataStore.Log_Instance.L_SetConnectionString(POPServerIPAddress, ConnectionInfo.POPServerLoginID, ConnectionInfo.POPServerPassword, ConnectionInfo.DBCatalog_LOG);

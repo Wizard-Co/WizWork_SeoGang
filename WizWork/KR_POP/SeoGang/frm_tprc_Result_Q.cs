@@ -116,8 +116,8 @@ namespace WizWork
                             {
                                 i = 0;
                                 double.TryParse(dgvr.Cells["JobID"].Value.ToString(), out i);
-                                //if (dgvr.Cells["WorkEndDate"].Value.ToString().Replace("-", "") == DateTime.Now.ToString("yyyyMMdd"))
-                                //{
+                                if (dgvr.Cells["WorkEndDate"].Value.ToString().Replace("-", "") == DateTime.Now.ToString("yyyyMMdd"))
+                                {
                                     Dictionary<string, object> sqlParameter = new Dictionary<string, object>();
                                     sqlParameter.Add(Work_sResultWithMachineComProcess.JOBID, i);// grdData.Rows[rowIndex].Cells["JobID"].Value.ToString());
                                     sqlParameter.Add(Work_sResultWithMachineComProcess.CREATEUSERID, Frm_tprc_Main.g_tBase.PersonID);
@@ -127,11 +127,11 @@ namespace WizWork
                                     list_Confirm.Add(sConfirm[0]);
                                     if (sConfirm[0].ToUpper() == "SUCCESS")
                                     { deleteCount++; }
-                                //}
-                                //else
-                                //{
-                                //    c++;
-                                //}
+                                }
+                                else
+                                {
+                                    c++;
+                                }
                             }
                         }
                         if (list_Confirm.Count > 0)//삭제결과 리스트

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_PopUp_setPerson));
             this.tlpMain = new System.Windows.Forms.Panel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -35,12 +36,25 @@
             this.tlpTeamPerson = new System.Windows.Forms.TableLayoutPanel();
             this.Tab_Person = new System.Windows.Forms.TabControl();
             this.tabPersonByProcess = new System.Windows.Forms.TabPage();
+            this.dgdByProcess = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DepartID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Depart = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabAllPerson = new System.Windows.Forms.TabPage();
+            this.dgdAll = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel8 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.label7 = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
-            this.cmdPersonID = new System.Windows.Forms.Button();
-            this.btnDel = new System.Windows.Forms.Button();
             this.lblPersonID = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
@@ -52,21 +66,8 @@
             this.btnDown = new System.Windows.Forms.Button();
             this.btnConfirm = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
-            this.dgdByProcess = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DepartID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Depart = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dgdAll = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label7 = new System.Windows.Forms.Label();
+            this.cmdPersonID = new System.Windows.Forms.Button();
+            this.btnDel = new System.Windows.Forms.Button();
             this.tlpMain.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -74,15 +75,15 @@
             this.tlpTeamPerson.SuspendLayout();
             this.Tab_Person.SuspendLayout();
             this.tabPersonByProcess.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgdByProcess)).BeginInit();
             this.tabAllPerson.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgdAll)).BeginInit();
             this.panel8.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel7.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             this.pnlRight.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgdByProcess)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgdAll)).BeginInit();
             this.SuspendLayout();
             // 
             // tlpMain
@@ -178,6 +179,79 @@
             this.tabPersonByProcess.Text = "                검사/포장 사원명단                 ";
             this.tabPersonByProcess.UseVisualStyleBackColor = true;
             // 
+            // dgdByProcess
+            // 
+            this.dgdByProcess.AllowUserToAddRows = false;
+            this.dgdByProcess.AllowUserToDeleteRows = false;
+            this.dgdByProcess.AllowUserToResizeRows = false;
+            this.dgdByProcess.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.dgdByProcess.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgdByProcess.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn1,
+            this.dataGridViewTextBoxColumn6,
+            this.dataGridViewTextBoxColumn7,
+            this.dataGridViewTextBoxColumn8,
+            this.DepartID,
+            this.Depart});
+            this.dgdByProcess.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgdByProcess.Location = new System.Drawing.Point(2, 2);
+            this.dgdByProcess.MultiSelect = false;
+            this.dgdByProcess.Name = "dgdByProcess";
+            this.dgdByProcess.ReadOnly = true;
+            this.dgdByProcess.RowHeadersWidth = 25;
+            this.dgdByProcess.RowTemplate.Height = 23;
+            this.dgdByProcess.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dgdByProcess.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgdByProcess.Size = new System.Drawing.Size(390, 137);
+            this.dgdByProcess.TabIndex = 3;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "PersonID";
+            this.dataGridViewTextBoxColumn1.HeaderText = "사용자코드";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Width = 109;
+            // 
+            // dataGridViewTextBoxColumn6
+            // 
+            this.dataGridViewTextBoxColumn6.DataPropertyName = "Name";
+            this.dataGridViewTextBoxColumn6.HeaderText = "사용자명";
+            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
+            this.dataGridViewTextBoxColumn6.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn7
+            // 
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "Team";
+            this.dataGridViewTextBoxColumn7.HeaderText = "작업조";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn7.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn8
+            // 
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "TeamID";
+            this.dataGridViewTextBoxColumn8.HeaderText = "작업조코드";
+            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
+            this.dataGridViewTextBoxColumn8.ReadOnly = true;
+            this.dataGridViewTextBoxColumn8.Visible = false;
+            // 
+            // DepartID
+            // 
+            this.DepartID.DataPropertyName = "DepartID";
+            this.DepartID.HeaderText = "부서코드";
+            this.DepartID.Name = "DepartID";
+            this.DepartID.ReadOnly = true;
+            this.DepartID.Visible = false;
+            // 
+            // Depart
+            // 
+            this.Depart.DataPropertyName = "Depart";
+            this.Depart.HeaderText = "부서";
+            this.Depart.Name = "Depart";
+            this.Depart.ReadOnly = true;
+            this.Depart.Visible = false;
+            // 
             // tabAllPerson
             // 
             this.tabAllPerson.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -192,6 +266,79 @@
             this.tabAllPerson.TabIndex = 1;
             this.tabAllPerson.Text = "                  전체 사원명단                   ";
             this.tabAllPerson.UseVisualStyleBackColor = true;
+            // 
+            // dgdAll
+            // 
+            this.dgdAll.AllowUserToAddRows = false;
+            this.dgdAll.AllowUserToDeleteRows = false;
+            this.dgdAll.AllowUserToResizeRows = false;
+            this.dgdAll.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
+            this.dgdAll.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgdAll.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn2,
+            this.dataGridViewTextBoxColumn3,
+            this.dataGridViewTextBoxColumn4,
+            this.dataGridViewTextBoxColumn5,
+            this.dataGridViewTextBoxColumn9,
+            this.dataGridViewTextBoxColumn10});
+            this.dgdAll.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgdAll.Location = new System.Drawing.Point(2, 2);
+            this.dgdAll.MultiSelect = false;
+            this.dgdAll.Name = "dgdAll";
+            this.dgdAll.ReadOnly = true;
+            this.dgdAll.RowHeadersWidth = 25;
+            this.dgdAll.RowTemplate.Height = 23;
+            this.dgdAll.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.dgdAll.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgdAll.Size = new System.Drawing.Size(390, 137);
+            this.dgdAll.TabIndex = 4;
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "PersonID";
+            this.dataGridViewTextBoxColumn2.HeaderText = "사용자코드";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.ReadOnly = true;
+            this.dataGridViewTextBoxColumn2.Width = 109;
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Name";
+            this.dataGridViewTextBoxColumn3.HeaderText = "사용자명";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            this.dataGridViewTextBoxColumn3.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Team";
+            this.dataGridViewTextBoxColumn4.HeaderText = "작업조";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            this.dataGridViewTextBoxColumn4.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn5
+            // 
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "TeamID";
+            this.dataGridViewTextBoxColumn5.HeaderText = "작업조코드";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.ReadOnly = true;
+            this.dataGridViewTextBoxColumn5.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn9
+            // 
+            this.dataGridViewTextBoxColumn9.DataPropertyName = "DepartID";
+            this.dataGridViewTextBoxColumn9.HeaderText = "부서코드";
+            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
+            this.dataGridViewTextBoxColumn9.ReadOnly = true;
+            this.dataGridViewTextBoxColumn9.Visible = false;
+            // 
+            // dataGridViewTextBoxColumn10
+            // 
+            this.dataGridViewTextBoxColumn10.DataPropertyName = "Depart";
+            this.dataGridViewTextBoxColumn10.HeaderText = "부서";
+            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
+            this.dataGridViewTextBoxColumn10.ReadOnly = true;
+            this.dataGridViewTextBoxColumn10.Visible = false;
             // 
             // panel8
             // 
@@ -219,6 +366,19 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(612, 56);
             this.tableLayoutPanel2.TabIndex = 186;
             // 
+            // label7
+            // 
+            this.label7.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label7.Font = new System.Drawing.Font("맑은 고딕", 13F, System.Drawing.FontStyle.Bold);
+            this.label7.ForeColor = System.Drawing.Color.Black;
+            this.label7.Location = new System.Drawing.Point(3, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(134, 32);
+            this.label7.TabIndex = 146;
+            this.label7.Text = "현재 설정된 사원";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // lblName
             // 
             this.lblName.BackColor = System.Drawing.Color.White;
@@ -230,34 +390,6 @@
             this.lblName.Size = new System.Drawing.Size(208, 41);
             this.lblName.TabIndex = 151;
             this.lblName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // cmdPersonID
-            // 
-            this.cmdPersonID.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.cmdPersonID.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold);
-            this.cmdPersonID.ForeColor = System.Drawing.Color.Black;
-            this.cmdPersonID.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.cmdPersonID.Location = new System.Drawing.Point(3, 560);
-            this.cmdPersonID.Name = "cmdPersonID";
-            this.cmdPersonID.Size = new System.Drawing.Size(147, 40);
-            this.cmdPersonID.TabIndex = 145;
-            this.cmdPersonID.Text = "사원번호 입력";
-            this.cmdPersonID.UseVisualStyleBackColor = true;
-            // 
-            // btnDel
-            // 
-            this.btnDel.BackColor = System.Drawing.Color.LightSalmon;
-            this.btnDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDel.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold);
-            this.btnDel.ForeColor = System.Drawing.Color.Black;
-            this.btnDel.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnDel.Location = new System.Drawing.Point(182, 560);
-            this.btnDel.Name = "btnDel";
-            this.btnDel.Size = new System.Drawing.Size(56, 40);
-            this.btnDel.TabIndex = 148;
-            this.btnDel.Text = "삭제";
-            this.btnDel.UseVisualStyleBackColor = false;
-            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // lblPersonID
             // 
@@ -352,7 +484,7 @@
             this.btnUp.BackColor = System.Drawing.SystemColors.Control;
             this.btnUp.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold);
             this.btnUp.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnUp.Image = global::WizWork.Properties.Resources.up_arrow__1_;
+            this.btnUp.Image = ((System.Drawing.Image)(resources.GetObject("btnUp.Image")));
             this.btnUp.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnUp.Location = new System.Drawing.Point(3, 3);
             this.btnUp.Name = "btnUp";
@@ -369,7 +501,7 @@
             this.btnDown.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDark;
             this.btnDown.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold);
             this.btnDown.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnDown.Image = global::WizWork.Properties.Resources.down_arrow;
+            this.btnDown.Image = ((System.Drawing.Image)(resources.GetObject("btnDown.Image")));
             this.btnDown.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDown.Location = new System.Drawing.Point(3, 80);
             this.btnDown.Name = "btnDown";
@@ -386,7 +518,7 @@
             this.btnConfirm.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDark;
             this.btnConfirm.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold);
             this.btnConfirm.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnConfirm.Image = global::WizWork.Properties.Resources.pen_3;
+            this.btnConfirm.Image = ((System.Drawing.Image)(resources.GetObject("btnConfirm.Image")));
             this.btnConfirm.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnConfirm.Location = new System.Drawing.Point(3, 157);
             this.btnConfirm.Name = "btnConfirm";
@@ -403,7 +535,7 @@
             this.btnClose.FlatAppearance.BorderColor = System.Drawing.SystemColors.ControlDark;
             this.btnClose.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold);
             this.btnClose.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnClose.Image = global::WizWork.Properties.Resources.enter;
+            this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClose.Location = new System.Drawing.Point(3, 234);
             this.btnClose.Name = "btnClose";
@@ -414,164 +546,33 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // dgdByProcess
+            // cmdPersonID
             // 
-            this.dgdByProcess.AllowUserToAddRows = false;
-            this.dgdByProcess.AllowUserToDeleteRows = false;
-            this.dgdByProcess.AllowUserToResizeRows = false;
-            this.dgdByProcess.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            this.dgdByProcess.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgdByProcess.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8,
-            this.DepartID,
-            this.Depart});
-            this.dgdByProcess.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgdByProcess.Location = new System.Drawing.Point(2, 2);
-            this.dgdByProcess.MultiSelect = false;
-            this.dgdByProcess.Name = "dgdByProcess";
-            this.dgdByProcess.ReadOnly = true;
-            this.dgdByProcess.RowHeadersWidth = 25;
-            this.dgdByProcess.RowTemplate.Height = 23;
-            this.dgdByProcess.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgdByProcess.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgdByProcess.Size = new System.Drawing.Size(390, 137);
-            this.dgdByProcess.TabIndex = 3;
+            this.cmdPersonID.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.cmdPersonID.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold);
+            this.cmdPersonID.ForeColor = System.Drawing.Color.Black;
+            this.cmdPersonID.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.cmdPersonID.Location = new System.Drawing.Point(3, 560);
+            this.cmdPersonID.Name = "cmdPersonID";
+            this.cmdPersonID.Size = new System.Drawing.Size(147, 40);
+            this.cmdPersonID.TabIndex = 145;
+            this.cmdPersonID.Text = "사원번호 입력";
+            this.cmdPersonID.UseVisualStyleBackColor = true;
             // 
-            // dataGridViewTextBoxColumn1
+            // btnDel
             // 
-            this.dataGridViewTextBoxColumn1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "PersonID";
-            this.dataGridViewTextBoxColumn1.HeaderText = "사용자코드";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Width = 109;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.DataPropertyName = "Name";
-            this.dataGridViewTextBoxColumn6.HeaderText = "사용자명";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "Team";
-            this.dataGridViewTextBoxColumn7.HeaderText = "작업조";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "TeamID";
-            this.dataGridViewTextBoxColumn8.HeaderText = "작업조코드";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.ReadOnly = true;
-            this.dataGridViewTextBoxColumn8.Visible = false;
-            // 
-            // DepartID
-            // 
-            this.DepartID.DataPropertyName = "DepartID";
-            this.DepartID.HeaderText = "부서코드";
-            this.DepartID.Name = "DepartID";
-            this.DepartID.ReadOnly = true;
-            this.DepartID.Visible = false;
-            // 
-            // Depart
-            // 
-            this.Depart.DataPropertyName = "Depart";
-            this.Depart.HeaderText = "부서";
-            this.Depart.Name = "Depart";
-            this.Depart.ReadOnly = true;
-            this.Depart.Visible = false;
-            // 
-            // dgdAll
-            // 
-            this.dgdAll.AllowUserToAddRows = false;
-            this.dgdAll.AllowUserToDeleteRows = false;
-            this.dgdAll.AllowUserToResizeRows = false;
-            this.dgdAll.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
-            this.dgdAll.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgdAll.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4,
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn9,
-            this.dataGridViewTextBoxColumn10});
-            this.dgdAll.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgdAll.Location = new System.Drawing.Point(2, 2);
-            this.dgdAll.MultiSelect = false;
-            this.dgdAll.Name = "dgdAll";
-            this.dgdAll.ReadOnly = true;
-            this.dgdAll.RowHeadersWidth = 25;
-            this.dgdAll.RowTemplate.Height = 23;
-            this.dgdAll.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgdAll.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgdAll.Size = new System.Drawing.Size(390, 137);
-            this.dgdAll.TabIndex = 4;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.DisplayedCells;
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "PersonID";
-            this.dataGridViewTextBoxColumn2.HeaderText = "사용자코드";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            this.dataGridViewTextBoxColumn2.Width = 109;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "Name";
-            this.dataGridViewTextBoxColumn3.HeaderText = "사용자명";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Team";
-            this.dataGridViewTextBoxColumn4.HeaderText = "작업조";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "TeamID";
-            this.dataGridViewTextBoxColumn5.HeaderText = "작업조코드";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            this.dataGridViewTextBoxColumn5.Visible = false;
-            // 
-            // dataGridViewTextBoxColumn9
-            // 
-            this.dataGridViewTextBoxColumn9.DataPropertyName = "DepartID";
-            this.dataGridViewTextBoxColumn9.HeaderText = "부서코드";
-            this.dataGridViewTextBoxColumn9.Name = "dataGridViewTextBoxColumn9";
-            this.dataGridViewTextBoxColumn9.ReadOnly = true;
-            this.dataGridViewTextBoxColumn9.Visible = false;
-            // 
-            // dataGridViewTextBoxColumn10
-            // 
-            this.dataGridViewTextBoxColumn10.DataPropertyName = "Depart";
-            this.dataGridViewTextBoxColumn10.HeaderText = "부서";
-            this.dataGridViewTextBoxColumn10.Name = "dataGridViewTextBoxColumn10";
-            this.dataGridViewTextBoxColumn10.ReadOnly = true;
-            this.dataGridViewTextBoxColumn10.Visible = false;
-            // 
-            // label7
-            // 
-            this.label7.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Font = new System.Drawing.Font("맑은 고딕", 13F, System.Drawing.FontStyle.Bold);
-            this.label7.ForeColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(3, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(134, 32);
-            this.label7.TabIndex = 146;
-            this.label7.Text = "현재 설정된 사원";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnDel.BackColor = System.Drawing.Color.LightSalmon;
+            this.btnDel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDel.Font = new System.Drawing.Font("맑은 고딕", 15F, System.Drawing.FontStyle.Bold);
+            this.btnDel.ForeColor = System.Drawing.Color.Black;
+            this.btnDel.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnDel.Location = new System.Drawing.Point(182, 560);
+            this.btnDel.Name = "btnDel";
+            this.btnDel.Size = new System.Drawing.Size(56, 40);
+            this.btnDel.TabIndex = 148;
+            this.btnDel.Text = "삭제";
+            this.btnDel.UseVisualStyleBackColor = false;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // Frm_PopUp_setPerson
             // 
@@ -581,6 +582,9 @@
             this.Controls.Add(this.tlpMain);
             this.Controls.Add(this.cmdPersonID);
             this.Controls.Add(this.btnDel);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(815, 651);
+            this.MinimizeBox = false;
             this.Name = "Frm_PopUp_setPerson";
             this.Text = "작업자 선택";
             this.Load += new System.EventHandler(this.Frm_PopUp_setPerson_Load);
@@ -591,15 +595,15 @@
             this.tlpTeamPerson.ResumeLayout(false);
             this.Tab_Person.ResumeLayout(false);
             this.tabPersonByProcess.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgdByProcess)).EndInit();
             this.tabAllPerson.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgdAll)).EndInit();
             this.panel8.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.pnlRight.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgdByProcess)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgdAll)).EndInit();
             this.ResumeLayout(false);
 
         }

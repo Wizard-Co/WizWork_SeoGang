@@ -98,6 +98,18 @@
     <Compile Include="Ins\Frm_tins_Result_Q.Designer.cs">
       <DependentUpon>Frm_tins_Result_Q.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ins\PopUp\Frm_CMKeypad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ins\PopUp\Frm_CMKeypad.Designer.cs">
+      <DependentUpon>Frm_CMKeypad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ins\PopUp\Frm_CMNumericKeypad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ins\PopUp\Frm_CMNumericKeypad.designer.cs">
+      <DependentUpon>Frm_CMNumericKeypad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ins\PopUp\Frm_PopUp_Packing.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,11 +122,23 @@
     <Compile Include="Ins\PopUp\Frm_PopUp_PackingAndOutBox.designer.cs">
       <DependentUpon>Frm_PopUp_PackingAndOutBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ins\PopUp\frm_PopUp_Screenresolution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ins\PopUp\frm_PopUp_Screenresolution.Designer.cs">
+      <DependentUpon>frm_PopUp_Screenresolution.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ins\PopUp\Frm_PopUp_setPerson.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Ins\PopUp\Frm_PopUp_setPerson.Designer.cs">
       <DependentUpon>Frm_PopUp_setPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ins\PopUp\frm_tprc_Work_Defect_U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ins\PopUp\frm_tprc_Work_Defect_U.designer.cs">
+      <DependentUpon>frm_tprc_Work_Defect_U.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -144,14 +168,26 @@
     <EmbeddedResource Include="Ins\Frm_tins_Result_Q.resx">
       <DependentUpon>Frm_tins_Result_Q.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ins\PopUp\Frm_CMKeypad.resx">
+      <DependentUpon>Frm_CMKeypad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ins\PopUp\Frm_CMNumericKeypad.resx">
+      <DependentUpon>Frm_CMNumericKeypad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ins\PopUp\Frm_PopUp_Packing.resx">
       <DependentUpon>Frm_PopUp_Packing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ins\PopUp\Frm_PopUp_PackingAndOutBox.resx">
       <DependentUpon>Frm_PopUp_PackingAndOutBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ins\PopUp\frm_PopUp_Screenresolution.resx">
+      <DependentUpon>frm_PopUp_Screenresolution.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ins\PopUp\Frm_PopUp_setPerson.resx">
       <DependentUpon>Frm_PopUp_setPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ins\PopUp\frm_tprc_Work_Defect_U.resx">
+      <DependentUpon>frm_tprc_Work_Defect_U.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
